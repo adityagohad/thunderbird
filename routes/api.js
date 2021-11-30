@@ -22,7 +22,6 @@ const initDB = function (callback) {
 }
 
 router.get('/exercises/:id', function (req, res, next) {
-    console.log(req.params.id);
     if (req.params.id == "all") {
         res.send(JSON.stringify(sd.exercises));
         client.close();
@@ -88,6 +87,8 @@ const findCandlesForTimeFrame = function (db, req, callback) {
             var flagChar = "D";
         } else if (req.params.timeframe == "hourly") {
             var flagChar = "H";
+        } else {
+            flag = "mm";
         }
 
         var flag = moment.unix(docs[0].time / 1000).utcOffset(0).format(flagChar);
@@ -105,7 +106,6 @@ const findCandlesForTimeFrame = function (db, req, callback) {
             } else {
                 counter++;
                 generatedCandle.num = counter;
-                console.log(generatedCandle);
                 returnData.push(generatedCandle)
                 flag = moment.unix(docs[i].time / 1000).utcOffset(0).format(flagChar);
                 generatedCandle = docs[i];
