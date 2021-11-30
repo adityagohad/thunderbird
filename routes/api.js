@@ -4,7 +4,7 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const url = 'mongodb://localhost:27017';
+const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const dbName = 'thunderbird';
 
@@ -14,7 +14,7 @@ const moment = require('moment')
 
 
 const initDB = function (callback) {
-    MongoClient.connect(url, function (err, client) {
+    MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, function (err, client) {
         assert.equal(null, err);
         const db = client.db(dbName);
         callback(db, client);
