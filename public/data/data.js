@@ -1,251 +1,251 @@
-const placeHolderIcon = "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/qp8rxi2jae4uinry2dv7";
+const placeHolderIcon = "https://logothunderbird.s3.ap-south-1.amazonaws.com/";
 
 var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "BANKNIFTY", "BATA", "BERGEPAINT", "BHARTIAIRTEL", "BRITANNIA", "CADILA", "CIPLA", "COALINDIA", "CRISIL", "DIVILAB", "DMART", "EXIDE", "GAIL", "GODREJ", "GUJRATGAS", "HDFCBANK", "HERO", "HINDALCO", "HUL", "ICICIBANK", "IDEA", "INFY", "IPCA", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL", "MOTHERSUMI", "NIFTY", "OBEROI", "PEL", "PIDILITE", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEM", "VBL", "WIPRO", "YESBANK"];
 
 const companies = {
     ACC: {
         ticker: "ACC",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ACC" + ".jpg",
         name: "ACC Limited",
     },
     ADANIENT: {
         ticker: "ADANIENT",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ADANIENT" + ".jpg",
         name: "Adani Enterprises Limited",
     },
     ADANIPORTS: {
         ticker: "ADANIPORTS",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ADANIPORTS" + ".jpg",
         name: "Adani Ports and Special Economic Zone Limited",
     },
     ASIANPAINT: {
         ticker: "ASIANPAINT",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ASIANPAINT" + ".jpg",
         name: "Asian Paints Limited",
     },
     BATA: {
         ticker: "BATAINDIA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "BATAINDIA" + ".jpg",
         name: "Bata India Limited"
     },
     BRITANNIA: {
         ticker: "BRITANNIA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "BRITANNIA" + ".jpg",
         name: "Britannia Industries"
     },
     BERGERPAINT: {
         ticker: "BERGERPAINT",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "BERGERPAINT" + ".jpg",
         name: "Berger Paints Limited",
     },
     BAJFINANCE: {
         ticker: "BAJFINANCE",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "BAJFINANCE" + ".jpg",
         name: "Bajaj Finance Limited",
     },
     BHARTIARTL: {
         ticker: "BHARTIARTL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "BHARTIARTL" + ".jpg",
         name: "Bharti Airtel Limited"
     },
     CADILA: {
         ticker: "CADILA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "CADILA" + ".jpg",
         name: "Cadila Healthcare Limited",
     },
     CIPLA: {
         ticker: "CIPLA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "CIPLA" + ".jpg",
         name: "Cipla Limited",
     },
     COALINDIA: {
         ticker: "COALINDIA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "COALINDIA" + ".jpg",
         name: "Coal India Limited",
     },
     CRISIL: {
         ticker: "CRISIL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "CRISIL" + ".jpg",
         name: "CRISIL Limited",
     },
     DIVISLAB: {
         ticker: "DIVISLAB",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "DIVISLAB" + ".jpg",
         name: "Divi's Labratories Limited",
     },
     DMART: {
         ticker: "DMART",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "DMART" + ".jpg",
         name: "Avenue Supermarts Limited",
     },
     EXIDEIND: {
         ticker: "EXIDEIND",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "EXIDEIND" + ".jpg",
         name: "Exide Industries Limited",
     },
     GAIL: {
         ticker: "GAIL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "GAIL" + ".jpg",
         name: "Gail (India) Limited",
     },
     GODREJPROP: {
         ticker: "GODREJPROP",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "GODREJPROP" + ".jpg",
         name: "Godrej Properties Limited",
     },
     GUJGADLTD: {
         ticker: "GUJGASLTD",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "GUJGASLTD" + ".jpg",
         name: "Gujarat Gas Limited",
     },
     HDFCBANK: {
         ticker: "HDFCBANK",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "HDFCBANK" + ".jpg",
         name: "HDFC Bank Limited",
     },
     HEROMOTOCO: {
         ticker: "HEROMOTOCO",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "HEROMOTOCO" + ".jpg",
         name: "Hero MotoCorp Limited",
     },
     HINDUNILVR: {
         ticker: "HINDUNILVR",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "HINDUNILVR" + ".jpg",
         name: "Hindustan Unilever Limited",
     },
     ICICIBANK: {
         ticker: "ICICIBANK",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ICICIBANK" + ".jpg",
         name: "ICICI Bank Limited",
     },
     IDEA: {
         ticker: "IDEA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "IDEA" + ".jpg",
         name: "Vodafone Idea Limited",
     },
     INFY: {
         ticker: "INFY",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "INFY" + ".jpg",
         name: "Infosys Limited",
     },
     IPCALAB: {
         ticker: "IPCALAB",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "IPCALAB" + ".jpg",
         name: "IPCA Labratories Limited",
     },
     ITC: {
         ticker: "ITC",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ITC" + ".jpg",
         name: "ITC Limited",
     },
     JETAIRWAYS: {
         ticker: "JETAIRWAYS",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "JETAIRWAYS" + ".jpg",
         name: "Jet Airways (India) Limited",
     },
     JSWSTEEL: {
         ticker: "JSWSTEEL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "JSWSTEEL" + ".jpg",
         name: "JSW Steel Limited",
     },
     MARUTI: {
         ticker: "MARUTI",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "MARUTI" + ".jpg",
         name: "Exide Suzuki India Limited",
     },
     MCDOWELL_N: {
         ticker: "MCDOWELL-N",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "MCDOWELL-N" + ".jpg",
         name: "United Spirits Limited",
     },
     MOTHERSUMI: {
         ticker: "MOTHERSUMI",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "MOTHERSUMI" + ".jpg",
         name: "Motherson Sumi Systems Limited",
     },
     NIFTY_50: {
         ticker: "NIFTY_50",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "NIFTY_50" + ".jpg",
         name: "NIFTY 50",
     },
     OBEROIRLTY: {
         ticker: "OBEROIRLTY",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "OBEROIRLTY" + ".jpg",
         name: "Oberoi Realty Limited",
     },
     PEL: {
         ticker: "PEL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "PEL" + ".jpg",
         name: "Piramal Enterprises Limited",
     },
     PIDILITIND: {
         ticker: "PIDILITIND",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "PIDILITIND" + ".jpg",
         name: "Pidilite Industries Limited",
     },
     RELIANCE: {
         ticker: "RELIANCE",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "RELIANCE" + ".jpg",
         name: "Reliance Industries Limited",
     },
     SBIN: {
         ticker: "SBIN",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "SBIN" + ".jpg",
         name: "State Bank of India",
     },
     SUNPHARMA: {
         ticker: "SUNPHARMA",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "SUNPHARMA" + ".jpg",
         name: "Sun Pharmaceuticals Industries Limited",
     },
     TATAMOTORS: {
         ticker: "TATAMOTORS",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "TATAMOTORS" + ".jpg",
         name: "Tata Motors Limited",
     },
     TATAPOWER: {
         ticker: "TATAPOWER",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "TATAPOWER" + ".jpg",
         name: "Tata Power Company Limited",
     },
     TATASTEEL: {
         ticker: "TATASTEEL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "TATASTEEL" + ".jpg",
         name: "Tata Steel Limited",
     },
     TCS: {
         ticker: "TCS",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "TCS" + ".jpg",
         name: "Tata Consultancy Services Limited",
     },
     TRENT: {
         ticker: "TRENT",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "TRENT" + ".jpg",
         name: "Trent Limited",
     },
     ULTRACEMCO: {
         ticker: "ULTRACEMCO",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "ULTRACEMCO" + ".jpg",
         name: "UltraTech Cement Limited",
     },
     VBL: {
         ticker: "VBL",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "VBL" + ".jpg",
         name: "Varun Beverages Limited",
     },
     WIPRO: {
         ticker: "WIPRO",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "WIPRO" + ".jpg",
         name: "Wipro Limited",
     },
     NIFTYBANK: {
         ticker: "NIFTYBANK",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "NIFTYBANK" + ".jpg",
         name: "Bank Nifty",
     },
     YESBANK: {
         ticker: "YESBANK",
-        icon: placeHolderIcon,
+        icon: placeHolderIcon + "YESBANK" + ".jpg",
         name: "Yes Bank",
     }
 }
