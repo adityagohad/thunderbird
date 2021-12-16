@@ -108,7 +108,7 @@ function populateEvents() {
         data['ticker'] = eventResult[i]['Ticker'];
         data['timeframe'] = eventResult[i]['Time-frame'];
         data['level'] = eventResult[i]['Level'];
-        data['actionScript'] = eventResult[i]['Remarks'];
+        //data['actionScript'] = eventResult[i]['Remarks'];
         data['entry'] = eventResult[i]['Entry'];
         data['target'] = eventResult[i]['Target'];
         data['stoploss'] = eventResult[i]['Stop-loss'];
