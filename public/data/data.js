@@ -1,6 +1,6 @@
 const placeHolderIcon = "https://logothunderbird.s3.ap-south-1.amazonaws.com/";
 
-var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "BANKNIFTY", "BATA", "BERGEPAINT", "BHARTIAIRTEL", "BRITANNIA", "CADILA", "CIPLA", "COALINDIA", "CRISIL", "DIVILAB", "DMART", "EXIDE", "GAIL", "GODREJ", "GUJRATGAS", "HDFCBANK", "HERO", "HINDALCO", "HUL", "ICICIBANK", "IDEA", "INFY", "IPCA", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL", "MOTHERSUMI", "NIFTY", "OBEROI", "PEL", "PIDILITE", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEM", "VBL", "WIPRO", "YESBANK"];
+var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "NIFTYBANK", "BATA", "BERGEPAINT", "BHARTIARTL", "BRITANNIA", "CADILAHC", "CIPLA", "COALINDIA", "CRISIL", "DIVISLAB", "DMART", "EXIDEIND", "GAIL", "GODREJPROP", "GUJGASLTD", "HDFCBANK", "HEROMOTOCO", "HINDALCO", "HINDUNILVR", "ICICIBANK", "IDEA", "INFY", "IPCALAB", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL-N", "MOTHERSUMI", "NIFTY", "OBEROIRLTY", "PEL", "PIDILITIND", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEMCO", "VBL", "WIPRO", "YESBANK"];
 
 const sectors = { CEMENT: "Cement", CONGLO: "conglomerate", FMCG: "FMCG", PAINT: "Paint", TELECOM: "Telecom", IT: "IT", FIN: "Financial Services", PHARMA: "Pharma", AUTO: "Auto", RETAIL: "Retail", METAL: "Metal", REALTY: "Realty", INDIA: "India", POWER: "Power", AVIATION: "Aviation", ONG: "Oil and Natural Gas", PORTS: "Ports and Shipping" }
 
@@ -59,8 +59,8 @@ const companies = {
         sector: sectors.TELECOM,
         name: "Bharti Airtel"
     },
-    CADILA: {
-        ticker: "CADILA",
+    CADILAHC: {
+        ticker: "CADILAHC",
         icon: placeHolderIcon + "CADILA" + ".jpg",
         sector: sectors.PHARMA,
         name: "Cadila Healthcare",
@@ -113,7 +113,7 @@ const companies = {
         sector: sectors.REALTY,
         name: "Godrej Properties",
     },
-    GUJGADLTD: {
+    GUJGASLTD: {
         ticker: "GUJGASLTD",
         icon: placeHolderIcon + "GUJGASLTD" + ".jpg",
         sector: sectors.ONG,
@@ -197,8 +197,8 @@ const companies = {
         sector: sectors.AUTO,
         name: "Motherson Sumi Systems",
     },
-    NIFTY_50: {
-        ticker: "NIFTY_50",
+    NIFTY: {
+        ticker: "NIFTY",
         icon: placeHolderIcon + "NIFTY_50" + ".jpg",
         sector: sectors.INDIA,
         name: "NIFTY 50",
@@ -306,7 +306,7 @@ const exercises = [
         id: 1,
         title: "Price Action",
         description: [""],
-        stocks: [companies.BERGEPAINT, companies.BRITANNIA, companies.CADILA, companies.ADANIENT, companies.ADANIPORTS, companies.NIFTYBANK, companies.BAJFINANCE, companies.ACC, companies.ASIANPAINT, companies.YESBANK, companies.VBL, companies.WIPRO, companies.ULTRACEMCO, companies.TRENT, companies.TCS, companies.TATASTEEL],
+        stocks: [companies.BERGEPAINT, companies.BRITANNIA, companies.CADILAHC, companies.ADANIENT, companies.ADANIPORTS, companies.NIFTYBANK, companies.BAJFINANCE, companies.ACC, companies.ASIANPAINT, companies.YESBANK, companies.VBL, companies.WIPRO, companies.ULTRACEMCO, companies.TRENT, companies.TCS, companies.TATASTEEL],
         startTime: 1568627100000,
         levels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
     },
@@ -340,4 +340,4 @@ const headline = [
     }
 ]
 
-module.exports = { companies, exercises, headline, copies }
+module.exports = { companies, exercises, headline, copies, stocks }
