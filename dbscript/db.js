@@ -4,10 +4,14 @@ const csv = require('csv-parser')
 const fs = require('fs')
 const moment = require('moment')
 var results = [];
+var eventResult = [];
 var counter = 0;
-var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "NIFTYBANK", "BATA", "BERGERPAINT", "BHARTIAIRTEL", "BRITANNIA", "CADILA", "CIPLA", "COALINDIA", "CRISIL", "DIVILAB", "DMART", "EXIDE", "GAIL", "GODREJ", "GUJRATGAS", "HDFCBANK", "HERO", "HINDALCO", "HUL", "ICICIBANK", "IDEA", "INFY", "IPCA", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL", "MOTHERSUMI", "NIFTY", "OBEROI", "PEL", "PIDILITE", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEM", "VBL", "WIPRO", "YESBANK"];
 
-const url = 'mongodb://localhost:27017';
+const sd = require('../public/data/data.js');
+
+var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "BANKNIFTY", "BATA", "BERGEPAINT", "BHARTIAIRTEL", "BRITANNIA", "CADILA", "CIPLA", "COALINDIA", "CRISIL", "DIVILAB", "DMART", "EXIDE", "GAIL", "GODREJ", "GUJRATGAS", "HDFCBANK", "HERO", "HINDALCO", "HUL", "ICICIBANK", "IDEA", "INFY", "IPCA", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL", "MOTHERSUMI", "NIFTY", "OBEROI", "PEL", "PIDILITE", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEM", "VBL", "WIPRO", "YESBANK"];
+
+//const url = 'mongodb://localhost:27017';
 const uri = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const dbName = 'thunderbird';
 
@@ -26,12 +30,19 @@ const insertDocuments = function (db, data, callback) {
     });
 };
 
+const insertEvents = function (db, data, callback) {
+    const collection = db.collection('events');
+    collection.insertMany(data, function (err, result) {
+        callback(result);
+    });
+};
+
 getAllCSVs();
+getAllEvents();
 
 function getAllCSVs() {
     fetchCSV(stocks[counter]);
 }
-
 
 function fetchCSV(name) {
     results = [];
@@ -73,3 +84,61 @@ function populate(name) {
         });
     });
 }
+
+
+function getAllEvents() {
+    eventResult = [];
+    var file = "events.csv";
+    fs.createReadStream(file)
+        .pipe(csv())
+        .on('data', (data) => eventResult.push(data))
+        .on('end', () => {
+            populateEvents();
+        });
+}
+
+function populateEvents() {
+    var dbs = Array()
+    for (i = 0; i < eventResult.length; i++) {
+        var data = {}
+
+        data['eventId'] = i + 1;
+        data['exerciseId'] = parseInt(eventResult[i]['Ex id']);
+        data['stockName'] = eventResult[i]['Stock Name'];
+        data['ticker'] = eventResult[i]['Ticker'];
+        data['timeframe'] = eventResult[i]['Time-frame'];
+        data['level'] = eventResult[i]['Level'];
+        data['actionScript'] = eventResult[i]['Remarks'];
+        data['entry'] = eventResult[i]['Entry'];
+        data['target'] = eventResult[i]['Target'];
+        data['stoploss'] = eventResult[i]['Stop-loss'];
+        data['rr'] = eventResult[i]['RR ratio'];
+        data['tradeType'] = eventResult[i]['Type of trader'];
+        data['isAssisted'] = eventResult[i]['Classification'] == "Assisted" ? true : false;
+        data['startTime'] = moment(eventResult[i]['Minimum candle history'], "MM/DD/YYYY").valueOf()
+        data['atTime'] = moment(eventResult[i]['At'] + " " + eventResult[i]['atHour'], "MM/DD/YYYY hh:mm:ss").valueOf()
+        data['endTime'] =
+            moment(eventResult[i]['End date'] + " " + eventResult[i]['endHour'], "MM/DD/YYYY hh:mm:ss").valueOf()
+        for (j = 0; j < sd.headline.length; j++) {
+            for (k = 0; k < sd.headline[j].levels.length; k++) {
+                if (results[i]['Level'] == sd.headline[j].levels[k]) {
+                    data['headline'] = sd.headline[j].possiblecopies[getRandomInt(sd.headline[j].possiblecopies.length)];
+                    break;
+                }
+            }
+        }
+
+        dbs.push(data);
+    }
+    //console.log(dbs);
+    initDB(function (db, client) {
+        insertEvents(db, dbs, function () {
+            client.close()
+        });
+    });
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+

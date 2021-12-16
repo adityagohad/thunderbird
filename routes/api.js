@@ -6,6 +6,8 @@ const assert = require('assert');
 
 const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
+// const url = 'mongodb://localhost:27017';
+
 const dbName = 'thunderbird';
 
 const sd = require('../public/data/data.js')
@@ -36,6 +38,15 @@ router.get('/exercises/:id', function (req, res, next) {
             client.close();
         })
     }
+});
+
+router.get('/events/:id', function (req, res, next) {
+    initDB(function (db, client) {
+        findEvents(db, req, function (data) {
+            res.end(JSON.stringify(data));
+            client.close();
+        })
+    })
 });
 
 router.get('/update', function (req, res, next) {
@@ -129,6 +140,15 @@ const findCandles = function (db, req, callback) {
             else returndata.push(docs[i])
         }
         callback(returndata.reverse());
+    });
+};
+
+const findEvents = async function (db, req, callback) {
+    const collection = db.collection('events');
+    collection.find({ exerciseId: +req.params.id }).toArray(function (err, docs) {
+        console.log(docs);
+        assert.equal(err, null);
+        callback(docs);
     });
 };
 
