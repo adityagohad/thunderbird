@@ -9,7 +9,7 @@ var counter = 0;
 
 const sd = require('../public/data/data.js');
 
-var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "BANKNIFTY", "BATA", "BERGEPAINT", "BHARTIAIRTEL", "BRITANNIA", "CADILA", "CIPLA", "COALINDIA", "CRISIL", "DIVILAB", "DMART", "EXIDE", "GAIL", "GODREJ", "GUJRATGAS", "HDFCBANK", "HERO", "HINDALCO", "HUL", "ICICIBANK", "IDEA", "INFY", "IPCA", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL", "MOTHERSUMI", "NIFTY", "OBEROI", "PEL", "PIDILITE", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEM", "VBL", "WIPRO", "YESBANK"];
+var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "NIFTYBANK", "BATA", "BERGEPAINT", "BHARTIARTL", "BRITANNIA", "CADILAHC", "CIPLA", "COALINDIA", "CRISIL", "DIVISLAB", "DMART", "EXIDEIND", "GAIL", "GODREJPROP", "GUJGASLTD", "HDFCBANK", "HEROMOTOCO", "HINDALCO", "HINDUNILVR", "ICICIBANK", "IDEA", "INFY", "IPCALAB", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL-N", "MOTHERSUMI", "NIFTY", "OBEROIRLTY", "PEL", "PIDILITIND", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEMCO", "VBL", "WIPRO", "YESBANK"];
 
 //const url = 'mongodb://localhost:27017';
 const uri = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
@@ -41,7 +41,7 @@ getAllCSVs();
 getAllEvents();
 
 function getAllCSVs() {
-    fetchCSV(stocks[counter]);
+    fetchCSV(sd.stocks[counter]);
 }
 
 function fetchCSV(name) {
@@ -78,7 +78,7 @@ function populate(name) {
         insertDocuments(db, dbs, function () {
             client.close()
             counter++;
-            if (counter < stocks.length) {
+            if (counter < sd.stocks.length) {
                 getAllCSVs()
             }
         });
