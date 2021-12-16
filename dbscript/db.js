@@ -63,9 +63,9 @@ function populate(name) {
         data['num'] = i;
         data['ticker'] = name;
         if (hour >= 1 && hour <= 4) {
-            data['time'] = moment(results[i]['time'], "DD/MM/YYYY hh:mm:ss").valueOf() + (12 * 3600 * 1000) + (330 * 60 * 1000);
+            data['time'] = moment(results[i]['time'], "DD/MM/YYYY hh:mm:ss").valueOf() + (12 * 3600 * 1000); //+ (330 * 60 * 1000);
         } else {
-            data['time'] = moment(results[i]['time'], "DD/MM/YYYY hh:mm:ss").valueOf() + (330 * 60 * 1000);
+            data['time'] = moment(results[i]['time'], "DD/MM/YYYY hh:mm:ss").valueOf(); //+ (330 * 60 * 1000);
         }
         data['open'] = parseFloat(results[i]['Open']);
         data['high'] = parseFloat(results[i]['High']);
