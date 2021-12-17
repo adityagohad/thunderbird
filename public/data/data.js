@@ -61,7 +61,7 @@ const companies = {
     },
     CADILAHC: {
         ticker: "CADILAHC",
-        icon: placeHolderIcon + "CADILA" + ".jpg",
+        icon: placeHolderIcon + "CADILAHC" + ".jpg",
         sector: sectors.PHARMA,
         name: "Cadila Healthcare",
     },
