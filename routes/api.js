@@ -80,6 +80,10 @@ router.get('/candles/:id/:timeframe', function (req, res, next) {
     })
 });
 
+router.get('/info/assistedtrade/:id', function (req, res, next) {
+    res.end(JSON.stringify(sd.copies[req.params.id]));
+});
+
 
 const findCandlesForTimeFrame = function (db, req, callback) {
     const collection = db.collection('candles');
