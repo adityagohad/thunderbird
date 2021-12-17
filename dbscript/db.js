@@ -11,7 +11,7 @@ const sd = require('../public/data/data.js');
 
 var stocks = ["ACC", "ADANIENT", "ADANIPORTS", "ASIANPAINT", "BAJFINANCE", "NIFTYBANK", "BATA", "BERGEPAINT", "BHARTIARTL", "BRITANNIA", "CADILAHC", "CIPLA", "COALINDIA", "CRISIL", "DIVISLAB", "DMART", "EXIDEIND", "GAIL", "GODREJPROP", "GUJGASLTD", "HDFCBANK", "HEROMOTOCO", "HINDALCO", "HINDUNILVR", "ICICIBANK", "IDEA", "INFY", "IPCALAB", "ITC", "JETAIRWAYS", "JSWSTEEL", "MARUTI", "MCDOWELL-N", "MOTHERSUMI", "NIFTY", "OBEROIRLTY", "PEL", "PIDILITIND", "RELIANCE", "SBIN", "SUNPHARMA", "TATAMOTORS", "TATAPOWER", "TATASTEEL", "TCS", "TRENT", "ULTRACEMCO", "VBL", "WIPRO", "YESBANK"];
 
-//const url = 'mongodb://localhost:27017';
+//const uri = 'mongodb://localhost:27017';
 const uri = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const dbName = 'thunderbird';
 
@@ -108,7 +108,7 @@ function populateEvents() {
         data['ticker'] = eventResult[i]['Ticker'];
         data['timeframe'] = eventResult[i]['Time-frame'];
         data['level'] = eventResult[i]['Level'];
-        //data['actionScript'] = eventResult[i]['Remarks'];
+        data['actionScript'] = eventResult[i]['Remarks'];
         data['entry'] = eventResult[i]['Entry'];
         data['target'] = eventResult[i]['Target'];
         data['stoploss'] = eventResult[i]['Stop-loss'];
@@ -121,16 +121,13 @@ function populateEvents() {
             moment(eventResult[i]['End date'] + " " + eventResult[i]['endHour'], "MM/DD/YYYY hh:mm:ss").valueOf()
         for (j = 0; j < sd.headline.length; j++) {
             for (k = 0; k < sd.headline[j].levels.length; k++) {
-                if (results[i]['Level'] == sd.headline[j].levels[k]) {
+                if (eventResult[i]['Level'] == sd.headline[j].levels[k]) {
                     data['headline'] = sd.headline[j].possiblecopies[getRandomInt(sd.headline[j].possiblecopies.length)];
-                    break;
                 }
             }
         }
-
         dbs.push(data);
     }
-    //console.log(dbs);
     initDB(function (db, client) {
         insertEvents(db, dbs, function () {
             client.close()
