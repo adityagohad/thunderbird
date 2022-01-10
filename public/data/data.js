@@ -304,9 +304,17 @@ const companies = {
 const exercises = [
     {
         id: 1,
-        title: "Price Action",
-        description: ["Let's implement a methodology for financial market analysis using basic price movement across time"],
+        title: "Price Action",//name
         stocks: [companies.BERGEPAINT, companies.BRITANNIA, companies.CADILAHC, companies.ADANIENT, companies.ADANIPORTS, companies.NIFTYBANK, companies.BAJFINANCE, companies.ACC, companies.ASIANPAINT, companies.YESBANK, companies.VBL, companies.WIPRO, companies.ULTRACEMCO, companies.TRENT, companies.TCS, companies.TATASTEEL],
+        difficulty: "Moderate",
+        minCapitalRequirement: 250000,
+        concepts: ['Candle Patterns', 'Support / Resistance', 'Trendlines'],
+        shortDescription: "Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?",
+        timeFrames: '60 min',
+        tradeType: [' BTST', 'Intraday'],
+        winCriteria: 30,//30% more than invested
+        detailDescription: 'While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long? Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?',
+        description: ["Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?"],
         startTime: 1568627100000,
         levels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
     },
