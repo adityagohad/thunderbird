@@ -4,9 +4,9 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+// const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-//const url = 'mongodb://localhost:27017';
+const url = 'mongodb://localhost:27017';
 
 const dbName = 'thunderbird';
 
@@ -43,6 +43,15 @@ router.get('/exercises/:id', function (req, res, next) {
 router.get('/events/:id', function (req, res, next) {
     initDB(function (db, client) {
         findEvents(db, req, function (data) {
+            res.end(JSON.stringify(data));
+            client.close();
+        })
+    })
+});
+
+router.get('/feed/:id', function (req, res, next) {
+    initDB(function (db, client) {
+        findFeed(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
         })
@@ -153,6 +162,14 @@ const findCandles = function (db, req, callback) {
 
 const findEvents = async function (db, req, callback) {
     const collection = db.collection('events');
+    collection.find({ exerciseId: +req.params.id }).toArray(function (err, docs) {
+        assert.equal(err, null);
+        callback(docs);
+    });
+};
+
+const findFeed = async function (db, req, callback) {
+    const collection = db.collection('feed');
     collection.find({ exerciseId: +req.params.id }).toArray(function (err, docs) {
         assert.equal(err, null);
         callback(docs);

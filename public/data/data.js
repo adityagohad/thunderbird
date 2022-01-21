@@ -303,21 +303,92 @@ const companies = {
 
 const exercises = [
     {
-        id: 1,
-        title: "Price Action",//name
-        stocks: [companies.BERGEPAINT, companies.BRITANNIA, companies.CADILAHC, companies.ADANIENT, companies.ADANIPORTS, companies.NIFTYBANK, companies.BAJFINANCE, companies.ACC, companies.ASIANPAINT, companies.YESBANK, companies.VBL, companies.WIPRO, companies.ULTRACEMCO, companies.TRENT, companies.TCS, companies.TATASTEEL],
+        id: 4,
+        title: "Financials amid a pandemic 🙄",
+        stocks: [companies.HDFCBANK, companies.ICICIBANK, companies.SBIN, companies.BAJFINANCE, companies.YESBANK, companies.NIFTYBANK],
         difficulty: "Moderate",
-        minCapitalRequirement: 250000,
-        concepts: ['Candle Patterns', 'Support / Resistance', 'Trendlines'],
+        minCapitalRequirement: 200000,
+        concepts: ['Inside Bar'],
+        shortDescription: "Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?",
+        timeFrames: '60 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 32,//32% more than invested
+        detailDescription: ['Banks & NBFCs were comprehensively slaughtered during the March 2020 mayhem. Bank Nifty was down 46%, with headline names including HDFC Bank, ICICI Bank, Bajaj Finance all down between 38-52%.',
+            'The ensuing months were no better, with lack of movement, for an industry that was predominantly used to a physical touch was bound to cause damage, with loan origination, sale of third party products, and collection efficiencies all likely to be severely impacted.',
+            'But for how long? Wouldn’t it be natural for banks to adapt, like other industries (think: IT, Consumer) ?'],
+        description: ["Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?"],
+        startTime: 1604309400000,
+        levels: [43],
+    },
+    {
+        id: 1,
+        title: "IT Sector Zooms 🚀",
+        stocks: [companies.WIPRO, companies.TCS, companies.INFY],
+        difficulty: "Easy",
+        minCapitalRequirement: 100000,
+        concepts: ['Basics of Support and Resistance'],
+        shortDescription: " IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?",
+        timeFrames: '60 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 19,//19% more than invested
+        detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?',
+            'Play the game, take trades, multiply your capital and prepare yourself for present market conditions.'],
+        description: [" IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?"],
+        startTime: 1599039000000,
+        levels: [1, 2],
+    },
+    {
+        id: 5,
+        title: "Pharma in demand 🔍",
+        stocks: [companies.SUNPHARMA, companies.DIVISLAB, companies.IPCALAB, companies.CIPLA],
+        difficulty: "Moderate",
+        minCapitalRequirement: 200000,
+        concepts: ['Bullish Flag'],
         shortDescription: "Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?",
         timeFrames: '60 min',
-        tradeType: [' BTST', 'Intraday'],
-        winCriteria: 30,//30% more than invested
-        detailDescription: 'While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long? Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 6,//6% more than invested
+        detailDescription: ['While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long?',
+            'Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?'],
+
         description: ["Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?"],
-        startTime: 1568627100000,
-        levels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+        startTime: 1588757400000,
+        levels: [33],
     },
+    {
+        id: 2,
+        title: "Revenge Spending in Consumer Goods 🤑",
+        stocks: [companies.BRITANNIA, companies.HINDUNILVR, companies.MCDOWELL_N, companies.PIDILITIND, companies.VBL],
+        difficulty: "Easy",
+        minCapitalRequirement: 100000,
+        concepts: ['Support', 'Resistance', 'Breakdowns', 'Breakouts'],
+        shortDescription: "The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?",
+        timeFrames: '15 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 11,//11% more than invested
+        detailDescription: ['Demand dipped, supply became constrained, inflation pressure continued and the first part of Q1 was a wipeout.', 'The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May, with significant improvements by July’21 when cases dipped to <40k and mobility improved to 75%', 'Demand returned in the second half of Q1, with rural leading growth (relatively less affected) across categories. But was there enough to sustain the rally? And how did stocks react in the interim?'],
+
+        description: ["The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?"],
+        startTime: 1627637400000,
+        levels: [33],
+    },
+    {
+        id: 3,
+        title: "Telcos in the time of Mukesh Ambani 😝",
+        stocks: [companies.RELIANCE, companies.IDEA, companies.BHARTIARTL],
+        difficulty: "Moderate",
+        minCapitalRequirement: 200000,
+        concepts: ['Support', 'Resistance', 'News', 'Breakouts', 'Fundamentals'],
+        shortDescription: "Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?",
+        timeFrames: '15 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 14,//14% more than invested
+        detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
+
+        description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
+        startTime: 1637400600000,
+        levels: [1, 2, 5, 6],
+    }
 ]
 const copies = {
     1: "Support is denoted by multiple touches of price without a breakthrough of the level",
@@ -345,6 +416,14 @@ const headline = [
     {
         levels: [6, 8, 12, 18, 20, 21, 23, 25, 28, 31, 33, 36, 38, 40, 41],
         possiblecopies: ["All the way up?", "We cruising!", "Break it to make it"]
+    },
+    {
+        levels: [43],
+        possiblecopies: ["Breakout from range", "Mini-consolidation and breakout?", "Breaking the parent candle", "Out of the inside bar?"]
+    },
+    {
+        levels: [33],
+        possiblecopies: ["Out of fallout?", "Breaking the falling trendline?", "Out of the falling range?", "Out of the falling channel?"]
     }
 ]
 

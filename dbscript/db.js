@@ -5,6 +5,7 @@ const fs = require('fs')
 const moment = require('moment')
 var results = [];
 var eventResult = [];
+var feedResult = [];
 var counter = 0;
 
 const sd = require('../public/data/data.js');
@@ -37,8 +38,16 @@ const insertEvents = function (db, data, callback) {
     });
 };
 
+const insertFeed = function (db, data, callback) {
+    const collection = db.collection('feed');
+    collection.insertMany(data, function (err, result) {
+        callback(result);
+    });
+};
+
 getAllCSVs();
 getAllEvents();
+getAllFeed();
 
 function getAllCSVs() {
     fetchCSV(sd.stocks[counter]);
@@ -130,6 +139,37 @@ function populateEvents() {
     }
     initDB(function (db, client) {
         insertEvents(db, dbs, function () {
+            client.close()
+        });
+    });
+}
+
+function getAllFeed() {
+    feedResult = [];
+    var file = "feed.csv";
+    fs.createReadStream(file)
+        .pipe(csv())
+        .on('data', (data) => feedResult.push(data))
+        .on('end', () => {
+            populateFeed();
+        });
+}
+
+function populateFeed() {
+    var dbs = Array()
+    for (i = 0; i < feedResult.length; i++) {
+        var data = {}
+
+        data['feedId'] = i + 1;
+        data['exerciseId'] = parseInt(feedResult[i]['Ex id']);
+        data['startTime'] = moment(feedResult[i]['Start Date'], "MM/DD/YYYY").valueOf()
+        data['endTime'] = moment(feedResult[i]['End Date'], "MM/DD/YYYY").valueOf()
+        data['feed'] = feedResult[i]['Feed/Copy']
+
+        dbs.push(data);
+    }
+    initDB(function (db, client) {
+        insertFeed(db, dbs, function () {
             client.close()
         });
     });
