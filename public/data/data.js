@@ -303,6 +303,55 @@ const companies = {
 
 const exercises = [
     {
+        id: 1,
+        title: "IT Sector Zooms 🚀",
+        stocks: [companies.WIPRO, companies.TCS, companies.INFY],
+        difficulty: "Easy",
+        minCapitalRequirement: 100000,
+        concepts: ['Basics of Support and Resistance'],
+        shortDescription: " IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?",
+        timeFrames: '60 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 19,//19% more than invested
+        detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?',
+            'Play the game, take trades, multiply your capital and prepare yourself for present market conditions.'],
+        description: [" IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?"],
+        startTime: 1599039000000,
+        levels: [1, 2],
+    },
+    {
+        id: 2,
+        title: "Revenge Spending in Consumer Goods 🤑",
+        stocks: [companies.BRITANNIA, companies.HINDUNILVR, companies.MCDOWELL_N, companies.PIDILITIND, companies.VBL],
+        difficulty: "Easy",
+        minCapitalRequirement: 100000,
+        concepts: ['Support', 'Resistance', 'Breakdowns', 'Breakouts'],
+        shortDescription: "The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?",
+        timeFrames: '15 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 11,//11% more than invested
+        detailDescription: ['Demand dipped, supply became constrained, inflation pressure continued and the first part of Q1 was a wipeout.', 'The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May, with significant improvements by July’21 when cases dipped to <40k and mobility improved to 75%', 'Demand returned in the second half of Q1, with rural leading growth (relatively less affected) across categories. But was there enough to sustain the rally? And how did stocks react in the interim?'],
+        description: ["The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?"],
+        startTime: 1627637400000,
+        levels: [33],
+    },
+    {
+        id: 3,
+        title: "Telcos in the time of Mukesh Ambani 😝",
+        stocks: [companies.RELIANCE, companies.IDEA, companies.BHARTIARTL],
+        difficulty: "Moderate",
+        minCapitalRequirement: 200000,
+        concepts: ['Support', 'Resistance', 'News', 'Breakouts', 'Fundamentals'],
+        shortDescription: "Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?",
+        timeFrames: '15 min',
+        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
+        winCriteria: 14,//14% more than invested
+        detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
+        description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
+        startTime: 1637400600000,
+        levels: [1, 2, 5, 6],
+    },
+    {
         id: 4,
         title: "Financials amid a pandemic 🙄",
         stocks: [companies.HDFCBANK, companies.ICICIBANK, companies.SBIN, companies.BAJFINANCE, companies.YESBANK, companies.NIFTYBANK],
@@ -319,23 +368,6 @@ const exercises = [
         description: ["Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?"],
         startTime: 1604309400000,
         levels: [43],
-    },
-    {
-        id: 1,
-        title: "IT Sector Zooms 🚀",
-        stocks: [companies.WIPRO, companies.TCS, companies.INFY],
-        difficulty: "Easy",
-        minCapitalRequirement: 100000,
-        concepts: ['Basics of Support and Resistance'],
-        shortDescription: " IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?",
-        timeFrames: '60 min',
-        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
-        winCriteria: 19,//19% more than invested
-        detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?',
-            'Play the game, take trades, multiply your capital and prepare yourself for present market conditions.'],
-        description: [" IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?"],
-        startTime: 1599039000000,
-        levels: [1, 2],
     },
     {
         id: 5,
@@ -355,40 +387,6 @@ const exercises = [
         startTime: 1588757400000,
         levels: [33],
     },
-    {
-        id: 2,
-        title: "Revenge Spending in Consumer Goods 🤑",
-        stocks: [companies.BRITANNIA, companies.HINDUNILVR, companies.MCDOWELL_N, companies.PIDILITIND, companies.VBL],
-        difficulty: "Easy",
-        minCapitalRequirement: 100000,
-        concepts: ['Support', 'Resistance', 'Breakdowns', 'Breakouts'],
-        shortDescription: "The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?",
-        timeFrames: '15 min',
-        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
-        winCriteria: 11,//11% more than invested
-        detailDescription: ['Demand dipped, supply became constrained, inflation pressure continued and the first part of Q1 was a wipeout.', 'The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May, with significant improvements by July’21 when cases dipped to <40k and mobility improved to 75%', 'Demand returned in the second half of Q1, with rural leading growth (relatively less affected) across categories. But was there enough to sustain the rally? And how did stocks react in the interim?'],
-
-        description: ["The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?"],
-        startTime: 1627637400000,
-        levels: [33],
-    },
-    {
-        id: 3,
-        title: "Telcos in the time of Mukesh Ambani 😝",
-        stocks: [companies.RELIANCE, companies.IDEA, companies.BHARTIARTL],
-        difficulty: "Moderate",
-        minCapitalRequirement: 200000,
-        concepts: ['Support', 'Resistance', 'News', 'Breakouts', 'Fundamentals'],
-        shortDescription: "Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?",
-        timeFrames: '15 min',
-        tradeType: [' BTST', 'Intraday', 'Swing Trader'],
-        winCriteria: 14,//14% more than invested
-        detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
-
-        description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
-        startTime: 1637400600000,
-        levels: [1, 2, 5, 6],
-    }
 ]
 const copies = {
     1: "Support is denoted by multiple touches of price without a breakthrough of the level",
