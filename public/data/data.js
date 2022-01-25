@@ -308,15 +308,15 @@ const exercises = [
         stocks: [companies.WIPRO, companies.TCS, companies.INFY],
         difficulty: "Easy",
         minCapitalRequirement: 100000,
-        concepts: ['Basics of Support and Resistance'],
+        concepts: ['Support', 'Resistance', 'Reversals', 'News', 'Fundamentals'],
         shortDescription: " IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?",
         timeFrames: '60 min',
         tradeType: [' BTST', 'Intraday', 'Swing Trader'],
         winCriteria: 19,//19% more than invested
-        detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?',
-            'Play the game, take trades, multiply your capital and prepare yourself for present market conditions.'],
+        detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?'],
         description: [" IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?"],
         startTime: 1599039000000,
+        endTime: 1604158200000,
         levels: [1, 2],
     },
     {
@@ -325,7 +325,7 @@ const exercises = [
         stocks: [companies.BRITANNIA, companies.HINDUNILVR, companies.MCDOWELL_N, companies.PIDILITIND, companies.VBL],
         difficulty: "Easy",
         minCapitalRequirement: 100000,
-        concepts: ['Support', 'Resistance', 'Breakdowns', 'Breakouts'],
+        concepts: ['Support', 'Resistance', 'Breakdowns', 'Breakouts', 'Reversals'],
         shortDescription: "The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?",
         timeFrames: '15 min',
         tradeType: [' BTST', 'Intraday', 'Swing Trader'],
@@ -333,6 +333,7 @@ const exercises = [
         detailDescription: ['Demand dipped, supply became constrained, inflation pressure continued and the first part of Q1 was a wipeout.', 'The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May, with significant improvements by July’21 when cases dipped to <40k and mobility improved to 75%', 'Demand returned in the second half of Q1, with rural leading growth (relatively less affected) across categories. But was there enough to sustain the rally? And how did stocks react in the interim?'],
         description: ["The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?"],
         startTime: 1627637400000,
+        endTime: 1630423800000,
         levels: [33],
     },
     {
@@ -349,6 +350,7 @@ const exercises = [
         detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
         description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
         startTime: 1637400600000,
+        endTime: 1640964600000,
         levels: [1, 2, 5, 6],
     },
     {
@@ -357,16 +359,15 @@ const exercises = [
         stocks: [companies.HDFCBANK, companies.ICICIBANK, companies.SBIN, companies.BAJFINANCE, companies.YESBANK, companies.NIFTYBANK],
         difficulty: "Moderate",
         minCapitalRequirement: 200000,
-        concepts: ['Inside Bar'],
+        concepts: ['Inside Bar', 'Breakouts', 'News', 'Fundamentals'],
         shortDescription: "Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?",
         timeFrames: '60 min',
         tradeType: [' BTST', 'Intraday', 'Swing Trader'],
         winCriteria: 32,//32% more than invested
-        detailDescription: ['Banks & NBFCs were comprehensively slaughtered during the March 2020 mayhem. Bank Nifty was down 46%, with headline names including HDFC Bank, ICICI Bank, Bajaj Finance all down between 38-52%.',
-            'The ensuing months were no better, with lack of movement, for an industry that was predominantly used to a physical touch was bound to cause damage, with loan origination, sale of third party products, and collection efficiencies all likely to be severely impacted.',
-            'But for how long? Wouldn’t it be natural for banks to adapt, like other industries (think: IT, Consumer) ?'],
+        detailDescription: ['Banks & NBFCs were comprehensively slaughtered during the March 2020 mayhem. Bank Nifty was down 46%, with headline names including HDFC Bank, ICICI Bank, Bajaj Finance all down between 38-52%.', 'The ensuing months were no better, with lack of movement, for an industry that was predominantly used to a physical touch was bound to cause damage, with loan origination, sale of third party products, and collection efficiencies all likely to be severely impacted.', 'But for how long? Wouldn’t it be natural for banks to adapt, like other industries (think: IT, Consumer) ?'],
         description: ["Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?"],
         startTime: 1604309400000,
+        endTime: 1609428600000,
         levels: [43],
     },
     {
@@ -375,18 +376,17 @@ const exercises = [
         stocks: [companies.SUNPHARMA, companies.DIVISLAB, companies.IPCALAB, companies.CIPLA],
         difficulty: "Moderate",
         minCapitalRequirement: 200000,
-        concepts: ['Bullish Flag'],
+        concepts: ['Bullish Flag', 'Breakouts'],
         shortDescription: "Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?",
         timeFrames: '60 min',
         tradeType: [' BTST', 'Intraday', 'Swing Trader'],
         winCriteria: 6,//6% more than invested
-        detailDescription: ['While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long?',
-            'Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?'],
-
+        detailDescription: ['While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long?', 'Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?'],
         description: ["Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?"],
         startTime: 1588757400000,
+        endTime: 1590939000000,
         levels: [33],
-    },
+    }
 ]
 const copies = {
     1: "Support is denoted by multiple touches of price without a breakthrough of the level",
