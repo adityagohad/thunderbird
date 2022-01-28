@@ -93,6 +93,28 @@ router.get('/info/assistedtrade/:id', function (req, res, next) {
     res.end(JSON.stringify(sd.copies[req.params.id]));
 });
 
+router.get('/quote', function (req, res, next) {
+    const quotes = ["Ab meri tarah Risk se ishq hai to kood pado, ya to duboge ya udoge",
+        "Emotion Mein Insaan Hamesha Galti Karta Hai?",
+        "Market me sabse bada jokhim, jokhim na lene mein hai",
+        "Profit dikhta hai to koi bhi Jhukta hai?",
+        "Risk Hain to Ishq Hain?",
+        "Old school ho ya new school, sabke syllabus mein ek subject common hota hai ? profit aur woh mera favorite subject hai",
+        "Share Market Itna Gehra KuaaN Hai Jo Poore DesH Ki Paise Ki Pyaas BujHa Sakta Hai",
+        "The Most valuable commodity I know of is information",
+        "I Choose Rich Every F****** Time",
+        "There are three ways to make a living in this business: be first, be smarter or cheat",
+        "It's gonna get worse before it gets better",
+        "Listen,  if you really wanna do this with your life you have to believe you're necessary and you are",
+        "Greed, for lack of a better word, is good",
+        "The most valuable commodity I know of is information",
+        "Truth is like poetry. and people hate poetry",
+        "Tell me the difference between stupid and illegal and I'll have my wife's brother arrested",
+        "I Want You To Deal With Your Problems By Becoming Rich!",
+        "No one can see a bubble. That's what makes it a bubble"]
+    res.end(JSON.stringify(quotes[Math.floor((Math.random() * quotes.length))]));
+});
+
 
 const findCandlesForTimeFrame = function (db, req, callback) {
     const collection = db.collection('candles');
