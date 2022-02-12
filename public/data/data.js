@@ -315,9 +315,9 @@ const exercises = [
         winCriteria: 3,//3% more than invested
         detailDescription: ['Prices are trading within 2 falling trend lines, making a falling channel pattern. This pattern repeats itself often in Wipro, previously occurring in 2019 and 2021, with the stock reacting in similar fashion each time. Does the same happen this time around as well? And what’s the likelihood of the pattern repeating in the future?', 'Stocks move in cycles, and patterns repeat often (albeit at different levels). Play this single trade exercise, which gets over in <7 minutes, and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["Stocks move in cycles, with repeating patterns. The pattern in this exercise is a constant in Wipro, happening previously in early 2021 and 2019. Trade your way through it and see if you get it right?"],
-        startTime: 1626253200000,
-        endTime: 1626274800000,
-        loadtime: 1618390800000,
+        startTime: 1626253200000 - 19800000,
+        endTime: 1626274800000 - 19800000,
+        loadtime: 1618390800000 - 19800000,
         levels: [31],
     },
     {
