@@ -45,8 +45,8 @@ const insertFeed = function (db, data, callback) {
     });
 };
 
-getAllCSVs();
-getAllEvents();
+//getAllCSVs();
+//getAllEvents();
 getAllFeed();
 
 function getAllCSVs() {
@@ -162,8 +162,8 @@ function populateFeed() {
 
         data['feedId'] = i + 1;
         data['exerciseId'] = parseInt(feedResult[i]['Ex id'])
-        data['startTime'] = moment(feedResult[i]['Start Date'], "MM/DD/YYYY").valueOf()
-        data['endTime'] = moment(feedResult[i]['End Date'], "MM/DD/YYYY").valueOf()
+        data['startTime'] = moment(feedResult[i]['Start Date'], "MM/DD/YYYY hh:mm").valueOf()
+        data['endTime'] = moment(feedResult[i]['End Date'], "MM/DD/YYYY hh:mm").valueOf()
         data['feed'] = feedResult[i]['Feed/Copy']
         data['title'] = feedResult[i]['title']
 

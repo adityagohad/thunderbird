@@ -333,9 +333,9 @@ const exercises = [
         winCriteria: 1,//1% more than invested
         detailDescription: ['Double Top patterns are interesting, as they invariably form strong support points with up-moves dependent on ability to break resistance points successfully. ITC has made multiple double top patterns in the past, most notably in early 2021, and mid 2020.', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <15 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["Everyone's favourite company, ITC doesn't believe in shareholder returns 😜. Or does it? There are patterns at play here as well, ones that have repeated in early 2021 and mid 2020. Play this exercise and know what to expect in the future?"],
-        startTime: 1640251800000,
-        endTime: 1640598300000,
-        loadtime: 1632387600000,
+        startTime: 1640251800000 - 19800000,
+        endTime: 1640598300000 - 19800000,
+        loadtime: 1632387600000 - 19800000,
         levels: [21],
     },
     {
@@ -351,9 +351,9 @@ const exercises = [
         winCriteria: 1,//1% more than invested
         detailDescription: ['Resistance band breakouts is one of the most frequently made patterns on a chart. This pattern has occurred in ICICI Bank thrice in 2021 alone, each time rewarding traders with strong moves.', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["ICICI Bank is a strong Nifty50 name, with large daily traded volumes. It's bread & butter for traders, with ample liquidity and opportunity, both via patterns & price movement (thanks ITC 🙄) "],
-        startTime: 1641374100000,
-        endTime: 1641462300000,
-        loadtime: 1633425300000,
+        startTime: 1641374100000 - 19800000,
+        endTime: 1641462300000 - 19800000,
+        loadtime: 1633425300000 - 19800000,
         levels: [8],
     },
     {
@@ -369,9 +369,9 @@ const exercises = [
         winCriteria: 1.25,//1.25% more than invested
         detailDescription: ['One of the simplest, and yet most effective patterns to spot and trade for traders is Support & Role Reversal. Getting key price action tools right is key in getting your basics going. Support patterns are a constant in Adani stocks, with this pattern repeating twice in 2 months previously, providing strong moves for traders in the process. ', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <12 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["Adani stocks have known only one direction in the recent past 😜, with the ports business now the largest in the country. This pattern is a constant in the stock, repeating twice in the span of 2 months. "],
-        startTime: 1641472200000,
-        endTime: 1641811500000,
-        loadtime: 1633523400000,
+        startTime: 1641472200000 - 19800000,
+        endTime: 1641811500000 - 19800000,
+        loadtime: 1633523400000 - 19800000,
         levels: [1],
     },
     {
@@ -387,9 +387,9 @@ const exercises = [
         winCriteria: 0.4,//0.4% more than invested
         detailDescription: ['Resistance patterns (taking & breaking), much like Support are the bread and butter for traders. Proficiency in spotting, by developing strong eye-ball settings is key in not getting trapped in such trades. This pattern is a frequent occurrence in Piramal Enterprises, returning twice in the span of 2 months. ', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["A diversified player, Piramal Enterprises has had a coloured past, with interests across healthcare, pharmaceuticals, manufacturing, and now financial services & real estate. "],
-        startTime: 1640176200000,
-        endTime: 1640262600000,
-        loadtime: 1632313800000,
+        startTime: 1640176200000 - 19800000,
+        endTime: 1640262600000 - 19800000,
+        loadtime: 1632313800000 - 19800000,
         levels: [2],
     },
     {
@@ -405,9 +405,9 @@ const exercises = [
         winCriteria: 19,//19% more than invested
         detailDescription: ['Covid-19 decimated the markets in the months of March and April 2020, with headline indices down over 40 % over differing periods during the 2 months.  While markets suffered, businesses began adapting, getting started on Multi-year digital transformation journeys, with the Nifty IT Index one of the first to positively react, up 22% during. Infosys, Wipro & TCS all delivered Revenue / Earnings beat in their Q1FY21 numbers in Mid July, with other IT players also posting strong results. Does the momentum continue in the short term? How strong is the rally? What role do Q2FY21 results play?'],
         description: [" IT Stocks are moving from strength to strength, post Covid-19 initiated change in the business landscape. Demand for tech products is high, but does that translate to consistent stock price movement?"],
-        startTime: 1599039000000,
-        endTime: 1604158200000,
-        loadtime: 1591111800000,
+        startTime: 1599039000000 - 19800000,
+        endTime: 1604158200000 - 19800000,
+        loadtime: 1591111800000 - 19800000,
         levels: [1, 2],
     },
     {
@@ -423,9 +423,9 @@ const exercises = [
         winCriteria: 11,//11% more than invested
         detailDescription: ['Demand dipped, supply became constrained, inflation pressure continued and the first part of Q1 was a wipeout.', 'The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May, with significant improvements by July’21 when cases dipped to <40k and mobility improved to 75%', 'Demand returned in the second half of Q1, with rural leading growth (relatively less affected) across categories. But was there enough to sustain the rally? And how did stocks react in the interim?'],
         description: ["The second wave severely affected mobility, dropping to 37% on the Google Mobility Index, with cases topping >400K in May. First part of Q1 was a wipeout, with demand returning in the second half of Q1, but how did stocks react? Was there enough meat to sustain?"],
-        startTime: 1627637400000,
-        endTime: 1630423800000,
-        loadtime: 1619796600000,
+        startTime: 1627637400000 - 19800000,
+        endTime: 1630423800000 - 19800000,
+        loadtime: 1619796600000 - 19800000,
         levels: [33],
     },
     {
@@ -441,9 +441,9 @@ const exercises = [
         winCriteria: 14,//14% more than invested
         detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
         description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
-        startTime: 1637400600000,
-        endTime: 1640964600000,
-        loadtime: 1627831800000,
+        startTime: 1637400600000 - 19800000,
+        endTime: 1640964600000 - 19800000,
+        loadtime: 1627831800000 - 19800000,
         levels: [1, 2, 5, 6],
     },
     {
@@ -459,9 +459,9 @@ const exercises = [
         winCriteria: 32,//32% more than invested
         detailDescription: ['Banks & NBFCs were comprehensively slaughtered during the March 2020 mayhem. Bank Nifty was down 46%, with headline names including HDFC Bank, ICICI Bank, Bajaj Finance all down between 38-52%.', 'The ensuing months were no better, with lack of movement, for an industry that was predominantly used to a physical touch was bound to cause damage, with loan origination, sale of third party products, and collection efficiencies all likely to be severely impacted.', 'But for how long? Wouldn’t it be natural for banks to adapt, like other industries (think: IT, Consumer) ?'],
         description: ["Bank Nifty, HDFC Bank, ICICI Bank are down between 38-52 %, post the pandemic, reporting higher provisions, limited loan origination growth & decreased collection efficiencies. But for how long?"],
-        startTime: 1604309400000,
-        endTime: 1609428600000,
-        loadtime: 1596468600000,
+        startTime: 1604309400000 - 19800000,
+        endTime: 1609428600000 - 19800000,
+        loadtime: 1596468600000 - 19800000,
         levels: [43],
     },
     {
@@ -477,9 +477,9 @@ const exercises = [
         winCriteria: 6,//6% more than invested
         detailDescription: ['While demand for pharmaceutical products is high, lockdowns & limited movement are likely to greatly increase supply side challenges, significantly impacting manufacturing & distribution capabilities. The initial up-move, post the March 2020 mayhem has led to good movement across Pharma names, but for how long?', 'Q4FY20 results are expected by the end of May 2020 (across cos), with limited information availability prior to that, prices are likely to take a pause and consolidate. Do stocks continue their upward momentum & more importantly, what patterns form during this period?'],
         description: ["Pharma stocks survived the March 2020 onslaught (relatively), with their services in demand (duh!). After an initial up-move, prices took a breather forming multiple interesting patterns on the chart. What direction did they eventually take though?"],
-        startTime: 1588757400000,
-        endTime: 1590939000000,
-        loadtime: 1612193400000,
+        startTime: 1588757400000 - 19800000,
+        endTime: 1590939000000 - 19800000,
+        loadtime: 1612193400000 - 19800000,
         levels: [33],
     }
 ]
