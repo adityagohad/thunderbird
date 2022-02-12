@@ -45,7 +45,7 @@ const insertFeed = function (db, data, callback) {
     });
 };
 
-//getAllCSVs();
+getAllCSVs();
 getAllEvents();
 getAllFeed();
 
