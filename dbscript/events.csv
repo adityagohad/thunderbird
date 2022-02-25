@@ -66,3 +66,6 @@ Sr No,Ex id,Stock Name,Ticker,Time-frame,Minimum candle history,At,atHour,End da
 65,9,Adani Ports,ADANIPORTS,15-minute,1/3/22,1/7/22,12:45,1/7/22,13:45,1,Support at 730,733.5,741.25,729.65,2.012987013,BTST,Non-Assisted,Click2
 66,10,PEL,PEL,15-minute,12/22/21,12/22/21,12:45,12/22/21,13:45,2,Resistance at 2605,2597.45,2576.9,2607.75,1.995145631,Intraday trader,Non-Assisted,Click1
 67,10,PEL,PEL,15-minute,12/22/21,12/23/21,9:30,12/23/21,10:30,2,Resistance at 2605,2599.05,2576,2610.55,2.004347826,Intraday trader,Non-Assisted,Click2
+68,11,Godrej Properties,GODREJPROP,15-minute,12/17/21,12/17/21,14:30,12/17/21,15:00,5,Support at 1993.50,1904.05,1810.1,1951,2.001064963,BTST,Non-Assisted,
+69,12,Hindalco,HINDALCO,60-minute,9/1/21,9/14/21,13:30,9/14/21,14:30,45,Support band (472-475),476.1,485.3,471.5,2,BTST,Non-Assisted,
+70,13,Berger Paint,BERGEPAINT,5-minute,12/29/21,12/29/21,12:35,12/29/21,13:15,16,-,755.7,751.8,757.65,2,Intraday trader,Non-Assisted,

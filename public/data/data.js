@@ -309,6 +309,25 @@ const companies = {
 
 const exercises = [
     {
+        id: 13,
+        title: "Berger Paint in a channel",
+        stocks: [companies.BERGEPAINT],
+        difficulty: "Moderate",
+        minCapitalRequirement: 100000,
+        concepts: ['SResistance', 'Falling Trendline'],
+        filters: ["Trending Stocks "],
+        shortDescription: "#2 paint player in the country, Berger Paint is a strongly owned counter, and part of Nifty F&O. Some of the patterns in this stock repeat frequently,",
+        timeFrames: '5 min',
+        tradeType: [' Intraday'],
+        winCriteria: 0.2,//0.2% more than invested
+        detailDescription: ['Falling trendline patterns in intraday trades indicates short correction in prices. Taking short trades (unless there is a breakout) is the way to go and earn some bucks. These patterns occur multiple times every 1-2 months', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
+        description: ["#2 paint player in the country, Berger Paint is a strongly owned counter, and part of Nifty F&O. Some of the patterns in this stock repeat frequently,"],
+        startTime: 1640779200000 - 19800000,//14 Sept 21 13: 45,
+        endTime: 1640791800000 - 19800000,//17 Sept 21 12: 00,
+        loadtime: 1632916800000 - 19800000,//14 June 21 13: 45,
+        levels: [16],
+    },
+    {
         id: 6,
         title: "OG Technology Player",
         stocks: [companies.WIPRO],

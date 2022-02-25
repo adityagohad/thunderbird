@@ -1,28 +1,43 @@
-Ticker,Ex id,Start Date,End Date,title,Feed/Copy,
-WIPRO,6,7/14/21 9:00,7/14/21 10:00,Pattern forms,"Prices have been trading within 2 falling trend lines, making a falling channel pattern. ",0
-WIPRO,6,7/14/21 10:00,7/14/21 11:00,Breakout?,Prices finally gave a breakout above the falling channel. False alarm?,0
-WIPRO,6,7/14/21 11:00,7/14/21 12:00,Accumulation time,Volumes surge as accumulation leads to huge up moves. Damn!! Can you still enter?,0
-WIPRO,6,7/14/21 12:00,7/14/21 13:00,How much longer?,"Indecisiveness creeps in, with the stock nearing its stiff resistance at INR 561. What do you think happens next?",0
-WIPRO,6,7/14/21 13:00,7/14/21 15:00,Are we done?,"That’s it. That’s all for today, with the stock closing at its stiff resistance. Darn it!",0
-ITC,7,12/23/21 9:30,12/23/21 10:15,Double Bottom Pattern,"Prices begin testing, and eventually breaking the double Bottom pattern",
-ITC,7,12/23/21 10:15,12/23/21 11:30,Retest,"Prices are retesting the breakout level, which can act as a sign of strength",
-ITC,7,12/23/21 11:30,12/23/21 13:45,Volumes,"Momentum rises, as volumes surge on hopes of a successful breakout",
-ITC,7,12/23/21 13:45,12/24/21 10:00,Resistance,"Facing stiff resistance at 218, prices halt their pause and get pushed down",
-ITC,7,12/24/21 10:00,12/24/21 10:45,Lift off!,"Prices finally break the stiff resistance of 218. Be careful tho, this is ITC we’re talking about",
-ITC,7,12/24/21 10:45,12/24/21 12:00,Darn it!,"ITC being ITC loses all momentum, post breakout, with the stock eventually closing below resistance line 😒",
-ICICIBANK,8,1/5/22 9:30,1/5/22 9:45,Breakout,Prices have given a breakout above the resistance band. Will that sustain?,
-ICICIBANK,8,1/5/22 9:45,1/5/22 11:30,Retest,ICICI Bank begins retesting the breakout level. A good sign?,
-ICICIBANK,8,1/5/22 11:30,1/5/22 13:30,Accumulation,"Traders accumulate the stock, as volumes rise and price consolidates. Sign of the good times 😜",
-ICICIBANK,8,1/5/22 13:30,1/5/22 15:00,HH & HL,A staple of resistance band breakouts is the formation of higher high & higher low patterns,
-ICICIBANK,8,1/5/22 15:00,1/5/22 15:30,Abort! 🧨,"Trend reverses as the majority of traders exit, post recording gains. Time to move on?",
-ADANIPORTS,9,1/6/22 13:00,1/6/22 14:15,We’ve got support!,"Prices take support along, with volumes rising (traders enter)",
-ADANIPORTS,9,1/6/22 14:15,1/6/22 15:30,Resistance incoming,"Prices successfully break earlier resistance, en-route to more moves?",
-ADANIPORTS,9,1/7/22 9:00,1/7/22 11:00,Gap Up!!,"Prices open gap-up, but find stiff resistance along the way.",
-ADANIPORTS,9,1/7/22 11:00,1/7/22 11:30,Break-down!,"Prices get pushed below the resistance, and try finding a new support level. Successful?",
-ADANIPORTS,9,1/7/22 11:30,1/7/22 13:30,Free-Fall!,"Uh-oh, prices continue dipping, with the stock unable to find support. Does this continue?",
-ADANIPORTS,9,1/7/22 13:30,1/7/22 14:45,Landed!,"We’ve got ourselves a safe landing. Prices find support in a strong demand zone, with traders providing a strong bounce-back.",
-PEL,10,12/22/21 13:00,12/22/21 13:45,Resistance Incoming!,"Prices faces stiff resistance, with a strong downfall, as major supply zone continues",
-PEL,10,12/22/21 13:45,12/22/21 15:30,Hard Landing!,"Finally! Prices take a breather, finding support?",
-PEL,10,12/23/21 9:30,12/23/21 10:30,Gap-Up,"Prices try to find their groove, opening gap-up and trying to rest key resistance. Success?",
-PEL,10,12/23/21 10:30,12/23/21 11:00,Volatility Incoming!,High volatility in the counter causes prices to drop sharply towards its major support. What next?,
-PEL,10,12/23/21 11:00,12/23/21 12:00,In Range,"The stocks swinging like a pendulum, in between its range. Possible signs of accumulation?",
+Ticker,Ex id,Start Date,End Date,title,Feed/Copy
+WIPRO,6,7/14/2021 9:15,7/14/21 10:00,Pattern forms,"Prices have been trading within 2 falling trend lines, making a falling channel pattern. "
+WIPRO,6,7/14/21 10:00,7/14/21 11:00,Breakout?,Prices finally gave a breakout above the falling channel. False alarm?
+WIPRO,6,7/14/21 11:00,7/14/21 12:00,Accumulation time,Volumes surge as accumulation leads to huge up moves. Damn!! Can you still enter?
+WIPRO,6,7/14/21 12:00,7/14/21 13:00,How much longer?,"Indecisiveness creeps in, with the stock nearing its stiff resistance at INR 561. What do you think happens next?"
+WIPRO,6,7/14/21 13:00,7/14/21 15:00,Are we done?,"That’s it. That’s all for today, with the stock closing at its stiff resistance. Darn it!"
+ITC,7,12/23/21 9:30,12/23/21 10:15,Double Bottom Pattern,"Prices begin testing, and eventually breaking the double Bottom pattern"
+ITC,7,12/23/21 10:15,12/23/21 11:30,Retest,"Prices are retesting the breakout level, which can act as a sign of strength"
+ITC,7,12/23/21 11:30,12/23/21 13:45,Volumes,"Momentum rises, as volumes surge on hopes of a successful breakout"
+ITC,7,12/23/21 13:45,12/24/21 10:00,Resistance,"Facing stiff resistance at 218, prices halt their pause and get pushed down"
+ITC,7,12/24/21 10:00,12/24/21 10:45,Lift off!,"Prices finally break the stiff resistance of 218. Be careful tho, this is ITC we’re talking about"
+ITC,7,12/24/21 10:45,12/24/21 12:00,Darn it!,"ITC being ITC loses all momentum, post breakout, with the stock eventually closing below resistance line 😒"
+ICICIBANK,8,1/5/22 9:30,1/5/22 9:45,Breakout,Prices have given a breakout above the resistance band. Will that sustain?
+ICICIBANK,8,1/5/22 9:45,1/5/22 11:30,Retest,ICICI Bank begins retesting the breakout level. A good sign?
+ICICIBANK,8,1/5/22 11:30,1/5/22 13:30,Accumulation,"Traders accumulate the stock, as volumes rise and price consolidates. Sign of the good times 😜"
+ICICIBANK,8,1/5/22 13:30,1/5/22 15:00,HH & HL,A staple of resistance band breakouts is the formation of higher high & higher low patterns
+ICICIBANK,8,1/5/22 15:00,1/5/22 15:30,Abort! 🧨,"Trend reverses as the majority of traders exit, post recording gains. Time to move on?"
+ADANIPORTS,9,1/6/22 13:00,1/6/22 14:15,We’ve got support!,"Prices take support along, with volumes rising (traders enter)"
+ADANIPORTS,9,1/6/22 14:15,1/6/22 15:30,Resistance incoming,"Prices successfully break earlier resistance, en-route to more moves?"
+ADANIPORTS,9,1/7/22 9:00,1/7/22 11:00,Gap Up!!,"Prices open gap-up, but find stiff resistance along the way."
+ADANIPORTS,9,1/7/22 11:00,1/7/22 11:30,Break-down!,"Prices get pushed below the resistance, and try finding a new support level. Successful?"
+ADANIPORTS,9,1/7/22 11:30,1/7/22 13:30,Free-Fall!,"Uh-oh, prices continue dipping, with the stock unable to find support. Does this continue?"
+ADANIPORTS,9,1/7/22 13:30,1/7/22 14:45,Landed!,"We’ve got ourselves a safe landing. Prices find support in a strong demand zone, with traders providing a strong bounce-back."
+PEL,10,12/22/21 13:00,12/22/21 13:45,Resistance Incoming!,"Prices faces stiff resistance, with a strong downfall, as major supply zone continues"
+PEL,10,12/22/21 13:45,12/22/21 15:30,Hard Landing!,"Finally! Prices take a breather, finding support?"
+PEL,10,12/23/21 9:30,12/23/21 10:30,Gap-Up,"Prices try to find their groove, opening gap-up and trying to rest key resistance. Success?"
+PEL,10,12/23/21 10:30,12/23/21 11:00,Volatility Incoming!,High volatility in the counter causes prices to drop sharply towards its major support. What next?
+PEL,10,12/23/21 11:00,12/23/21 12:00,In Range,"The stocks swinging like a pendulum, in between its range. Possible signs of accumulation?"
+GODREJPROP,11,12/17/21 14:45,12/17/21 15:15,Panic Selling!?,Panic among intraday traders as prices sharply fall close to day end.
+GODREJPROP,11,12/17/21 15:15,12/20/21 9:15,Strong Closing,"Ray of hope as price recovers after panic selling, with the stock closing strongly."
+GODREJPROP,11,12/20/21 9:15,12/20/21 10:30,False Alarm?,"Prices open lower than expected (gap down) with huge price fluctuations (volatility), with previous day closing of no use."
+GODREJPROP,11,12/20/21 10:30,12/20/21 12:45,Opt out?,"Selling continues, with the stock unable to find a decent landing spot, forming LH and LL patterns."
+GODREJPROP,11,12/20/21 12:45,12/20/21 14:00,Finally!,"Prices are trading sideways (consolidation) after a long correction, time to buy?"
+GODREJPROP,11,12/20/21 14:00,12/20/21 14:45,Change in Direction,"After a sideways consolidation, the stock gave a decent long breakout (long)."
+HINDALCO,12,9/14/21 14:15,9/14/21 15:30,Positivity!,We start off with a strong bullish candle pattern formation. Time to lift off?
+HINDALCO,12,9/14/21 15:30,9/15/21 12:00,2nd Retest,"Prices are retesting breakout levels, which is a good sign of positivity in the counter."
+HINDALCO,12,9/15/21 12:00,9/15/21 15:30,Breakout,"After multiple retests and consolidation, prices are now inching towards a consolidation. Let’s enter?"
+HINDALCO,12,9/15/21 15:30,9/16/21 13:00,Done?,Prices closed near days high yesterday. Are there more legs to the rally? See initial signs for possible reversal signs.
+HINDALCO,12,9/16/21 13:00,9/17/21 10:00,Lower high forms,Prices make a lower high. Is the trend changing?
+HINDALCO,12,9/17/21 10:00,9/17/21 11:00,Role Reversal Initiated,"Lower High, Lower Low pattern forms, with trend changing, and a role reversal initiated."
+BERGEPAINT,13,12/29/21 12:30,12/29/21 13:30,Lower Highs,"Prices have made multiple lower highs, should create a short position right?"
+BERGEPAINT,13,12/29/21 13:30,12/29/21 14:30,There we go!,"Prices yet again face resistance along the falling line, time to short?"
+BERGEPAINT,13,12/29/21 14:30,12/29/21 15:30,Buy on fall?,After a decent correction prices have shown a steady up move approaching the falling trendline
