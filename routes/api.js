@@ -25,7 +25,7 @@ const initDB = function (callback) {
 
 router.get('/exercises/:id', function (req, res, next) {
     if (req.params.id == "all") {
-        res.send(JSON.stringify(sd.exercises));
+        res.end(JSON.stringify(sd.exercises));
         client.close();
     } else {
         initDB(async function (db, client) {
@@ -112,6 +112,7 @@ router.get('/quote', function (req, res, next) {
         "Tell me the difference between stupid and illegal and I'll have my wife's brother arrested",
         "I Want You To Deal With Your Problems By Becoming Rich!",
         "No one can see a bubble. That's what makes it a bubble"]
+    res.setHeader('Content-Type', 'text/plain');
     res.end(JSON.stringify(quotes[Math.floor((Math.random() * quotes.length))]));
 });
 
