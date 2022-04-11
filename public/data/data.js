@@ -326,8 +326,8 @@ const exercises = [
         endTime: 1640791800000 - 19800000,//17 Sept 21 12: 00,
         loadtime: 1632916800000 - 19800000,//14 June 21 13: 45,
         levels: [16],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["what-are-trendlines", "what-are-trendlines-1"] //slug
     },
     {
@@ -348,8 +348,8 @@ const exercises = [
         endTime: 1626274800000 - 19800000,
         loadtime: 1618390800000 - 19800000,
         levels: [31],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["what-is-a-trend-channel"],
     },
     {
@@ -370,8 +370,8 @@ const exercises = [
         endTime: 1640598300000 - 19800000,
         loadtime: 1632387600000 - 19800000,
         levels: [21],
-        bottomColor: "0xFFFF512E",
-        topColor: "0xFFF09719",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["double-bottom", "what-is-a-double-top-and-double-bottom"],
     },
     {
@@ -392,8 +392,8 @@ const exercises = [
         endTime: 1641462300000 - 19800000,
         loadtime: 1633425300000 - 19800000,
         levels: [8],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["what-is-support-band-and-resistance-band", "what-is-a-resistance-band", "resistance-band-breakout-trade", "what-is-a-support-band", "https://www.youtube.com/embed/DMvLJCVpfCI"], //slug
     },
     {
@@ -414,8 +414,8 @@ const exercises = [
         endTime: 1641811500000 - 19800000,
         loadtime: 1633523400000 - 19800000,
         levels: [1],
-        bottomColor: "0xFFFF512E",
-        topColor: "0xFFF09719",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["support-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -436,8 +436,8 @@ const exercises = [
         endTime: 1640262600000 - 19800000,
         loadtime: 1632313800000 - 19800000,
         levels: [2],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["resistance-taken", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -458,8 +458,8 @@ const exercises = [
         endTime: 1640012400000 - 19800000,//20 Dec 21 15: 00,
         loadtime: 1631888100000 - 19800000,//17 Sept 21 14: 15,
         levels: [5],
-        bottomColor: "0xFF402D97",
-        topColor: "0xFFA7BEFE",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["support-breakdown", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -480,8 +480,8 @@ const exercises = [
         endTime: 1631880000000 - 19800000,//17 Sept 21 12: 00,
         loadtime: 1623678300000 - 19800000,//14 June 21 13: 45,
         levels: [45],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["role-reversal", "basics-of-price-action", "what-is-role-reversal", "what-us-role-reversal-support-band-and-resistance-band"],
     },
     {
@@ -502,8 +502,8 @@ const exercises = [
         endTime: 1604158200000 - 19800000,
         loadtime: 1591111800000 - 19800000,
         levels: [1, 2],
-        bottomColor: "0xFF402D97",
-        topColor: "0xFFA7BEFE",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["support-taken", "resistance-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -524,8 +524,8 @@ const exercises = [
         endTime: 1630423800000 - 19800000,
         loadtime: 1619796600000 - 19800000,
         levels: [33],
-        bottomColor: "0xFFFF512E",
-        topColor: "0xFFF09719",
+        bottomColor: "0xFF0F3443",
+        topColor: "0xFF34E89E",
         resources: ["resistance-breakout", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -546,8 +546,8 @@ const exercises = [
         endTime: 1640964600000 - 19800000,
         loadtime: 1627831800000 - 19800000,
         levels: [1, 2, 5, 6],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["resistance-breakout", "support-taken", "support-breakdown", "resistance-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
     },
     {
@@ -568,8 +568,8 @@ const exercises = [
         endTime: 1609428600000 - 19800000,
         loadtime: 1596468600000 - 19800000,
         levels: [43],
-        bottomColor: "0xFF192949",
-        topColor: "0xFF4B6CB7",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["inside-bar"],
     },
     {
@@ -590,8 +590,8 @@ const exercises = [
         endTime: 1590939000000 - 19800000,
         loadtime: 1612193400000 - 19800000,
         levels: [33],
-        bottomColor: "0xFFFF512E",
-        topColor: "0xFFF09719",
+        bottomColor: "0xFF000046",
+        topColor: "0xFF1CB5E0",
         resources: ["bullish-flag", "what-is-a-flag-pattern"],
     }
 ]
