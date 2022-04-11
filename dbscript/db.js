@@ -46,7 +46,7 @@ const insertFeed = function (db, data, callback) {
 };
 
 // getAllCSVs();
-getAllEvents();
+//getAllEvents();
 getAllFeed();
 
 function getAllCSVs() {
@@ -166,7 +166,7 @@ function populateFeed() {
         data['endTime'] = moment(feedResult[i]['End Date'], "MM/DD/YYYY hh:mm").valueOf()
         data['feed'] = feedResult[i]['Feed/Copy']
         data['title'] = feedResult[i]['title']
-        data['ticker'] = feedResult[i]['Ticker']
+        //data['ticker'] = feedResult[i]['Ticker']
         dbs.push(data);
     }
     initDB(function (db, client) {
