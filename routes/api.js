@@ -158,7 +158,6 @@ router.get('/stories', function (req, res, next) {
 });
 
 
-
 router.get('/sector_trends', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
     x = {
@@ -232,6 +231,14 @@ router.get('/latest_update', function (req, res, next) {
                 url: "https://cdn.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
                 thumbnail: "https://imgix.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
             },
+        ],
+        video: [
+            {
+                id: 1,
+                title: "Stock Markets Recap Week Of 25th February 2022",
+                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
+                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            }
         ],
         infographic: [
             {
