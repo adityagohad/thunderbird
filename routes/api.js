@@ -116,6 +116,98 @@ router.get('/quote', function (req, res, next) {
     res.end(JSON.stringify(quotes[Math.floor((Math.random() * quotes.length))]));
 });
 
+router.get('/stories', function (req, res, next) {
+    res.setHeader('Content-Type', 'text/plain');
+    x = {
+        newsletter: [
+            {
+                id: 1,
+                title: "Commodities fallout from Russia invasion balloons 💥",
+                url: "https://finlearnacademy.com/newsletter/commodities-fallout-from-russia-invasion-balloons/",
+                thumbnail: "https://imgix.cosmicjs.com/2e1c1fb0-a10b-11ec-a634-2f1716dd45af-Ccommodities.png",
+            }
+        ],
+        video: [
+            {
+                id: 1,
+                title: "Stock Markets Recap Week Of 25th February 2022",
+                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
+                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            }
+        ],
+        infographic: [
+            {
+                id: 1,
+                title: "Brands operated by ITC",
+                description: "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
+                thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
+                data: ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
+            },
+        ],
+        blog: [
+            {
+                id: 1,
+                title: "How to Open a Demat Account",
+                url: "https://finlearnacademy.com/blog/how-to-open-a-demat-account/",
+                thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+            }
+        ]
+    };
+    res.end(JSON.stringify(x));
+    client.close();
+});
+
+
+
+router.get('/sector_trends', function (req, res, next) {
+    res.setHeader('Content-Type', 'text/plain');
+    x = {
+        newsletter: [
+            {
+                id: 1,
+                title: "BI MPC at key juncture 🧨",
+                url: "https://finlearnacademy.com/newsletter/rbi-mpc-at-key-juncture/",
+                thumbnail: "https://imgix.cosmicjs.com/5d7e0cb0-9f98-11ec-a634-2f1716dd45af-11.png",
+            },
+            {
+                id: 2,
+                title: "IT poised to build on growth 🚀",
+                url: "https://finlearnacademy.com/newsletter/it-poised-to-build-on-growth/",
+                thumbnail: "https://imgix.cosmicjs.com/dd87fb70-9f96-11ec-a634-2f1716dd45af-11.png",
+            },
+            {
+                id: 3,
+                title: "BFSI highly dependent on FPI inflows to turn-around underperformance",
+                url: "https://finlearnacademy.com/newsletter/bfsi-highly-dependent-on-fpi-inflows-to-turn-around-underperformance/",
+                thumbnail: "https://imgix.cosmicjs.com/7b1fb8b0-9f96-11ec-a634-2f1716dd45af-11.png"
+            },
+            {
+                id: 4,
+                title: "Commodities fallout from Russia invasion balloons 💥",
+                url: "https://finlearnacademy.com/newsletter/commodities-fallout-from-russia-invasion-balloons/",
+                thumbnail: "https://imgix.cosmicjs.com/2e1c1fb0-a10b-11ec-a634-2f1716dd45af-Ccommodities.png",
+            },
+            {
+                id: 5,
+                title: "India Pharma returns to trend-line growth 📈",
+                url: "https://finlearnacademy.com/newsletter/india-pharma-market-returns-to-trend-line-growth/",
+                thumbnail: "https://imgix.cosmicjs.com/c9de6c80-a432-11ec-a536-8726e3bb3867-US-Inflation.png",
+            },
+        ],
+        infographic: [
+            {
+                id: 1,
+                title: "Results of Top Steel Stocks for Q3",
+                description: "Results of Top 5 Steel Stocks:\n\nTata Steel\nJSW Steel\nSAIL\nAPL Apollo Tubes\nJindal Stainless\n\nDon't forget to swipe left and check out an opportunity in another hidden metal sector gem",
+                thumbnail: "https://imgix.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png",
+                data: ["https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png", "https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png"],
+            },
+        ],
+    };
+    res.end(JSON.stringify(x));
+    client.close();
+});
+
 
 const findCandlesForTimeFrame = function (db, req, callback) {
     const collection = db.collection('candles');

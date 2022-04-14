@@ -632,4 +632,4 @@ const headline = [
     }
 ]
 
-module.exports = { companies, exercises, headline, copies, stocks }
+module.exports = { companies, exercises, headline, copies, stocks, sectors }
