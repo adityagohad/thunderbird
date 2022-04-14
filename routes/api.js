@@ -194,6 +194,14 @@ router.get('/sector_trends', function (req, res, next) {
                 thumbnail: "https://imgix.cosmicjs.com/c9de6c80-a432-11ec-a536-8726e3bb3867-US-Inflation.png",
             },
         ],
+        video: [
+            {
+                id: 1,
+                title: "Stock Markets Recap Week Of 25th February 2022",
+                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
+                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            }
+        ],
         infographic: [
             {
                 id: 1,
@@ -201,6 +209,58 @@ router.get('/sector_trends', function (req, res, next) {
                 description: "Results of Top 5 Steel Stocks:\n\nTata Steel\nJSW Steel\nSAIL\nAPL Apollo Tubes\nJindal Stainless\n\nDon't forget to swipe left and check out an opportunity in another hidden metal sector gem",
                 thumbnail: "https://imgix.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png",
                 data: ["https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png", "https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png"],
+            },
+        ],
+    };
+    res.end(JSON.stringify(x));
+    client.close();
+});
+
+router.get('/latest_update', function (req, res, next) {
+    res.setHeader('Content-Type', 'text/plain');
+    x = {
+        newsletter: [
+            {
+                id: 1,
+                title: "Stock Markets Recap Week Of 25th February 2022",
+                url: "https://cdn.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            },
+            {
+                id: 2,
+                title: "Stock Markets Recap Week Of 18th February 2022",
+                url: "https://cdn.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+                thumbnail: "https://imgix.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            },
+        ],
+        infographic: [
+            {
+                id: 1,
+                title: "Brands operated by ITC",
+                description: "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
+                thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
+                data: ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
+            },
+            {
+                id: 2,
+                title: "Tata Group vs Reliance Group",
+                description: "Did you know? Tata Sons (Parent company of all major Tata companies)  is the biggest promoter group in India and Reliance Industries is the company with the highest market capitalisation in India (listed companies)\n\nBoth are major groups and have helped India grow. Don't forget to swipe left and see a development we observed on Mukesh Ambani's Reliance Group",
+                thumbnail: "https://imgix.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png",
+                data: ["https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png", "https://cdn.cosmicjs.com/44dbd4f0-9fb4-11ec-a634-2f1716dd45af-tatavreliance1.png"],
+            },
+            {
+                id: 3,
+                title: "Major Stocks in 52 week low",
+                description: "Nifty after making a high of 18,604.45 and Sensex making a high of 62,245.43 have corrected over 10%. Situations like these get investors interested because everyone buys the dip :p\n\nThese are a few stocks currently trading close to their 52-week lows. Good time to buy?",
+                thumbnail: "https://imgix.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png",
+                data: ["https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png"],
+            },
+            {
+                id: 4,
+                title: "Major Global Index returns in past 5 years",
+                description: "Mera desh badal raha hai, aage badh raha hai?\nTop 5 countries giving the best returns (index)\n\nUSA\nIndia\nFrance\nJapan\nGermany\n\nWhich index is most likely to yield the most returns in the next 5 years?",
+                thumbnail: "https://imgix.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png",
+                data: ["https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png"],
             },
         ],
     };
