@@ -607,11 +607,11 @@ const copies = {
 }
 const headline = [
     {
-        levels: [1, 3, 9, 13, 15, 27],
+        levels: [1, 3, 9, 13, 15, 27, 45],
         possiblecopies: ["The stock that does not correct?", "The strongest level of all time?", "Time for a rebound?"],
     },
     {
-        levels: [2, 4, 10, 14, 16, 30],
+        levels: [2, 4, 10, 14, 16, 30, 46],
         possiblecopies: ["The struggle is real", "The strongest level of all time?", "Time for a rebound?"],
     },
     {

@@ -27,6 +27,17 @@ router.get('/exercises/:id', function (req, res, next) {
     if (req.params.id == "all") {
         res.end(JSON.stringify(sd.exercises));
         client.close();
+    } else if (req.params.id == "trending") {
+        console.log(req.params.id);
+        var trendingExercise = [];
+        for (i = 0; i < sd.exercises.length; i++) {
+            if (sd.exercises[i].id == 8 || sd.exercises[i].id == 7 || sd.exercises[i].id == 3) {
+                console.log(sd.exercises.id);
+                trendingExercise.push(sd.exercises[i]);
+            }
+        }
+        res.end(JSON.stringify(trendingExercise));
+        client.close();
     } else {
         initDB(async function (db, client) {
             var tickers = sd.exercises.find(exercise => exercise.id == req.params.id).stocks.map(x => x.ticker);

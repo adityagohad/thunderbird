@@ -46,8 +46,8 @@ const insertFeed = function (db, data, callback) {
 };
 
 // getAllCSVs();
-//getAllEvents();
-getAllFeed();
+getAllEvents();
+//getAllFeed();
 
 function getAllCSVs() {
     fetchCSV(sd.stocks[counter]);
