@@ -542,9 +542,9 @@ const exercises = [
         winCriteria: 14,//14% more than invested
         detailDescription: ['Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav.', 'Jio changed the landscape, slashing prices, providing bundled services, widening the scope of their offerings, and smashing records of new subscribers in the process.', 'Soon enough, competitors including Bharti, Vi followed suit, offering similar prices and packages.', 'But for how long? ARPUs were languishing around the INR 120-150 mark, with telcos needing to hike prices to run sustainable organisations. Would Mr. Ambani soften? And what about the elephant in the room? The government was still expecting massive payouts from long-overdue AGR payments.'],
         description: ["Since Mukesh Ambani decided data is the new oil, the telecom sector has gone from a multi-player market, to a duopoly (sorry Vi :P). The price for 1 GB of data is cheaper than a Vada Pav, but how sustainable is this?"],
-        startTime: 1637400600000 - 19800000,
-        endTime: 1640964600000 - 19800000,
-        loadtime: 1627831800000 - 19800000,
+        startTime: 1635757200000 - 19800000,
+        endTime: 1640984400000 - 19800000,
+        loadtime: 1627851600000 - 19800000,
         levels: [1, 2, 5, 6],
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
