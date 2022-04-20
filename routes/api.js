@@ -172,6 +172,56 @@ router.get('/stories', function (req, res, next) {
     client.close();
 });
 
+router.get('/dummy', function (req, res, next) {
+    res.setHeader('Content-Type', 'text/plain');
+    x = [
+        {
+            orientation: 1,
+            data: [{
+                id: 1,
+                type: "blog",
+                title: "How to Open a Demat Account",
+                url: "https://finlearnacademy.com/blog/how-to-open-a-demat-account/",
+                thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+            }, {
+                id: 1,
+                title: "Brands operated by ITC",
+                type: "infographic",
+                description: "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
+                thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
+                data: ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
+            }, {
+                id: 1,
+                type: "video",
+                title: "Stock Markets Recap Week Of 25th February 2022",
+                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
+                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            }]
+        },
+        {
+            orientation: 2,
+            data: [
+                {
+                    id: 1,
+                    type: "quiz",
+                    title: "Let's See How Much You know About the FMCG Sector?",
+                    url: "https://finlearnacademy.com/quiz/sector-analysis-fmcg/",
+                    thumbnail: "https://cdn.cosmicjs.com/24f37a90-bff2-11ec-bf80-e74645a81647-Quiz-Imge.jpg",
+                },
+                {
+                    id: 2,
+                    type: "quiz",
+                    title: "Conceptual Quiz on Trend",
+                    url: "https://finlearnacademy.com/quiz/conceptual-quiz-on-trend/",
+                    thumbnail: "https://cdn.cosmicjs.com/d2eaa7a0-bff1-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                }
+            ]
+        }
+    ];
+    res.end(JSON.stringify(x));
+    client.close();
+});
+
 
 router.get('/sector_trends', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
