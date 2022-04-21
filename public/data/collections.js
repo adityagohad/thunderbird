@@ -213,4 +213,4 @@ const short_term_investing = [
     }
 ];
 
-module.exports = { future_and_options, long_term_investing, short_term_investing }
+module.exports = { future_and_options, long_term_investing, short_term_investing, dummy }
