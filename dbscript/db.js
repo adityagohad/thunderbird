@@ -80,6 +80,7 @@ function populate(name) {
         data['high'] = parseFloat(results[i]['High']);
         data['low'] = parseFloat(results[i]['Low']);
         data['close'] = parseFloat(results[i]['Close']);
+        data['vol'] = Math.round(parseFloat(results[i]['Open']) - parseFloat(results[i]['Close'])) * 100
         dbs.push(data)
     }
 

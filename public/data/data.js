@@ -442,7 +442,7 @@ const exercises = [
     },
     {
         id: 11,
-        title: "Weaj support can't sustain?",
+        title: "Weak support can't sustain?",
         stocks: [companies.GODREJPROP],
         difficulty: "Easy",
         minCapitalRequirement: 100000,

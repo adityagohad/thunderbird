@@ -105,6 +105,32 @@ const future_and_options = [
                 consumption_meta_string: "9 questions"
             }
         ]
+    },
+    {
+        orientation: Orientation.verticle,
+        data: [
+            {
+                "id": 3,
+                "slug": "getting-started-with-fo",
+                "title": "Getting Started with F&O",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-20T14:44:25.610Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-21T11:28:32.924Z",
+                "created": "2022-04-20T14:44:25.610Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+                "published_at": "2022-04-21T11:28:32.924Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.video,
+                "date": "2022-04-20",
+                "url": "https://www.youtube.com/embed/7RMeLptn0pE",
+
+            }
+        ]
     }
 ];
 
@@ -163,6 +189,32 @@ const long_term_investing = [
                 consumption_meta_string: "10 questions"
             }
         ]
+    },
+    {
+        orientation: Orientation.verticle,
+        data: [
+            {
+                "id": 6,
+                "slug": "how-to-study-economic-reports",
+                "title": "How to study Economic Reports?",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-20T14:47:23.779Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-21T11:28:10.077Z",
+                "created": "2022-04-20T14:47:23.779Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+                "published_at": "2022-04-21T11:28:10.077Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.video,
+                "date": "2022-04-20",
+                "url": "https://www.youtube.com/embed/aP4ve4upDss",
+
+            }
+        ]
     }
 ];
 
@@ -210,6 +262,32 @@ const short_term_investing = [
                 url: "https://finlearnacademy.com/quiz/conceptual-quiz-on-trend/",
                 date: "2022-04-05",
                 consumption_meta_string: "14 questions"
+            }
+        ]
+    },
+    {
+        orientation: Orientation.verticle,
+        data: [
+            {
+                "id": "626019a53948e80009e7ff66",
+                "slug": "introduction-to-swing-trading",
+                "title": "Introduction to Swing Trading",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-20T14:33:09.318Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-21T11:29:09.049Z",
+                "created": "2022-04-20T14:33:09.318Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
+                "published_at": "2022-04-21T11:29:09.049Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.video,
+                "date": "2022-04-20",
+                "url": "https://www.youtube.com/embed/Vxc8W43eNkE",
+
             }
         ]
     }
