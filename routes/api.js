@@ -16,6 +16,7 @@ const cs = require('../public/data/collections.js')
 const moment = require('moment')
 
 
+
 const initDB = function (callback) {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, function (err, client) {
         assert.equal(null, err);
@@ -189,9 +190,16 @@ router.get('/collection/:slug', function (req, res, next) {
         case "short_term_investing":
             res.end(JSON.stringify(cs.short_term_investing));
             break;
+        case "latest_update":
+            res.end(JSON.stringify(cs.latest_update));
+            break;
+        case "sector_trends":
+            res.end(JSON.stringify(cs.sector_trends));
+            break;
     }
     client.close();
 });
+
 
 router.get('/sector_trends', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
