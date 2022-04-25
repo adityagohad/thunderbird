@@ -269,7 +269,7 @@ const short_term_investing = [
         orientation: Orientation.verticle,
         data: [
             {
-                "id": "626019a53948e80009e7ff66",
+                "id": 4,
                 "slug": "introduction-to-swing-trading",
                 "title": "Introduction to Swing Trading",
                 "content": "",
