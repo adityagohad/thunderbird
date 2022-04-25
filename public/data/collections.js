@@ -800,7 +800,8 @@ const sector_trends = [
 
             }
         ],
-    }, {
+    },
+    {
         orientation: Orientation.grid_2x2,
         data: [
             {
