@@ -196,6 +196,9 @@ router.get('/collection/:slug', function (req, res, next) {
         case "sector_trends":
             res.end(JSON.stringify(cs.sector_trends));
             break;
+        case "back_to_basic":
+            res.end(JSON.stringify(cs.back_to_basic));
+            break;
     }
     client.close();
 });
