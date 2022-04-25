@@ -800,31 +800,6 @@ const sector_trends = [
 
             }
         ],
-    },
-    {
-        orientation: Orientation.grid_2x2,
-        data: [
-            {
-                "id": 1,
-                "slug": "new-entrant-in-the-market-we-got-your-back",
-                "title": "New Entrant in the market? We got your back!",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T20:40:23.441Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-04-22T07:54:15.461Z",
-                "created": "2022-03-09T20:40:23.441Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/639a4550-c211-11ec-bf80-e74645a81647-New-Entrant.png",
-                "published_at": "2022-04-22T07:54:15.461Z",
-                "modified_by": "62286fd327a8830009a2dcc2",
-                "publish_at": null,
-                "unpublish_at": null,
-                "type": Type.quiz,
-                "url": "https://finlearnacademy.com/quiz/new-entrant-in-the-market-we-got-your-back/",
-            }
-
-        ]
     }
 ];
 
@@ -1046,6 +1021,30 @@ const back_to_basic = [
                 "date": "2022-03-09",
                 "url": "https://www.youtube.com/embed/i1Yts1oPzZU",
 
+            }
+        ]
+    },
+    {
+        orientation: Orientation.grid_2x2,
+        data: [
+            {
+                "id": 1,
+                "slug": "new-entrant-in-the-market-we-got-your-back",
+                "title": "New Entrant in the market? We got your back!",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-03-09T20:40:23.441Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-22T07:54:15.461Z",
+                "created": "2022-03-09T20:40:23.441Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/639a4550-c211-11ec-bf80-e74645a81647-New-Entrant.png",
+                "published_at": "2022-04-22T07:54:15.461Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.quiz,
+                "url": "https://finlearnacademy.com/quiz/new-entrant-in-the-market-we-got-your-back/",
             }
         ]
     }
