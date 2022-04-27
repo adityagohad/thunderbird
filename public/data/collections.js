@@ -299,162 +299,6 @@ const latest_update = [
         data: [
             {
                 "id": 1,
-                "title": "Reliance Industries primed to reverse trend? 🚀",
-                "content": "",
-                "thumbnail": "https://imgix.cosmicjs.com/bf7a6e40-9f98-11ec-a634-2f1716dd45af-11.png",
-                "type": Type.newsletter,
-                "date": "2022-03-03",
-                "url": "https://finlearnacademy.com/newsletter/reliance-industries-primed-to-reverse-trend/",
-
-            },
-            {
-                "id": 2,
-                "title": "Ukraine invasion, and possible collateral damage ⚔",
-                "thumbnail": "https://imgix.cosmicjs.com/1bdf3b70-9f99-11ec-a634-2f1716dd45af-11.png",
-                "type": "newsletter",
-                "date": "2022-02-26",
-                "url": "https://finlearnacademy.com/newsletter/russia-ukraine-invasion-and-possible-collateral-damage/",
-
-            },
-            {
-                "id": 3,
-                "title": "IPL Media rights go under the hammer 🔨",
-
-                "thumbnail": "https://imgix.cosmicjs.com/e226afe0-9fa1-11ec-a634-2f1716dd45af-11.png",
-
-                "type": "newsletter",
-
-                "date": "2022-02-22",
-                "url": "https://finlearnacademy.com/newsletter/ipl-media-rights-go-under-the-hammer-market-indices/"
-
-            },
-            {
-                "id": 4,
-
-                "title": "Zomato Unit Economics fail to inspire 🤷🏼",
-
-                "thumbnail": "https://imgix.cosmicjs.com/2410ec90-9fa2-11ec-a634-2f1716dd45af-11.png",
-
-                "type": "newsletter",
-
-                "date": "2022-02-17",
-                "url": "https://finlearnacademy.com/newsletter/zomato-unit-economics-fail-to-inspire/"
-
-            },
-            {
-                "id": 5,
-                "title": "Star Health insurance struggles continue 🤦🏻‍♂️",
-
-                "thumbnail": "https://imgix.cosmicjs.com/6a41d3a0-9fa2-11ec-a634-2f1716dd45af-11.png",
-
-                "type": "newsletter",
-
-                "date": "2022-02-15",
-                "url": "https://finlearnacademy.com/newsletter/star-health-insurance-struggles-continue/"
-
-            },
-            {
-                "id": 6,
-                "title": "AU Small Finance Bank en-route to full-scale digital bank 🚀",
-
-                "thumbnail": "https://imgix.cosmicjs.com/f4a07ec0-9fa2-11ec-a634-2f1716dd45af-11.png",
-
-                "type": "newsletter",
-
-                "date": "2022-02-12",
-                "url": "https://finlearnacademy.com/newsletter/au-small-finance-bank-en-route-to-full-scale-digital-bank/"
-
-            },
-            {
-                "id": 7,
-                "title": "History repeating itself in Nifty50?! 🙄",
-                "content": "",
-
-                "thumbnail": "https://imgix.cosmicjs.com/7d4c3020-a10b-11ec-a634-2f1716dd45af-Nifty.png",
-                "type": "newsletter",
-
-                "date": "2022-03-08",
-                "url": "https://finlearnacademy.com/newsletter/history-repeating-itself-in-nifty50/",
-
-
-            },
-            {
-                "id": 8,
-                "title": "US inflation disappoints 🙃",
-
-                "thumbnail": "https://imgix.cosmicjs.com/24f29340-a432-11ec-a536-8726e3bb3867-US-Inflation.png",
-                "type": "newsletter",
-
-                "date": "2022-03-12",
-                "url": "https://finlearnacademy.com/newsletter/us-inflation-disappoints/",
-
-            },
-            {
-                "id": 9,
-
-                "title": "Axis increases Customer Base by 31%",
-
-                "thumbnail": "https://imgix.cosmicjs.com/4e991430-bfdf-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-
-                "type": "newsletter",
-
-                "date": "2022-03-31",
-                "url": "https://finlearnacademy.com/newsletter/axis-increases-customer-base-by-31/",
-
-            },
-            {
-                "id": 10,
-                "title": "HDFC Bank Merger to Create Synergistic Value",
-
-                "thumbnail": "https://imgix.cosmicjs.com/14cc6890-bfe1-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-
-                "type": "newsletter",
-
-                "date": "2022-04-05",
-                "url": "https://finlearnacademy.com/newsletter/hdfc-bank-merger-to-create-deep-synergistic-value/",
-
-            },
-            {
-                "id": 11,
-                "title": "UPI Touches USD 1 Trillion in Payments",
-
-                "thumbnail": "https://imgix.cosmicjs.com/b89aeaf0-bfe1-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-
-                "type": "newsletter",
-
-                "date": "2022-04-07",
-                "url": "https://finlearnacademy.com/newsletter/upi-touches-usd-1-tn-in-payments/",
-
-            },
-            {
-                "id": 12,
-
-                "title": "15-Minute Delivery Gets a Reality Check",
-
-                "thumbnail": "https://imgix.cosmicjs.com/00da2db0-bfe4-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-
-                "type": "newsletter",
-
-                "date": "2022-04-14",
-                "url": "https://finlearnacademy.com/newsletter/15-minute-delivery-gets-a-reality-check/",
-
-
-
-            },
-            {
-                "id": 13,
-                "title": "Lithium & Cobalt are the New Silver & Gold",
-
-                "thumbnail": "https://imgix.cosmicjs.com/7334d120-bfe5-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-
-                "type": "newsletter",
-
-                "date": "2022-04-19",
-                "url": "https://finlearnacademy.com/newsletter/lithium-cobalt-are-the-new-silver-gold/",
-
-            },
-            {
-                "id": 14,
                 "slug": "stock-markets-recap-week-of-25th-february-2022",
                 "title": "Stock Markets Recap Week Of 25th February 2022",
                 "content": "",
@@ -467,13 +311,11 @@ const latest_update = [
                 "thumbnail": "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
                 "published_at": "2022-03-09T12:30:30.459Z",
                 "type": Type.video,
-
                 "date": "2022-02-26",
                 "url": "https://www.youtube.com/watch?v=xwcVeTdzjTQ"
-
             },
             {
-                "id": 15,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-18th-february-2022",
                 "title": "Stock Markets Recap Week Of 18th February 2022",
                 "content": "",
@@ -489,13 +331,12 @@ const latest_update = [
                 "publish_at": null,
                 "unpublish_at": null,
                 "type": Type.video,
-
                 "date": "2022-02-19",
                 "url": "https://www.youtube.com/watch?v=v2ePVDwMtB4"
 
             },
             {
-                "id": 16,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-11th-february-2022",
                 "title": "Stock Markets Recap Week Of 11th February 2022",
                 "content": "",
@@ -514,7 +355,7 @@ const latest_update = [
 
             },
             {
-                "id": 17,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-4th-february-2022",
                 "title": "Stock Markets Recap Week Of 4th February 2022",
                 "content": "",
@@ -527,13 +368,12 @@ const latest_update = [
                 "thumbnail": "https://imgix.cosmicjs.com/4fccba00-9fa5-11ec-a634-2f1716dd45af-11.jpg",
                 "published_at": "2022-03-09T12:35:26.351Z",
                 "type": Type.video,
-
                 "date": "2022-02-05",
                 "url": "https://www.youtube.com/watch?v=882RmuIoOpM"
 
             },
             {
-                "id": 18,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-28th-jan-2022",
                 "title": "Stock Markets Recap Week Of 28th Jan 2022",
                 "content": "",
@@ -552,7 +392,7 @@ const latest_update = [
 
             },
             {
-                "id": 19,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-4th-march-2022",
                 "title": "Stock Markets Recap Week Of 4th March 2022",
                 "content": "",
@@ -565,13 +405,12 @@ const latest_update = [
                 "thumbnail": "https://imgix.cosmicjs.com/349338f0-9fea-11ec-a634-2f1716dd45af-Hitesh-Chotalia-New.png",
                 "published_at": "2022-03-15T07:21:33.882Z",
                 "type": Type.video,
-
                 "date": "2022-03-05",
                 "url": "https://www.youtube.com/watch?v=3gfWyfp_w2g",
 
             },
             {
-                "id": 20,
+                "id": 1,
                 "slug": "stock-markets-recap-week-of-11th-march-2022",
                 "title": "Stock Markets Recap Week Of 11th March 2022",
                 "content": "",
@@ -584,10 +423,124 @@ const latest_update = [
                 "thumbnail": "https://imgix.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
                 "published_at": "2022-03-15T07:20:40.049Z",
                 "type": Type.video,
-
                 "date": "2022-03-13",
                 "url": "https://www.youtube.com/watch?v=5ZvYw7FMt3M",
 
+            },
+
+            {
+                "id": 1,
+                "slug": "campus-activewear-ipo-bridges-branded-vs-unbranded-gap",
+                "title": "Campus Activewear IPO Bridges Branded vs Unbranded Gap",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-26T10:56:10.114Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-26T10:56:20.298Z",
+                "created": "2022-04-26T10:56:10.114Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/f96612e0-c54e-11ec-bf80-e74645a81647-Campus-active-wear.png",
+                "published_at": "2022-04-26T10:56:20.298Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.newsletter,
+
+                "date": "2022-04-26",
+                "url": "https://finlearnacademy.com/newsletter/campus-activewear-ipo-bridges-branded-vs-unbranded-gap/",
+            },
+            {
+                "id": 1,
+                "slug": "lithium-cobalt-are-the-new-silver-gold",
+                "title": "Lithium & Cobalt are the New Silver & Gold",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T13:36:31.910Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T13:36:31.910Z",
+                "created": "2022-04-19T13:36:31.910Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/7334d120-bfe5-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T13:36:31.910Z",
+                "type": Type.newsletter,
+
+                "date": "2022-04-19",
+                "url": "https://finlearnacademy.com/newsletter/lithium-cobalt-are-the-new-silver-gold/",
+            },
+            {
+                "id": 1,
+                "slug": "15-minute-delivery-gets-a-reality-check",
+                "title": "15-Minute Delivery Gets a Reality Check",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T13:24:51.521Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T13:29:55.436Z",
+                "created": "2022-04-19T13:24:51.521Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/00da2db0-bfe4-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T13:29:55.436Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.newsletter,
+
+                "date": "2022-04-14",
+                "url": "https://finlearnacademy.com/newsletter/15-minute-delivery-gets-a-reality-check/",
+            },
+            {
+                "id": 1,
+                "slug": "upi-touches-usd-1-trillion-in-payments",
+                "title": "UPI Touches USD 1 Trillion in Payments",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T13:08:29.176Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T13:08:29.176Z",
+                "created": "2022-04-19T13:08:29.176Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/b89aeaf0-bfe1-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T13:08:29.176Z",
+                "type": Type.newsletter,
+
+                "date": "2022-04-07",
+                "url": "https://finlearnacademy.com/newsletter/upi-touches-usd-1-tn-in-payments/",
+            },
+            {
+                "id": 1,
+                "slug": "hdfc-bank-merger-to-create-synergistic-value",
+                "title": "HDFC Bank Merger to Create Synergistic Value",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T13:04:49.736Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T13:04:49.737Z",
+                "created": "2022-04-19T13:04:49.737Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/14cc6890-bfe1-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T13:04:49.737Z",
+                "type": Type.newsletter,
+
+                "date": "2022-04-05",
+                "url": "https://finlearnacademy.com/newsletter/hdfc-bank-merger-to-create-deep-synergistic-value/",
+            },
+            {
+                "id": 1,
+                "slug": "a",
+                "title": "Axis increases Customer Base by 31%",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T12:51:48.276Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T12:51:48.276Z",
+                "created": "2022-04-19T12:51:48.276Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/4e991430-bfdf-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T12:51:48.276Z",
+                "type": Type.newsletter,
+
+                "date": "2022-03-31",
+                "url": "https://finlearnacademy.com/newsletter/axis-increases-customer-base-by-31/",
             }
         ],
     }
@@ -598,194 +551,42 @@ const sector_trends = [
         orientation: Orientation.verticle,
         data: [
             {
-                "id": 10,
-                "slug": "rbi-mpc-at-key-juncture",
-                "title": "RBI MPC at key juncture 🧨",
+                "id": 1,
+                "slug": "elon-musk-juggles-multiple-hats",
+                "title": "Elon Musk Juggles Multiple Hats",
                 "content": "",
                 "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T11:02:51.935Z",
+                "created_at": "2022-04-26T10:48:05.306Z",
                 "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-09T11:03:13.191Z",
-                "created": "2022-03-09T11:02:51.935Z",
+                "modified_at": "2022-04-26T10:48:05.306Z",
+                "created": "2022-04-26T10:48:05.306Z",
                 "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/5d7e0cb0-9f98-11ec-a634-2f1716dd45af-11.png",
-                "published_at": "2022-03-09T11:03:13.191Z",
+                "thumbnail": "https://imgix.cosmicjs.com/b56b3b20-c54d-11ec-bf80-e74645a81647-Elon-Musk-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-26T10:48:05.306Z",
+                "type": Type.newsletter,
+                "date": "2022-04-23",
+                "url": "https://finlearnacademy.com/newsletter/elon-musk-juggles-multiple-hats/",
+            },
+            {
+                "id": 1,
+                "slug": "netflix-explores-a-major-strategic-shift",
+                "title": "Netflix Explores a Major Strategic Shift",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-26T10:39:12.774Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-26T10:40:27.561Z",
+                "created": "2022-04-26T10:39:12.774Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/b0ee5b00-c54c-11ec-bf80-e74645a81647-Netflix-Explores-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-26T10:40:27.561Z",
                 "modified_by": "62286fd327a8830009a2dcc2",
                 "publish_at": null,
                 "unpublish_at": null,
-                "type": "newsletter",
+                "type": Type.newsletter,
 
-                "date": "2022-02-15",
-                "url": "https://finlearnacademy.com/newsletter/rbi-mpc-at-key-juncture/",
-            },
-            {
-                id: 1,
-                title: "Results of Top Steel Stocks for Q3",
-                type: "infographic",
-                description: "esults of Top 5 Steel Stocks:\n\nTata Steel\nJSW Steel\nSAIL\nAPL Apollo Tubes\nJindal Stainless\n\nDon't forget to swipe left and check out an opportunity in another hidden metal sector gem",
-                thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
-                data: ["https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png", "https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png"],
-            },
-            {
-                "id": 9,
-                "slug": "banking-sector-beats-all-odds-to-deliver-a-strong-quarter",
-                "title": "Banking Sector beats all odds to deliver a strong quarter 🏧",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T10:54:03.573Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-09T10:54:03.573Z",
-                "created": "2022-03-09T10:54:03.573Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/110aeed0-9f97-11ec-a634-2f1716dd45af-11.png",
-                "published_at": "2022-03-09T10:54:03.573Z",
-                "type": "newsletter",
-                "date": "2022-02-19",
-                "url": "https://finlearnacademy.com/newsletter/banking-sector-beats-all-odds-to-deliver-a-strong-quarter/",
-            },
-            {
-                "id": 8,
-                "slug": "it-poised-to-build-on-growth",
-                "title": "IT poised to build on growth 🚀",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T10:52:01.008Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-09T10:54:32.449Z",
-                "created": "2022-03-09T10:52:01.008Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/dd87fb70-9f96-11ec-a634-2f1716dd45af-11.png",
-                "published_at": "2022-03-09T10:54:32.449Z",
-                "modified_by": "62286fd327a8830009a2dcc2",
-                "publish_at": null,
-                "unpublish_at": null,
-                "type": "newsletter",
-
-                "date": "2022-02-24",
-                "url": "https://finlearnacademy.com/newsletter/it-poised-to-build-on-growth/",
-
-            },
-            {
-                "id": 7,
-                "slug": "noble-gas-shortage-to-accentuate-pain-in-auto-sector",
-                "title": "Noble Gas shortage to accentuate pain in auto sector ⛽️",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T09:59:29.054Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-09T10:55:35.046Z",
-                "created": "2022-03-09T09:59:29.054Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/7321a540-9f8e-11ec-a634-2f1716dd45af-11.png",
-                "published_at": "2022-03-09T10:55:35.046Z",
-                "modified_by": "62286fd327a8830009a2dcc2",
-                "publish_at": null,
-                "unpublish_at": null,
-                "type": "newsletter",
-
-                "date": "2022-03-24",
-                "url": "https://api.cosmicjs.com/v2/buckets/thunderbird-production/objects?pretty=true&query=%7B%22type%22%3A%22trendings%22%7D&read_key=ayDTzvW1JgOWKpuMVPsa4TluYbjntLiTpFQk2sfc5iYiyDKO8X&limit=20&props=title,metadata,",
-
-            },
-            {
-                "id": 6,
-                "slug": "bfsi-highly-dependent-on-fpi-inflows-to-turn-around-underperformance",
-                "title": "BFSI highly dependent on FPI inflows to turn-around underperformance",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-09T10:49:05.369Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-09T10:54:54.395Z",
-                "created": "2022-03-09T10:49:05.369Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/7b1fb8b0-9f96-11ec-a634-2f1716dd45af-11.png",
-                "published_at": "2022-03-09T10:54:54.395Z",
-                "modified_by": "62286fd327a8830009a2dcc2",
-                "publish_at": null,
-                "unpublish_at": null,
-                "type": "newsletter",
-
-                "date": "2022-03-01",
-                "url": "https://finlearnacademy.com/newsletter/bfsi-highly-dependent-on-fpi-inflows-to-turn-around-underperformance/",
-
-            },
-            {
-                "id": 5,
-                "slug": "commodities-fallout-from-russia-invasion-balloons",
-                "title": "Commodities fallout from Russia invasion balloons 💥",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-11T07:16:59.944Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-11T07:16:59.944Z",
-                "created": "2022-03-11T07:16:59.944Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/2e1c1fb0-a10b-11ec-a634-2f1716dd45af-Ccommodities.png",
-                "published_at": "2022-03-11T07:16:59.944Z",
-                "type": "newsletter",
-
-                "date": "2022-03-10",
-                "url": "https://finlearnacademy.com/newsletter/commodities-fallout-from-russia-invasion-balloons/",
-
-            },
-            {
-                "id": 4,
-                "slug": "india-pharma-returns-to-trend-line-growth",
-                "title": "India Pharma returns to trend-line growth 📈",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-03-15T07:38:23.050Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-03-15T07:38:23.050Z",
-                "created": "2022-03-15T07:38:23.050Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/c9de6c80-a432-11ec-a536-8726e3bb3867-US-Inflation.png",
-                "published_at": "2022-03-15T07:38:23.050Z",
-                "type": "newsletter",
-
-                "date": "2022-03-15",
-                "url": "https://finlearnacademy.com/newsletter/india-pharma-market-returns-to-trend-line-growth/",
-
-            },
-            {
-                "id": 3,
-                "slug": "bajaj-finance-is-on-the-move",
-                "title": "Bajaj Finance is on the Move",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-04-19T12:57:58.462Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-04-19T12:57:58.462Z",
-                "created": "2022-04-19T12:57:58.462Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/50030f00-bfe0-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-                "published_at": "2022-04-19T12:57:58.462Z",
-                "type": "newsletter",
-
-                "date": "2022-04-02",
-                "url": "https://finlearnacademy.com/newsletter/bajaj-finance-is-on-the-move/",
-
-            },
-            {
-                "id": 2,
-                "slug": "rbi-crawls-to-policy-stance-change",
-                "title": "RBI Crawls to Policy Stance Change",
-                "content": "",
-                "bucket": "6228703d27a8830009a2dcc5",
-                "created_at": "2022-04-19T13:15:28.854Z",
-                "created_by": "62286fd327a8830009a2dcc2",
-                "modified_at": "2022-04-19T13:16:49.517Z",
-                "created": "2022-04-19T13:15:28.854Z",
-                "status": "published",
-                "thumbnail": "https://imgix.cosmicjs.com/8cd3af00-bfe2-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
-                "published_at": "2022-04-19T13:16:49.517Z",
-                "modified_by": "62286fd327a8830009a2dcc2",
-                "publish_at": null,
-                "unpublish_at": null,
-                "type": "newsletter",
-
-                "date": "2022-04-09",
-                "url": "https://finlearnacademy.com/newsletter/rbi-crawls-to-policy-stance-change/",
+                "date": "2022-04-21",
+                "url": "https://finlearnacademy.com/newsletter/netflix-explores-a-major-strategic-shift/",
 
             },
             {
@@ -801,12 +602,53 @@ const sector_trends = [
                 "status": "published",
                 "thumbnail": "https://imgix.cosmicjs.com/7af71fa0-bfe3-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
                 "published_at": "2022-04-19T13:22:37.129Z",
-                "type": "newsletter",
+                "type": Type.newsletter,
 
                 "date": "2022-04-12",
                 "url": "https://finlearnacademy.com/newsletter/indonesian-co-gotos-ipo-debuts-strongly/",
 
-            }
+            },
+            {
+                "id": 1,
+                "slug": "rbi-crawls-to-policy-stance-change",
+                "title": "RBI Crawls to Policy Stance Change",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T13:15:28.854Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-26T10:26:14.837Z",
+                "created": "2022-04-19T13:15:28.854Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/8cd3af00-bfe2-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-26T10:26:14.837Z",
+                "modified_by": "62286fd327a8830009a2dcc2",
+                "publish_at": null,
+                "unpublish_at": null,
+                "type": Type.newsletter,
+
+                "date": "2022-04-09",
+                "url": "https://finlearnacademy.com/newsletter/rbi-crawls-to-policy-stance-change/",
+
+            },
+            {
+                "id": 1,
+                "slug": "bajaj-finance-is-on-the-move",
+                "title": "Bajaj Finance is on the Move",
+                "content": "",
+                "bucket": "6228703d27a8830009a2dcc5",
+                "created_at": "2022-04-19T12:57:58.462Z",
+                "created_by": "62286fd327a8830009a2dcc2",
+                "modified_at": "2022-04-19T12:57:58.462Z",
+                "created": "2022-04-19T12:57:58.462Z",
+                "status": "published",
+                "thumbnail": "https://imgix.cosmicjs.com/50030f00-bfe0-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
+                "published_at": "2022-04-19T12:57:58.462Z",
+                "type": Type.newsletter,
+
+                "date": "2022-04-02",
+                "url": "https://finlearnacademy.com/newsletter/bajaj-finance-is-on-the-move/",
+
+            },
         ],
     }
 ];
