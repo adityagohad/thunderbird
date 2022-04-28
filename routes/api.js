@@ -145,8 +145,8 @@ router.get('/stories', function (req, res, next) {
             {
                 id: 1,
                 type: "video",
-                title: "Stock Markets Recap Week Of 25th February 2022",
-                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
+                title: "Stock Markets Recap Week of 22nd April 2022",
+                url: "https://www.youtube.com/watch?v=FnEdr7J9x0g",
                 thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
             }
         ],
