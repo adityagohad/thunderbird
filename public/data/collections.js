@@ -115,7 +115,7 @@ const infographics = [
           "date": "2022-03-09",
           "description": "4 points to remember\n\nPattern traded: Resistance band breakout\nNature of pattern: Bullish\nType of pattern: Continuation\nFrequency: Very Often",      
         },
-          {
+        {
               id : 1,
             "slug": "what-us-role-reversal-support-band-and-resistance-band",
             "title": "What is Role Reversal? | (Support Band and Resistance band)",
@@ -135,7 +135,7 @@ const infographics = [
             "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/NeSEmKRcqdQ",
-              "exercise": [
+              "exercises": [
                 5
               ]
           },
@@ -147,7 +147,7 @@ const infographics = [
             thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/U94LeEZbYs8",
-              "exercise": [
+              "exercises": [
                 7
               ]
             
@@ -160,7 +160,7 @@ const infographics = [
             thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/DMvLJCVpfCI",
-              "exercise": [
+              "exercises": [
                 8
               ]
             
@@ -173,7 +173,7 @@ const infographics = [
             thumbnail : "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/vk82uPZr3Yc",
-              "exercise": [
+              "exercises": [
                 1,
                 2,
                 3,
@@ -191,7 +191,7 @@ const infographics = [
             "thumbnail" :  "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/WNkHsLNWWJ4",
-              "exercise": [
+              "exercises": [
                 12
               ]
             
@@ -204,7 +204,7 @@ const infographics = [
             "thumbnail" : "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/6ulqslOix8Q",
-              "exercise": [
+              "exercises": [
                 13
               ]
             
@@ -217,7 +217,7 @@ const infographics = [
             thumbnail : "https://cdn.cosmicjs.com/7b83bf20-9fed-11ec-a634-2f1716dd45af-KS.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/9wtiL6aykKQ",
-              "exercise": [
+              "exercises": [
                 1,
                 2,
                 3,
@@ -234,7 +234,7 @@ const infographics = [
             "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/8XTierw-mbk",
-              "exercise": [
+              "exercises": [
                 13
               ]
           },
@@ -246,7 +246,7 @@ const infographics = [
             thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/Yr9bw_UGCUs",
-              "exercise": [
+              "exercises": [
                 6
               ]
             
@@ -259,7 +259,7 @@ const infographics = [
             "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
               "date": "2022-03-09",
               "url": "https://www.youtube.com/embed/5wOWOkBgT2M",
-              "exercise": [
+              "exercises": [
                 8
               ]
             
