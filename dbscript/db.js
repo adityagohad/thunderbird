@@ -45,8 +45,8 @@ const insertFeed = function (db, data, callback) {
     });
 };
 
-getAllCSVs();
-//getAllEvents();
+//getAllCSVs();
+getAllEvents();
 //getAllFeed();
 
 function getAllCSVs() {
@@ -123,6 +123,7 @@ function populateEvents() {
         data['target'] = eventResult[i]['Target'];
         data['stoploss'] = eventResult[i]['Stop-loss'];
         data['rr'] = eventResult[i]['RR ratio'];
+        data['refChart'] = eventResult[i]['refChart'];
         data['tradeType'] = eventResult[i]['Type of trader'];
         data['isAssisted'] = eventResult[i]['Classification'] == "Assisted" ? true : false;
         data['startTime'] = moment(eventResult[i]['Minimum candle history'], "MM/DD/YYYY").valueOf()

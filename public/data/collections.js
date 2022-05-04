@@ -14,6 +14,99 @@ const Type = {
     video: "video",
     quiz: "quiz",
 }
+
+const infographics = [
+        {
+          "slug": "double-bottom",
+          "title": "Double Bottom",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [7],
+          "data" : ["https://cdn.cosmicjs.com/32bf5cf0-9fe2-11ec-a634-2f1716dd45af-Untitled-1.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Double Bottom\nNature of patterns:  Bullish\nType of pattern: Reversal\nFrequency: Not so Often",
+        },
+        {
+          "slug": "support-taken-l0jz4yv7",
+          "title": "Support Taken",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [1,3,9],
+          "data" : ["https://cdn.cosmicjs.com/b91b12e0-9fe1-11ec-a634-2f1716dd45af-Take-support.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded:  Taking Support\nNature of patterns:  Bullish\nType of pattern:  Reversal\nFrequency:  Very Often",
+        },
+        {
+          "slug": "support-breakdown",
+          "title": "Support Breakdown",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [3,11],
+          "data" : ["https://cdn.cosmicjs.com/99fc6b30-9fe0-11ec-a634-2f1716dd45af-Support-Breakdown.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Support Breakdown\nNature of patterns: Bearish\nType of pattern: Continuation\nFrequency: Often",
+        },
+        {
+          "slug": "role-reversal",
+          "title": "Role Reversal",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [12],
+          "data" : ["https://cdn.cosmicjs.com/1b496bd0-9fe0-11ec-a634-2f1716dd45af-Role-Reversal.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Role Reversal\nNature of patterns: Depends on the prices giving a breakout or breakdown\nType of pattern: Reversal\nFrequency: Often",
+        },
+        {
+          "slug": "support-taken",
+          "title": "Support Taken",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [1,3,9],
+          "data" : ["https://cdn.cosmicjs.com/554d3790-9fdf-11ec-a634-2f1716dd45af-Overall-Support-and-Resistance.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Taking Support\nNature of patterns: Bullish\nType of pattern: Reversal\nFrequency: Very Often",
+        },
+        {
+          "slug": "inside-bar",
+          "title": "Inside Bar",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [4],
+          "data" : ["https://cdn.cosmicjs.com/a35167a0-9fde-11ec-a634-2f1716dd45af-Inside-Bar.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Inside Bar\nNature of patterns:  Depends on the on going trend\nType of pattern: Continuation\nFrequency: Often",
+        },
+        {
+          "slug": "bullish-flag",
+          "title": "Bullish Flag",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [5],
+          "data" : ["https://cdn.cosmicjs.com/ef700ed0-9fdd-11ec-a634-2f1716dd45af-Bullish-Flag.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Bullish Flag\nNature of patterns: Bullish\nType of pattern: Continuation\nFrequency: Not very often",
+        },
+        {
+          "slug": "resistance-breakout",
+          "title": "Resistance Breakout",
+          "date": "2022-03-09",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [2,3],
+          "data" : ["https://cdn.cosmicjs.com/cca5eb50-9fdc-11ec-a634-2f1716dd45af-Breaks-Resistance.png"],
+          "description": "5 points to remember\n\nPattern traded: Resistance Breakout\nNature of patterns: Bullish\nType of pattern: Continuation\nFrequency: Very Often",
+        },
+        {
+          "slug": "resistance-band-breakout-trade",
+          "title": "Resistance Band Breakout trade",
+          "id" : 1,
+          "type": "infographic",
+          "exercises" : [8],
+          "data" : ["https://cdn.cosmicjs.com/16715380-9fb7-11ec-a634-2f1716dd45af-Breakout-Resistance-Band.png"],
+          "date": "2022-03-09",
+          "description": "4 points to remember\n\nPattern traded: Resistance band breakout\nNature of pattern: Bullish\nType of pattern: Continuation\nFrequency: Very Often",      
+        },
+]
 const dummy = [
     {
         orientation: Orientation.verticle,
@@ -23,6 +116,7 @@ const dummy = [
             title: "How to Open a Demat Account",
             url: "https://finlearnacademy.com/blog/how-to-open-a-demat-account/",
             thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+            exercises : [1,2]
         }, {
             id: 1,
             title: "Brands operated by ITC",
@@ -30,12 +124,14 @@ const dummy = [
             description: "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
             thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
             data: ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
+            exercises : [4,5]
         }, {
             id: 1,
             type: "video",
             title: "Stock Markets Recap Week Of 25th February 2022",
             url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
             thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
+            exercises : [6,7]
         }]
     },
     {
@@ -899,4 +995,4 @@ const back_to_basic = [
     }
 ];
 
-module.exports = { future_and_options, long_term_investing, short_term_investing, dummy, latest_update, sector_trends, back_to_basic }
+module.exports = { future_and_options, long_term_investing, short_term_investing, dummy, latest_update, sector_trends, back_to_basic, infographics }

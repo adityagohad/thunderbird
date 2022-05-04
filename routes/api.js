@@ -175,7 +175,6 @@ router.get('/stories', function (req, res, next) {
 });
 
 router.get('/collection/:slug', function (req, res, next) {
-    console.log(req.params.slug);
     res.setHeader('Content-Type', 'text/plain');
     switch (req.params.slug) {
         case "dummy":
@@ -200,6 +199,24 @@ router.get('/collection/:slug', function (req, res, next) {
             res.end(JSON.stringify(cs.back_to_basic));
             break;
     }
+    client.close();
+});
+
+router.get('/collection/exercise/:id', function (req, res, next) {
+    res.setHeader('Content-Type', 'text/plain');
+    var verData = [];
+    for (i = 0; i < cs.infographics.length; i++){
+        for (j = 0; j < cs.infographics[i]['exercises'].length; j++) {
+            if(cs.infographics[i]['exercises'][j] == req.params.id){
+                verData.push(cs.infographics[i]);
+            }
+        }
+    }
+    var returnData =     {
+        orientation: 1,
+        data: verData
+    }; 
+    res.end(JSON.stringify(returnData));
     client.close();
 });
 
