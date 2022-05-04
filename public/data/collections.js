@@ -267,6 +267,7 @@ const infographics = [
           {
             "slug": "basics-of-price-action",
             "title": "Basics of Price Action",
+            id : 6,
             type : Type.quiz,
             thumbnail : "https://cdn.cosmicjs.com/693d75a0-c215-11ec-bf80-e74645a81647-Price-Action.png",
               "date": "2022-01-21",
