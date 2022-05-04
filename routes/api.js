@@ -212,10 +212,10 @@ router.get('/collection/exercise/:id', function (req, res, next) {
             }
         }
     }
-    var returnData =     {
+    var returnData = [{
         orientation: 1,
         data: verData
-    }; 
+    }]; 
     res.end(JSON.stringify(returnData));
     client.close();
 });
