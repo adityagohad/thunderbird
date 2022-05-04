@@ -115,6 +115,155 @@ const infographics = [
           "date": "2022-03-09",
           "description": "4 points to remember\n\nPattern traded: Resistance band breakout\nNature of pattern: Bullish\nType of pattern: Continuation\nFrequency: Very Often",      
         },
+          {
+              id : 1,
+            "slug": "what-us-role-reversal-support-band-and-resistance-band",
+            "title": "What is Role Reversal? | (Support Band and Resistance band)",
+            "date": "2022-03-09",
+            "url": "https://www.youtube.com/embed/cIjTlnVstwE",
+            "type": Type.video,
+            "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+            "exercises" : [
+                8
+              ]
+          },
+          {
+              id : 2,
+            "type": Type.video,
+            "slug": "what-is-a-flag-pattern",
+            "title": "What is a flag pattern?",
+            "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/NeSEmKRcqdQ",
+              "exercise": [
+                5
+              ]
+          },
+          {
+            id : 2,
+            "type": Type.video,
+            "slug": "what-is-a-double-top-and-double-bottom",
+            "title": "What is a Double Top and Double Bottom?",
+            thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/U94LeEZbYs8",
+              "exercise": [
+                7
+              ]
+            
+          },
+          {
+            id : 3,
+            "type": Type.video,
+            "slug": "what-is-a-support-band-1",
+            "title": "What is a Support Band?",
+            thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/DMvLJCVpfCI",
+              "exercise": [
+                8
+              ]
+            
+          },
+          {
+            id : 4,
+            "type": Type.video,
+            "slug": "introduction-to-support-and-resistance",
+            "title": "Introduction to Support and Resistance",
+            thumbnail : "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/vk82uPZr3Yc",
+              "exercise": [
+                1,
+                2,
+                3,
+                9,
+                10,
+                11
+              ]
+        
+          },
+          {
+            id : 4,
+            "type": Type.video,
+            "slug": "what-is-role-reversal",
+            "title": "What is Role Reversal?",
+            "thumbnail" :  "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/WNkHsLNWWJ4",
+              "exercise": [
+                12
+              ]
+            
+          },
+          {
+            id : 4,
+            "type": Type.video,
+            "slug": "what-are-trendlines-1",
+            "title": "What are Trendlines?",
+            "thumbnail" : "https://cdn.cosmicjs.com/3c8225b0-c166-11ec-bf80-e74645a81647-2.png",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/6ulqslOix8Q",
+              "exercise": [
+                13
+              ]
+            
+          },
+          {
+            id : 4,
+            "type": Type.video,
+            "slug": "what-is-support-and-resistance",
+            "title": "What is Support and Resistance?",
+            thumbnail : "https://cdn.cosmicjs.com/7b83bf20-9fed-11ec-a634-2f1716dd45af-KS.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/9wtiL6aykKQ",
+              "exercise": [
+                1,
+                2,
+                3,
+                9,
+                10,
+                11
+              ]
+          },
+          {
+            id : 5,
+            "type": Type.video,
+            "slug": "what-are-trendlines",
+            "title": "What are Trendlines?",
+            "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/8XTierw-mbk",
+              "exercise": [
+                13
+              ]
+          },
+          {
+            id : 6,
+            "type": Type.video,
+            "slug": "what-is-a-trend-channel",
+            "title": "What is a Trend Channel?",
+            thumbnail : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/Yr9bw_UGCUs",
+              "exercise": [
+                6
+              ]
+            
+          },
+          {
+            id : 6,
+            "type": Type.video,
+            "slug": "what-is-a-support-band",
+            "title": "What is a Support Band?",
+            "thumbnail" : "https://cdn.cosmicjs.com/1a257490-c166-11ec-bf80-e74645a81647-FINLEARNBASICS-OF-BASIC-SERIESHITESH-CHOTALIA-1.jpg",
+              "date": "2022-03-09",
+              "url": "https://www.youtube.com/embed/5wOWOkBgT2M",
+              "exercise": [
+                8
+              ]
+            
+          },
 ]
 const dummy = [
     {
