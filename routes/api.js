@@ -205,17 +205,27 @@ router.get('/collection/:slug', function (req, res, next) {
 router.get('/collection/exercise/:id', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
     var verData = [];
+    var gridData = [];
     for (i = 0; i < cs.infographics.length; i++){
         for (j = 0; j < cs.infographics[i]['exercises'].length; j++) {
             if(cs.infographics[i]['exercises'][j] == req.params.id){
-                verData.push(cs.infographics[i]);
+                if(cs.infographics[i].type == "quiz"){
+                    gridData.push(cs.infographics[i]);
+                }else{
+                    verData.push(cs.infographics[i]);
+                }
             }
         }
     }
     var returnData = [{
         orientation: 1,
         data: verData
-    }]; 
+    },
+    {
+        orientation : 3,
+        data : gridData
+    }
+]; 
     res.end(JSON.stringify(returnData));
     client.close();
 });

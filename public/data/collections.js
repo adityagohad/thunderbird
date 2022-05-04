@@ -264,6 +264,23 @@ const infographics = [
               ]
             
           },
+          {
+            "slug": "basics-of-price-action",
+            "title": "Basics of Price Action",
+            type : Type.quiz,
+            thumbnail : "https://cdn.cosmicjs.com/693d75a0-c215-11ec-bf80-e74645a81647-Price-Action.png",
+              "date": "2022-01-21",
+              "url": "https://finlearnacademy.com/quiz/basics-of-price-action/",
+              "exercises": [
+                1,
+                2,
+                3,
+                9,
+                10,
+                11,
+                12
+              ]
+          }
 ]
 const dummy = [
     {
