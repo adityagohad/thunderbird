@@ -230,6 +230,78 @@ router.get('/collection/exercise/:id', function (req, res, next) {
     client.close();
 });
 
+router.get('/reward/exercise/:id', function(req, res, next){
+    res.setHeader('Content-Type', 'text/plain');
+    var rewards1 = [
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title : "500 amazon gift card",
+            description : "Pass the exercise in first try",
+            position : 1,
+            rewardId : "xuG45zTyuin0p",
+            type : "voucher"
+        },
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title : "2000 off on FinLearn Aademy course",
+            description : "Pass the exercise in second try",
+            position : 2,
+            rewardId : "ymNc12z6y2uinJx",
+            type : "voucher"
+        },
+    ];
+    var rewards2 = [
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title : "1,500 amazon gift card",
+            description : "Pass the exercise in first try",
+            position : 1,
+            rewardId : "xuG45zTyuin0p",
+            type : "voucher"
+        },
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title : "20,000 off on FinLearn Aademy course",
+            description : "Pass the exercise in second try",
+            position : 2,
+            rewardId : "ymNc12z6y2uinJx",
+            type : "voucher"
+        },
+    ];
+    var rewardsAll = [
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title : "500 amazon gift card",
+            description : "Pass the exercise in first try",
+            position : 1,
+            rewardId : "xuG45zTyuin0p",
+            type : "voucher"
+        },
+        {
+            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title : "2000 off on FinLearn Aademy course",
+            description : "Pass the exercise in second try",
+            position : 2,
+            rewardId : "ymNc12z6y2uinJx",
+            type : "voucher"
+        },
+    ];
+    switch (req.params.id) {
+        case "1":
+            res.end(JSON.stringify(rewards1));
+            break;
+        case "5":
+            res.end(JSON.stringify(rewards2));
+            break;
+        default:
+            console.log("fdf");
+            res.end(JSON.stringify(rewardsAll));
+            break;
+
+    }
+    client.close();
+});
+
 
 router.get('/sector_trends', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
