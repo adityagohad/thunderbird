@@ -364,7 +364,7 @@ const exercises = [
         timeFrames: '15 min',
         tradeType: ['BTST'],
         winCriteria: 1,//1% more than invested
-        detailDescription: ['Double Bottom patterns are interesting, as they invariably form strong support points with up-moves dependent on ability to break resistance points successfully. ITC has made multiple double top patterns in the past, most notably in early 2021, and mid 2020.', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <15 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
+        detailDescription: ['Double Top patterns are interesting, as they invariably form strong support points with up-moves dependent on ability to break resistance points successfully. ITC has made multiple double top patterns in the past, most notably in early 2021, and mid 2020.', 'Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <15 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios.'],
         description: ["Everyone's favourite company, ITC doesn't believe in shareholder returns 😜. Or does it? There are patterns at play here as well, ones that have repeated in early 2021 and mid 2020. Play this exercise and know what to expect in the future?"],
         startTime: 1640251800000 - 19800000,
         endTime: 1640598300000 - 19800000,

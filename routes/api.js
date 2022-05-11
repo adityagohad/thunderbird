@@ -4,14 +4,15 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-//const url = 'mongodb://localhost:27017';
+const url = 'mongodb://localhost:27017';
 
 const dbName = 'thunderbird';
 
 const sd = require('../public/data/data.js')
 const cs = require('../public/data/collections.js')
+const user = require('../scripts/user.js')
 
 const moment = require('moment')
 
@@ -69,6 +70,11 @@ router.get('/feed/:id', function (req, res, next) {
             client.close();
         })
     })
+});
+
+router.post('/update/attempt', function (req, res, next) {
+    user.updateUser(req.body.email, req.body.exerciseId);
+    res.end();
 });
 
 router.get('/update', function (req, res, next) {
