@@ -3,8 +3,8 @@ const assert = require('assert');
 const res = require('express/lib/response');
 const { exercises } = require('../public/data/data');
 
-const uri = 'mongodb://0.0.0.0:27017';
-//const uri = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//const uri = 'mongodb://0.0.0.0:27017';
+const uri = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const dbName = 'thunderbird';
 
 const initDB = function (callback) {
