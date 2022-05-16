@@ -212,12 +212,12 @@ router.get('/collection/exercise/:id', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
     var verData = [];
     var gridData = [];
-    for (i = 0; i < cs.infographics.length; i++){
+    for (i = 0; i < cs.infographics.length; i++) {
         for (j = 0; j < cs.infographics[i]['exercises'].length; j++) {
-            if(cs.infographics[i]['exercises'][j] == req.params.id){
-                if(cs.infographics[i].type == "quiz"){
+            if (cs.infographics[i]['exercises'][j] == req.params.id) {
+                if (cs.infographics[i].type == "quiz") {
                     gridData.push(cs.infographics[i]);
-                }else{
+                } else {
                     verData.push(cs.infographics[i]);
                 }
             }
@@ -228,68 +228,73 @@ router.get('/collection/exercise/:id', function (req, res, next) {
         data: verData
     },
     {
-        orientation : 3,
-        data : gridData
+        orientation: 3,
+        data: gridData
     }
-]; 
+    ];
     res.end(JSON.stringify(returnData));
     client.close();
 });
 
-router.get('/reward/exercise/:id', function(req, res, next){
+router.get('/home/new_this_week', function(req, res, next){
+    res.end(JSON.stringify(cs.new_this_week));
+    client.close();
+});
+
+router.get('/reward/exercise/:id', function (req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
     var rewards1 = [
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
-            title : "500 amazon gift card",
-            description : "Pass the exercise in first try",
-            position : 1,
-            rewardId : "xuG45zTyuin0p",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title: "500 amazon gift card",
+            description: "Pass the exercise in first try",
+            position: 1,
+            rewardId: "xuG45zTyuin0p",
+            type: "voucher"
         },
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
-            title : "2000 off on FinLearn Aademy course",
-            description : "Pass the exercise in second try",
-            position : 2,
-            rewardId : "ymNc12z6y2uinJx",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title: "2000 off on FinLearn Aademy course",
+            description: "Pass the exercise in second try",
+            position: 2,
+            rewardId: "ymNc12z6y2uinJx",
+            type: "voucher"
         },
     ];
     var rewards2 = [
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
-            title : "1,500 amazon gift card",
-            description : "Pass the exercise in first try",
-            position : 1,
-            rewardId : "xuG45zTyuin0p",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title: "1,500 amazon gift card",
+            description: "Pass the exercise in first try",
+            position: 1,
+            rewardId: "xuG45zTyuin0p",
+            type: "voucher"
         },
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
-            title : "20,000 off on FinLearn Aademy course",
-            description : "Pass the exercise in second try",
-            position : 2,
-            rewardId : "ymNc12z6y2uinJx",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title: "20,000 off on FinLearn Aademy course",
+            description: "Pass the exercise in second try",
+            position: 2,
+            rewardId: "ymNc12z6y2uinJx",
+            type: "voucher"
         },
     ];
     var rewardsAll = [
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
-            title : "500 amazon gift card",
-            description : "Pass the exercise in first try",
-            position : 1,
-            rewardId : "xuG45zTyuin0p",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+            title: "500 amazon gift card",
+            description: "Pass the exercise in first try",
+            position: 1,
+            rewardId: "xuG45zTyuin0p",
+            type: "voucher"
         },
         {
-            couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
-            title : "2000 off on FinLearn Aademy course",
-            description : "Pass the exercise in second try",
-            position : 2,
-            rewardId : "ymNc12z6y2uinJx",
-            type : "voucher"
+            couponIcon: "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+            title: "2000 off on FinLearn Aademy course",
+            description: "Pass the exercise in second try",
+            position: 2,
+            rewardId: "ymNc12z6y2uinJx",
+            type: "voucher"
         },
     ];
     switch (req.params.id) {

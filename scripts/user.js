@@ -24,17 +24,14 @@ const insertDocuments = function (db, data, callback) {
 
 const updateDocuments = function (db, data, callback) {
     const collection = db.collection('user');
-    collection.updateOne({ email : data.email},
+    collection.updateOne({ email: data.email },
         { $set: { exercises: data.exercises } },
         { upsert: true }, function (err, result) {
-        callback(result);
-    });
+            callback(result);
+        });
 };
 
-//updateUser("adad@sefe", 2);
-//addUser("adityagohad@gmail.com");
-
-function addUser(user){
+function addUser(user) {
     initDB(function (db, client) {
         insertDocuments(db, user, function () {
             client.close()
@@ -42,47 +39,47 @@ function addUser(user){
     });
 }
 
-function updateUser(email, exerciseId){
-    initDB(function (db, client){
+function updateUser(email, exerciseId) {
+    initDB(function (db, client) {
         const user = db.collection('user');
-        user.findOne({email : email}, function(err, result){
+        user.findOne({ email: email }, function (err, result) {
             assert.equal(err, null);
-            if(result != null){
+            if (result != null) {
                 var att = result.exercises.find(exercise => exercise.id == exerciseId);
-                if(att == undefined){
+                if (att == undefined) {
                     result.exercises.push({
-                        id : exerciseId,
-                        attempt : 1
+                        id: exerciseId,
+                        attempt: 1
                     });
                     var updateData = {
-                        email : result.email,
-                        exercises : result.exercises
+                        email: result.email,
+                        exercises: result.exercises
                     };
                     updateDocuments(db, updateData, function () {
                         client.close()
                     });
-                }else{
+                } else {
                     result.exercises.forEach(element => {
-                        if(element.id == exerciseId){
+                        if (element.id == exerciseId) {
                             element.attempt = element.attempt + 1;
                         }
                     });
                     var updateData = {
-                        email : result.email,
-                        exercises : result.exercises
+                        email: result.email,
+                        exercises: result.exercises
                     };
                     updateDocuments(db, updateData, function () {
                         client.close()
                     });
                 }
-            }else{
+            } else {
                 console.log(3);
                 addUser({
-                    email : email,
-                    exercises : [
+                    email: email,
+                    exercises: [
                         {
-                            id : exerciseId,
-                            attempt : 1
+                            id: exerciseId,
+                            attempt: 1
                         }
                     ]
                 });

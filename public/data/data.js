@@ -328,7 +328,25 @@ const exercises = [
         levels: [16],
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
-        resources: ["what-are-trendlines", "what-are-trendlines-1"] //slug
+        resources: ["what-are-trendlines", "what-are-trendlines-1"],//slug
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 6,
@@ -351,6 +369,25 @@ const exercises = [
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
         resources: ["what-is-a-trend-channel"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
+        
     },
     {
         id: 7,
@@ -373,7 +410,25 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["double-bottom", "what-is-a-double-top-and-double-bottom"],
-    },
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
+        },
     {
         id: 8,
         title: "Breakout of Resistance Band",
@@ -395,6 +450,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["what-is-support-band-and-resistance-band", "what-is-a-resistance-band", "resistance-band-breakout-trade", "what-is-a-support-band", "https://www.youtube.com/embed/DMvLJCVpfCI"], //slug
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 9,
@@ -417,6 +490,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["support-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 10,
@@ -439,6 +530,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["resistance-taken", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 11,
@@ -461,6 +570,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["support-breakdown", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 12,
@@ -483,6 +610,24 @@ const exercises = [
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
         resources: ["role-reversal", "basics-of-price-action", "what-is-role-reversal", "what-us-role-reversal-support-band-and-resistance-band"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 1,
@@ -505,6 +650,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["support-taken", "resistance-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 2,
@@ -527,6 +690,24 @@ const exercises = [
         bottomColor: "0xFF0F3443",
         topColor: "0xFF34E89E",
         resources: ["resistance-breakout", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 3,
@@ -549,6 +730,24 @@ const exercises = [
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
         resources: ["resistance-breakout", "support-taken", "support-breakdown", "resistance-taken", "support-taken-l0jz4yv7", "basics-of-price-action", "what-is-support-and-resistance", "introduction-to-support-and-resistance"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 4,
@@ -571,6 +770,24 @@ const exercises = [
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
         resources: ["inside-bar"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     },
     {
         id: 5,
@@ -593,6 +810,24 @@ const exercises = [
         bottomColor: "0xFF000046",
         topColor: "0xFF1CB5E0",
         resources: ["bullish-flag", "what-is-a-flag-pattern"],
+        rewards : [
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
+                title : "500 amazon gift card",
+                description : "Pass the exercise in first try",
+                position : 1,
+                rewardId : "xuG45zTyuin0p",
+                type : "voucher"
+            },
+            {
+                couponIcon : "https://logothunderbird.s3.ap-south-1.amazonaws.com/finlearn_coupon.png",
+                title : "2000 off on FinLearn Aademy course",
+                description : "Pass the exercise in second try",
+                position : 2,
+                rewardId : "ymNc12z6y2uinJx",
+                type : "voucher"
+            }
+        ]
     }
 ]
 const copies = {
