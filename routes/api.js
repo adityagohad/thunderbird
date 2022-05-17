@@ -77,6 +77,12 @@ router.post('/update/attempt', function (req, res, next) {
     res.end();
 });
 
+router.post('/update/getUserRewards', function (req, res, next) {
+    user.getUserRewardForExercise(req.body.email, req.body.exerciseId, function(data){
+        res.end(JSON.stringify(data));
+    });
+});
+
 router.get('/update', function (req, res, next) {
     initDB(async function (db, client) {
         var tickers = sd.exercises.find(exercise => exercise.id == req.query.exerciseId).stocks.map(x => x.ticker);
