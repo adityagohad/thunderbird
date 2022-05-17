@@ -443,6 +443,15 @@ const long_term_investing = [
         orientation: Orientation.verticle,
         data: [
             {
+                id : 2,
+                title : "What is Asset Allocation?",
+                date : "2022-05-12",
+                type : Type.blog,
+                url : "https://finlearnacademy.com/blog/what-is-asset-allocation/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Asset-Allocation-Image-FinLearn-Academy.png",
+                consumption_meta_string: "5 min"
+            },
+            {
                 id: 1,
                 type: Type.blog,
                 title: "Cash Account vs Margin Account",
@@ -527,6 +536,15 @@ const short_term_investing = [
         orientation: Orientation.verticle,
         data: [
             {
+                id : 2,
+                title : "Top candlestick patterns every trader should know about",
+                date : "2022-05-13",
+                type : Type.blog,
+                url : "https://finlearnacademy.com/blog/top-candlestick-patterns-every-trader-should-know-about/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Candlestick-Patterns-Image-FinLearn-Academy.png",
+                consumption_meta_string: "5 min"
+            },
+            {
                 id: 1,
                 type: Type.blog,
                 title: "How to Identify Your Trading Style",
@@ -602,6 +620,46 @@ const latest_update = [
         orientation: Orientation.verticle,
         data: [
             {
+                id : 1,
+                title : "Adani aims to be naturally Atmanirbhar",
+                date : "2022-05-17",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/adani-aims-to-be-naturally-atmanirbhar/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Adani-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 2,
+                title : "RBL Bank halfway there to redemption?",
+                date : "2022-05-14",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/rbl-bank-halfway-there-to-redemption/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/RBL-Bank-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 3,
+                title : "KFC + Pizza Hut Record 40% sales growth",
+                date : "2022-05-03",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/kfc-pizza-hut-record-40-sales-growth/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/KFC-Pizza-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 4,
+                title : "SBI Cards records 19% spends market store",
+                date : "2022-04-30",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/sbi-cards-records-19-spends-market-share/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/04/SBI-Card-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 5,
+                title : "BAF uncertain on the transition to full-serviced Bank",
+                date : "2022-04-08",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/baf-uncertain-on-the-transition-to-full-service-bank/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/04/BAF-Uncertain-Image-FinLearn-Academy.png",
+            },
+            {
                 "id": 1,
                 "slug": "campus-activewear-ipo-bridges-branded-vs-unbranded-gap",
                 "title": "Campus Activewear IPO Bridges Branded vs Unbranded Gap",
@@ -618,7 +676,6 @@ const latest_update = [
                 "publish_at": null,
                 "unpublish_at": null,
                 "type": Type.newsletter,
-
                 "date": "2022-04-26",
                 "url": "https://finlearnacademy.com/newsletter/campus-activewear-ipo-bridges-branded-vs-unbranded-gap/",
             },
@@ -854,6 +911,38 @@ const sector_trends = [
         orientation: Orientation.verticle,
         data: [
             {
+                id : 1,
+                title : "Wedding season back in full flow",
+                date : "2022-05-12",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/wedding-season-back-in-full-flow/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Wedding-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 2,
+                title : "MF's maintain their MOJO despite red candles everywhere",
+                date : "2022-05-10",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/mfs-maintain-their-mojo-despite-red-candles-everywhere/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Mutual-Funds-Candlestick-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 3,
+                title : "RIL revenue cross USD 100 Bn",
+                date : "2022-05-07",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/newsletter/ril-revenue-cross-usd-100-bn/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/RIL-Image-FinLearn-Academy.png",
+            },
+            {
+                id : 4,
+                title : "LIC IPO's X Impromptu MPC creates Mayhem",
+                date : "2022-05-05",
+                type : Type.newsletter,
+                url : "https://finlearnacademy.com/wp-content/uploads/2022/05/LIC-Image-FinLearn-Academy.png",
+                thumbnail : "https://finlearnacademy.com/newsletter/lic-ipo-x-impromptu-mpc-creates-mayhem/",
+            },
+            {
                 "id": 1,
                 "slug": "elon-musk-juggles-multiple-hats",
                 "title": "Elon Musk Juggles Multiple Hats",
@@ -887,7 +976,6 @@ const sector_trends = [
                 "publish_at": null,
                 "unpublish_at": null,
                 "type": Type.newsletter,
-
                 "date": "2022-04-21",
                 "url": "https://finlearnacademy.com/newsletter/netflix-explores-a-major-strategic-shift/",
 
@@ -906,7 +994,6 @@ const sector_trends = [
                 "thumbnail": "https://imgix.cosmicjs.com/7af71fa0-bfe3-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
                 "published_at": "2022-04-19T13:22:37.129Z",
                 "type": Type.newsletter,
-
                 "date": "2022-04-12",
                 "url": "https://finlearnacademy.com/newsletter/indonesian-co-gotos-ipo-debuts-strongly/",
 
@@ -928,7 +1015,6 @@ const sector_trends = [
                 "publish_at": null,
                 "unpublish_at": null,
                 "type": Type.newsletter,
-
                 "date": "2022-04-09",
                 "url": "https://finlearnacademy.com/newsletter/rbi-crawls-to-policy-stance-change/",
 
@@ -947,7 +1033,6 @@ const sector_trends = [
                 "thumbnail": "https://imgix.cosmicjs.com/50030f00-bfe0-11ec-bf80-e74645a81647-Axis-Image-FinLearn-Academy.png",
                 "published_at": "2022-04-19T12:57:58.462Z",
                 "type": Type.newsletter,
-
                 "date": "2022-04-02",
                 "url": "https://finlearnacademy.com/newsletter/bajaj-finance-is-on-the-move/",
 
@@ -1203,35 +1288,56 @@ const back_to_basic = [
     }
 ];
 
-const home_info =[
+const home_info = [
     {
-        "title": "Double Bottom",
         "id": 1,
         "type": "infographic",
-        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
-        "data": ["https://cdn.cosmicjs.com/32bf5cf0-9fe2-11ec-a634-2f1716dd45af-Untitled-1.png, https://cdn.cosmicjs.com/b91b12e0-9fe1-11ec-a634-2f1716dd45af-Take-support.png"],
-        "date": "2022-03-09",
-        "description": "4 points to remember\n\nPattern traded: Double Bottom\nNature of patterns:  Bullish\nType of pattern: Reversal\nFrequency: Not so Often",
+        "title": "Major Global Index returns in past 5 years",
+        "thumbnail": "https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png",
+        "data": ["https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png"],
+        "date": "2022-03-01",
+        "description": "Mera desh badal raha hai, aage badh raha hai?\nTop 5 countries giving the best returns (index)\n\nUSA\nIndia\nFrance\nJapan\nGermany\n\nWhich index is most likely to yield the most returns in the next 5 years?",
+
     },
     {
-        "title": "Role Reversal",
         "id": 1,
         "type": "infographic",
-        "exercises": [12],
-        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
-        "data": ["https://cdn.cosmicjs.com/1b496bd0-9fe0-11ec-a634-2f1716dd45af-Role-Reversal.png", "https://cdn.cosmicjs.com/99fc6b30-9fe0-11ec-a634-2f1716dd45af-Support-Breakdown.png"],
-        "date": "2022-03-09",
-        "description": "4 points to remember\n\nPattern traded: Role Reversal\nNature of patterns: Depends on the prices giving a breakout or breakdown\nType of pattern: Reversal\nFrequency: Often",
+        "title": "Major Global Index returns in past 5 years",
+        "thumbnail": "https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png",
+        "data": ["https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png"],
+        "date": "2022-03-05",
+        "description": "Nifty after making a high of 18,604.45 and Sensex making a high of 62,245.43 have corrected over 10%. Situations like these get investors interested because everyone buys the dip :p\n\nThese are a few stocks currently trading close to their 52-week lows. Good time to buy?",
     },
     {
-        "title": "Support Taken",
+
+        "title": "Tata Group vs Reliance Group",
         "id": 1,
         "type": "infographic",
-        "exercises": [1, 3, 9],
-        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
-        "data": ["https://cdn.cosmicjs.com/554d3790-9fdf-11ec-a634-2f1716dd45af-Overall-Support-and-Resistance.png"],
-        "date": "2022-03-09",
-        "description": "4 points to remember\n\nPattern traded: Taking Support\nNature of patterns: Bullish\nType of pattern: Reversal\nFrequency: Very Often",
+        "thumbnail": "https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png",
+        "data": ["https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png", "https://cdn.cosmicjs.com/44dbd4f0-9fb4-11ec-a634-2f1716dd45af-tatavreliance1.png"],
+        "date": "2022-02-25",
+        "description": "Did you know? Tata Sons (Parent company of all major Tata companies)  is the biggest promoter group in India and Reliance Industries is the company with the highest market capitalisation in India (listed companies)\n\nBoth are major groups and have helped India grow. Don't forget to swipe left and see a development we observed on Mukesh Ambani's Reliance Group",
+
+    },
+    {
+        "id": 1,
+        "type": "infographic",
+        "title": "Results of Top Steel Stocks for Q3",
+        "thumbnail": "https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png",
+        "data": ["https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png", "https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png"],
+        "date": "2022-02-28",
+        "description": "Results of Top 5 Steel Stocks:\n\nTata Steel\nJSW Steel\nSAIL\nAPL Apollo Tubes\nJindal Stainless\n\nDon't forget to swipe left and check out an opportunity in another hidden metal sector gem",
+
+    },
+    {
+        "title": "Brands operated by ITC",
+        "id": 1,
+        "type": "infographic",
+        "thumbnail": "https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
+        "data": ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
+        "date": "2022-03-03",
+        "description": "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
+
     },
 ]
 
