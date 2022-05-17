@@ -283,6 +283,7 @@ const infographics = [
         ]
     }
 ]
+
 const dummy = [
     {
         orientation: Orientation.verticle,
@@ -1202,4 +1203,36 @@ const back_to_basic = [
     }
 ];
 
-module.exports = { future_and_options, long_term_investing, short_term_investing, dummy, latest_update, sector_trends, back_to_basic, infographics, new_this_week }
+const home_info =[
+    {
+        "title": "Double Bottom",
+        "id": 1,
+        "type": "infographic",
+        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+        "data": ["https://cdn.cosmicjs.com/32bf5cf0-9fe2-11ec-a634-2f1716dd45af-Untitled-1.png, https://cdn.cosmicjs.com/b91b12e0-9fe1-11ec-a634-2f1716dd45af-Take-support.png"],
+        "date": "2022-03-09",
+        "description": "4 points to remember\n\nPattern traded: Double Bottom\nNature of patterns:  Bullish\nType of pattern: Reversal\nFrequency: Not so Often",
+    },
+    {
+        "title": "Role Reversal",
+        "id": 1,
+        "type": "infographic",
+        "exercises": [12],
+        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+        "data": ["https://cdn.cosmicjs.com/1b496bd0-9fe0-11ec-a634-2f1716dd45af-Role-Reversal.png", "https://cdn.cosmicjs.com/99fc6b30-9fe0-11ec-a634-2f1716dd45af-Support-Breakdown.png"],
+        "date": "2022-03-09",
+        "description": "4 points to remember\n\nPattern traded: Role Reversal\nNature of patterns: Depends on the prices giving a breakout or breakdown\nType of pattern: Reversal\nFrequency: Often",
+    },
+    {
+        "title": "Support Taken",
+        "id": 1,
+        "type": "infographic",
+        "exercises": [1, 3, 9],
+        thumbnail: "https://imgix.cosmicjs.com/911429e0-a10c-11ec-a634-2f1716dd45af-How-to-Open-a-Demat-Account-Everything-you-need-to-know-e1646907962592.png",
+        "data": ["https://cdn.cosmicjs.com/554d3790-9fdf-11ec-a634-2f1716dd45af-Overall-Support-and-Resistance.png"],
+        "date": "2022-03-09",
+        "description": "4 points to remember\n\nPattern traded: Taking Support\nNature of patterns: Bullish\nType of pattern: Reversal\nFrequency: Very Often",
+    },
+]
+
+module.exports = { future_and_options, long_term_investing, short_term_investing, dummy, latest_update, sector_trends, back_to_basic, infographics, new_this_week, home_info }

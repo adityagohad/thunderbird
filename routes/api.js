@@ -78,7 +78,7 @@ router.post('/update/attempt', function (req, res, next) {
 });
 
 router.post('/update/getUserRewards', function (req, res, next) {
-    user.getUserRewardForExercise(req.body.email, req.body.exerciseId, function(data){
+    user.getUserRewardForExercise(req.body.email, req.body.exerciseId, req.body.hasWon, function(data){
         res.end(JSON.stringify(data));
     });
 });
@@ -244,6 +244,11 @@ router.get('/collection/exercise/:id', function (req, res, next) {
 
 router.get('/home/new_this_week', function(req, res, next){
     res.end(JSON.stringify(cs.new_this_week));
+    client.close();
+});
+
+router.get('/home/infographics', function(req, res, next){
+    res.end(JSON.stringify(cs.home_info));
     client.close();
 });
 

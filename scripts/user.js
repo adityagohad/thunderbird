@@ -88,7 +88,7 @@ function updateUser(email, exerciseId) {
     });
 }
 
-function getUserRewardForExercise(email, exerciseId, callback){
+function getUserRewardForExercise(email, exerciseId, hasWon, callback){
     initDB(function (db, client) {
         const user = db.collection('user');
         user.findOne({ email: email }, function (err, result) {
@@ -102,7 +102,7 @@ function getUserRewardForExercise(email, exerciseId, callback){
                     var rewardToReturn;
                     result.exercises.forEach(element => {
                         if (element.id == exerciseId) {
-                            if(element.attempt <= 2){
+                            if(element.attempt <= 2 && hasWon){
                                 var exerciseForReward = sd.exercises.find(o => o.id == element.id);
                                 rewardToReturn = exerciseForReward.rewards.find(o => o.position == element.attempt);
                                 element['hasWon'] = true;
