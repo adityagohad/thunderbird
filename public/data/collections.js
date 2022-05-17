@@ -939,8 +939,8 @@ const sector_trends = [
                 title : "LIC IPO's X Impromptu MPC creates Mayhem",
                 date : "2022-05-05",
                 type : Type.newsletter,
-                url : "https://finlearnacademy.com/wp-content/uploads/2022/05/LIC-Image-FinLearn-Academy.png",
-                thumbnail : "https://finlearnacademy.com/newsletter/lic-ipo-x-impromptu-mpc-creates-mayhem/",
+                url : "https://finlearnacademy.com/newsletter/lic-ipo-x-impromptu-mpc-creates-mayhem/",
+                thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/LIC-Image-FinLearn-Academy.png",
             },
             {
                 "id": 1,
