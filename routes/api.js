@@ -34,7 +34,7 @@ router.get('/exercises/:id', function (req, res, next) {
         console.log(req.params.id);
         var trendingExercise = [];
         for (i = 0; i < sd.exercises.length; i++) {
-            if (sd.exercises[i].id == 8 || sd.exercises[i].id == 7 || sd.exercises[i].id == 3) {
+            if (sd.exercises[i].id == 9 || sd.exercises[i].id == 11 || sd.exercises[i].id == 12 || sd.exercises[i].id == 13) {
                 console.log(sd.exercises.id);
                 trendingExercise.push(sd.exercises[i]);
             }
