@@ -311,7 +311,7 @@ const exercises = [
   {
     "id": 1,
     "tag" : ["Sector Thematics"],
-    "title": "IT Sector Zooms ðŸš€",
+    "title": "IT Sector Zooms",
     "stocks": [
       {
         "ticker": "WIPRO",
@@ -397,7 +397,7 @@ const exercises = [
   {
     "id": 2,
     "tag" : ["Sector Thematics"],
-    "title": "Revenge Spending in Consumer Goods ðŸ¤‘",
+    "title": "Revenge Spending in Consumer Goods",
     "stocks": [
       {
         "ticker": "BRITANNIA",
@@ -494,7 +494,7 @@ const exercises = [
   {
     "id": 3,
     "tag" : ["Sector Thematics"],
-    "title": "Telcos in the time of Mukesh Ambani ðŸ˜",
+    "title": "Telcos in the time of Mukesh Ambani",
     "stocks": [
       {
         "ticker": "RELIANCE",
@@ -587,7 +587,7 @@ const exercises = [
   {
     "id": 4,
     "tag" : ["Sector Thematics"],
-    "title": "Financials amid a pandemic ðŸ™„",
+    "title": "Financials amid a pandemic",
     "stocks": [
       {
         "ticker": "HDFCBANK",
@@ -686,7 +686,7 @@ const exercises = [
   {
     "id": 5,
     "tag" : ["Sector Thematics"],
-    "title": "Pharma in demand ðŸ”",
+    "title": "Pharma in demand",
     "stocks": [
       {
         "ticker": "SUNPHARMA",
