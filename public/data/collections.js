@@ -513,6 +513,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/adani-aims-to-be-naturally-atmanirbhar/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Adani-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 2,
@@ -521,6 +522,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/rbl-bank-halfway-there-to-redemption/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/RBL-Bank-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 3,
@@ -529,6 +531,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/kfc-pizza-hut-record-40-sales-growth/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/KFC-Pizza-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 4,
@@ -537,6 +540,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/sbi-cards-records-19-spends-market-share/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/04/SBI-Card-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 5,
@@ -545,6 +549,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/baf-uncertain-on-the-transition-to-full-service-bank/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/04/BAF-Uncertain-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 1,
@@ -553,6 +558,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/wedding-season-back-in-full-flow/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Wedding-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 2,
@@ -561,6 +567,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/mfs-maintain-their-mojo-despite-red-candles-everywhere/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/Mutual-Funds-Candlestick-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 3,
@@ -569,6 +576,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/ril-revenue-cross-usd-100-bn/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/RIL-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 4,
@@ -577,6 +585,7 @@ const new_this_week = [
         type : Type.newsletter,
         url : "https://finlearnacademy.com/newsletter/lic-ipo-x-impromptu-mpc-creates-mayhem/",
         thumbnail : "https://finlearnacademy.com/wp-content/uploads/2022/05/LIC-Image-FinLearn-Academy.png",
+        consumption_meta_string : "5 min"
     },
     {
         id : 2,
