@@ -801,7 +801,7 @@ const exercises = [
     "description": [
       "Stocks move in cycles, with repeating patterns. The pattern in this exercise is a constant in Wipro, happening previously in early 2021 and 2019. Trade your way through it and see if you get it right?"
     ],
-    "startTime": 1626233400000,
+    "startTime": 1626253800000,
     "endTime": 1626255000000,
     "loadtime": 1618371000000,
     "levels": [
@@ -921,7 +921,7 @@ const exercises = [
     "tradeType": [
       "Intraday"
     ],
-    "winCriteria": 1,
+    "winCriteria": 1.3,
     "detailDescription": [
       "Resistance band breakouts is one of the most frequently made patterns on a chart. This pattern has occurred in ICICI Bank thrice in 2021 alone, each time rewarding traders with strong moves.",
       "Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios."
@@ -930,7 +930,7 @@ const exercises = [
       "ICICI Bank is a strong Nifty50 name, with large daily traded volumes. It's bread & butter for traders, with ample liquidity and opportunity, both via patterns & price movement (thanks ITC ðŸ™„) "
     ],
     "startTime": 1641354300000,
-    "endTime": 1641442500000,
+    "endTime": 1641396900000,
     "loadtime": 1633405500000,
     "levels": [
       8
