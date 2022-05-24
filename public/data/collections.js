@@ -865,6 +865,14 @@ const latest_update = [
     orientation: Orientation.verticle,
     data: [
       {
+        id: 1,
+        title: "FM Sitharaman Takes Matters Into Her Own Hands",
+        date: "2022-05-24",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/fm-sitharaman-takes-matters-into-her-own-hands/",
+        thumbnail: "https://cdn.cosmicjs.com/31403190-db2b-11ec-bb19-d9085ce408df-FM-Sitharaman-Image-FinLearn-Academy.png",
+      },
+      {
         id: 5,
         title: "Largest Luxury Watch Retailer Ethos IPOs",
         date: "2022-05-19",
@@ -1238,21 +1246,21 @@ const latest_update = [
     orientation : Orientation.leader,
     data : [
       {
+        id: 1,
+        title: "FM Sitharaman Takes Matters Into Her Own Hands",
+        date: "2022-05-24",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/fm-sitharaman-takes-matters-into-her-own-hands/",
+        thumbnail: "https://cdn.cosmicjs.com/31403190-db2b-11ec-bb19-d9085ce408df-FM-Sitharaman-Image-FinLearn-Academy.png",
+      },
+      {
         id: 5,
         title: "Largest Luxury Watch Retailer Ethos IPOs",
         date: "2022-05-19",
         type: Type.newsletter,
         url: "https://finlearnacademy.com/newsletter/largest-luxury-watch-retailer-ethos-ipos/",
         thumbnail: "https://cdn.cosmicjs.com/d2ab6db0-d748-11ec-bb19-d9085ce408df-Watch-Image-FinLearn-Academy.png",
-      },
-      {
-        id: 1,
-        title: "Adani aims to be naturally Atmanirbhar",
-        date: "2022-05-17",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/adani-aims-to-be-naturally-atmanirbhar/",
-        thumbnail: "https://finlearnacademy.com/wp-content/uploads/2022/05/Adani-Image-FinLearn-Academy.png",
-      },
+      }
     ]
   }
 ];
@@ -1262,6 +1270,14 @@ const sector_trends = [
     orientation : Orientation.leader,
     data : [
       {
+        id: 5,
+        title: "JetBlue Vs Spirit Airlines Battle Turns Ugly",
+        date: "2022-05-21",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/jetblue-vs-spirit-airlines-battle-turns-ugly/",
+        thumbnail: "https://cdn.cosmicjs.com/acb53ba0-d8c8-11ec-bb19-d9085ce408df-JetBlue-Image-FinLearn-Academy.png",
+      },
+      {
         id: 1,
         title: "Wedding season back in full flow",
         date: "2022-05-12",
@@ -1269,19 +1285,19 @@ const sector_trends = [
         url: "https://finlearnacademy.com/newsletter/wedding-season-back-in-full-flow/",
         thumbnail: "https://finlearnacademy.com/wp-content/uploads/2022/05/Wedding-Image-FinLearn-Academy.png",
       },
-      {
-        id: 2,
-        title: "MF's maintain their MOJO despite red candles everywhere",
-        date: "2022-05-10",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/mfs-maintain-their-mojo-despite-red-candles-everywhere/",
-        thumbnail: "https://finlearnacademy.com/wp-content/uploads/2022/05/Mutual-Funds-Candlestick-Image-FinLearn-Academy.png",
-      },
     ]
   },
   {
     orientation: Orientation.verticle,
     data: [
+      {
+        id: 5,
+        title: "JetBlue Vs Spirit Airlines Battle Turns Ugly",
+        date: "2022-05-21",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/jetblue-vs-spirit-airlines-battle-turns-ugly/",
+        thumbnail: "https://cdn.cosmicjs.com/acb53ba0-d8c8-11ec-bb19-d9085ce408df-JetBlue-Image-FinLearn-Academy.png",
+      },
       {
         id: 1,
         title: "Wedding season back in full flow",
