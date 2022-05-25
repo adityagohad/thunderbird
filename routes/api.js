@@ -41,6 +41,10 @@ router.get('/exercises/:id', function (req, res, next) {
         }
         res.end(JSON.stringify(trendingExercise));
         client.close();
+    }else if(Number.isInteger(parseInt(req.params.id))){
+        var exerciseToReturn = sd.exercises.find(exercise => exercise.id == req.params.id);
+        res.end(JSON.stringify(exerciseToReturn));
+        client.close();
     } else {
         initDB(async function (db, client) {
             var tickers = sd.exercises.find(exercise => exercise.id == req.params.id).stocks.map(x => x.ticker);
