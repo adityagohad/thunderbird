@@ -1246,20 +1246,20 @@ const latest_update = [
     orientation : Orientation.leader,
     data : [
       {
+        id: 5,
+        title: "Zomato Gross Order Value At Record High",
+        date: "2022-05-06",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/zomato-gross-order-value-at-record-high/",
+        thumbnail: "https://cdn.cosmicjs.com/dece30e0-dcbc-11ec-bb19-d9085ce408df-Zomato-Image-FinLearn-Academy.png",
+      },
+      {
         id: 1,
         title: "FM Sitharaman Takes Matters Into Her Own Hands",
         date: "2022-05-24",
         type: Type.newsletter,
         url: "https://finlearnacademy.com/newsletter/fm-sitharaman-takes-matters-into-her-own-hands/",
         thumbnail: "https://cdn.cosmicjs.com/31403190-db2b-11ec-bb19-d9085ce408df-FM-Sitharaman-Image-FinLearn-Academy.png",
-      },
-      {
-        id: 5,
-        title: "Largest Luxury Watch Retailer Ethos IPOs",
-        date: "2022-05-19",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/largest-luxury-watch-retailer-ethos-ipos/",
-        thumbnail: "https://cdn.cosmicjs.com/d2ab6db0-d748-11ec-bb19-d9085ce408df-Watch-Image-FinLearn-Academy.png",
       }
     ]
   }
