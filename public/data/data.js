@@ -989,7 +989,7 @@ const exercises = [
     "tradeType": [
       " BTST"
     ],
-    "winCriteria": 1.25,
+    "winCriteria": 0.75,
     "detailDescription": [
       "One of the simplest, and yet most effective patterns to spot and trade for traders is Support & Role Reversal. Getting key price action tools right is key in getting your basics going. Support patterns are a constant in Adani stocks, with this pattern repeating twice in 2 months previously, providing strong moves for traders in the process. ",
       "Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <12 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios."
@@ -1124,7 +1124,7 @@ const exercises = [
     "tradeType": [
       " BTST"
     ],
-    "winCriteria": 5,
+    "winCriteria": 2,
     "detailDescription": [
       "Godrej Properties is one of the oldest property developers in the country, with large parcels of land in & around the Mumbai Metropolitan Region. The stock has been in a range, especially looking at the markets as a whole.",
       "Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios."
@@ -1150,7 +1150,7 @@ const exercises = [
       {
         "couponIcon": "https://logothunderbird.s3.ap-south-1.amazonaws.com/amazon_coupon.png",
         "title": "Amazon voucher worth INR 750",
-        "description": "Get access to Intraday Paid Chat for 1 Week ",
+        "description": "Pass the exercise in first try",
         "position": 1,
         "rewardId": "xuG45zTyuin0p",
         "type": "voucher"
@@ -1191,7 +1191,7 @@ const exercises = [
     "tradeType": [
       " BTST"
     ],
-    "winCriteria": 1.5,
+    "winCriteria": 0.7,
     "detailDescription": [
       "Role Reversal patterns are tricky, but highly rewarding. Catching them early is always beneficial, with support / resistance identification key to success. This pattern has occurred 3 times in the last year in Hindalco.",
       "Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios."
@@ -1258,7 +1258,7 @@ const exercises = [
     "tradeType": [
       " Intraday"
     ],
-    "winCriteria": 0.5,
+    "winCriteria": 0.2,
     "detailDescription": [
       "Falling trendline patterns in intraday trades indicates short correction in prices. Taking short trades (unless there is a breakout) is the way to go and earn some bucks. These patterns occur multiple times every 1-2 months",
       "Stocks are highly cyclical in nature, often coming back to past patterns to find comfort. Try this single trade exercise, that gets over in <7 minutes and beat the winning % threshold to master the stock, pattern and movement, for such future scenarios."
