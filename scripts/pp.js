@@ -1,5 +1,35 @@
 var x = [
   {
+    "slug": "fmcg-sector-in-movement",
+    "title": "FMCG Sector in movement",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png",
+        "imgix_url": "https://imgix.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-05-30",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "bajaj-auto-on-a-daily-time-frame",
     "title": "Bajaj Auto on a daily time-frame",
     "content": "",

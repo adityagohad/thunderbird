@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'FMCG Sector in movement',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-05-30',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png',
+    data: [
+      'https://cdn.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Bajaj Auto on a daily time-frame',
     type: 'infographic',
     exercises: [],
@@ -876,6 +888,22 @@ const latest_update = [
   {
     orientation: Orientation.verticle,
     data: [
+      {
+        id: 1,
+        title: "Kotak's 811 Benefits From Covid Push",
+        date: "2022-05-28",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/kotaks-811-benefits-from-covid-push/",
+        thumbnail: "https://cdn.cosmicjs.com/4e368de0-de54-11ec-bb19-d9085ce408df-811-Kotak-Image-FinLearn-Academy.png",
+      },
+      {
+        id: 5,
+        title: "Zomato Gross Order Value At Record High",
+        date: "2022-05-06",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/zomato-gross-order-value-at-record-high/",
+        thumbnail: "https://cdn.cosmicjs.com/dece30e0-dcbc-11ec-bb19-d9085ce408df-Zomato-Image-FinLearn-Academy.png",
+      },
       {
         id: 1,
         title: "FM Sitharaman Takes Matters Into Her Own Hands",
@@ -1737,6 +1765,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'FMCG Sector in movement',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-05-30',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png',
+    data: [
+      'https://cdn.cosmicjs.com/399401c0-dff7-11ec-bb19-d9085ce408df-FMCG-Sector-in-movement.png'
+    ]
+  },
   {
     id: 1,
     title: 'Bajaj Auto on a daily time-frame',
