@@ -801,7 +801,7 @@ const exercises = [
     "description": [
       "Stocks move in cycles, with repeating patterns. The pattern in this exercise is a constant in Wipro, happening previously in early 2021 and 2019. Trade your way through it and see if you get it right?"
     ],
-    "startTime": 1626254100000
+    "startTime": 1626254100000,
     "endTime": 1626274800000,
     "loadtime": 1618371000000,
     "levels": [
