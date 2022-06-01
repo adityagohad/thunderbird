@@ -1,4 +1,64 @@
-var x = [
+var x =  [
+  {
+    "slug": "tv18-broadcast-on-a-weekly-time-frame",
+    "title": "TV18 Broadcast on a weekly time-frame",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png",
+        "imgix_url": "https://imgix.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-01",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
+    "slug": "nifty-fmcg-on-a-daily-time-frame",
+    "title": "Nifty FMCG on a daily time-frame",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png",
+        "imgix_url": "https://imgix.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-05-31",
+      "description": "",
+      "exercise_id": []
+    }
+  },
   {
     "slug": "fmcg-sector-in-movement",
     "title": "FMCG Sector in movement",

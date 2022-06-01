@@ -19,6 +19,30 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'TV18 Broadcast on a weekly time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-01',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png',
+    data: [
+      'https://cdn.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Nifty FMCG on a daily time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-05-31',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png',
+    data: [
+      'https://cdn.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'FMCG Sector in movement',
     type: 'infographic',
     exercises: [],
@@ -45,7 +69,7 @@ const infographics = [
     id: 1,
     title: 'Resistance along Falling Trendline',
     type: 'infographic',
-    exercises: ['13'],
+    exercises: [ '13' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/eb99f650-d6a0-11ec-bb19-d9085ce408df-Eicher-Motor-FT.png',
@@ -60,7 +84,7 @@ const infographics = [
     id: 1,
     title: 'Role Reversal: Resistance becomes Support',
     type: 'infographic',
-    exercises: ['12'],
+    exercises: [ '12' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/a2ec0150-d6a0-11ec-bb19-d9085ce408df-Adani-Ports-RBS.png',
@@ -75,7 +99,7 @@ const infographics = [
     id: 1,
     title: 'Support Breakdown',
     type: 'infographic',
-    exercises: ['11'],
+    exercises: [ '11' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/5e366fa0-d6a0-11ec-bb19-d9085ce408df-Eicher-Motor-SB.png',
@@ -90,7 +114,7 @@ const infographics = [
     id: 1,
     title: 'Stiff Resistance',
     type: 'infographic',
-    exercises: ['10'],
+    exercises: [ '10' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/0e43d280-d6a0-11ec-bb19-d9085ce408df-Bank-Nifty-SR.png',
@@ -105,7 +129,7 @@ const infographics = [
     id: 1,
     title: 'Support Band',
     type: 'infographic',
-    exercises: ['9'],
+    exercises: [ '9' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/c48ad620-d69f-11ec-bb19-d9085ce408df-Kotak-Bank-SB.png',
@@ -120,7 +144,7 @@ const infographics = [
     id: 1,
     title: 'Resistance Band Breakout',
     type: 'infographic',
-    exercises: ['8'],
+    exercises: [ '8' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/34a05670-d69f-11ec-bb19-d9085ce408df-LT.png',
@@ -135,7 +159,7 @@ const infographics = [
     id: 1,
     title: 'Double Bottom',
     type: 'infographic',
-    exercises: ['7'],
+    exercises: [ '7' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/818fbb20-d69e-11ec-bb19-d9085ce408df-GHCL-DB.png',
@@ -150,7 +174,7 @@ const infographics = [
     id: 1,
     title: 'Falling Channel Breakout',
     type: 'infographic',
-    exercises: ['6'],
+    exercises: [ '6' ],
     date: '2022-05-18',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/dc238e50-d69d-11ec-bb19-d9085ce408df-Asian-Paints.png',
@@ -204,7 +228,7 @@ const infographics = [
     id: 1,
     title: 'Falling Channel Breakout',
     type: 'infographic',
-    exercises: ['6'],
+    exercises: [ '6' ],
     date: '2022-04-20',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/79769660-cba5-11ec-b98f-db6f075d4374-Falling-Channel-Breakout.png',
@@ -216,7 +240,7 @@ const infographics = [
     id: 1,
     title: 'Falling Trendline taking Resistance',
     type: 'infographic',
-    exercises: ['13'],
+    exercises: [ '13' ],
     date: '2022-04-20',
     description: '',
     thumbnail: 'https://cdn.cosmicjs.com/439bdf10-cb9f-11ec-b98f-db6f075d4374-Falling-trendline-taking-1.png',
@@ -228,7 +252,7 @@ const infographics = [
     id: 1,
     title: 'Double Bottom',
     type: 'infographic',
-    exercises: ['7'],
+    exercises: [ '7' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -245,7 +269,7 @@ const infographics = [
     id: 1,
     title: 'Support Taken',
     type: 'infographic',
-    exercises: ['1', '3', '9'],
+    exercises: [ '1', '3', '9' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -262,7 +286,7 @@ const infographics = [
     id: 1,
     title: 'Resistance Taken',
     type: 'infographic',
-    exercises: ['1', '3', '10'],
+    exercises: [ '1', '3', '10' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -279,7 +303,7 @@ const infographics = [
     id: 1,
     title: 'Support Breakdown',
     type: 'infographic',
-    exercises: ['3', '11'],
+    exercises: [ '3', '11' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -296,7 +320,7 @@ const infographics = [
     id: 1,
     title: 'Role Reversal',
     type: 'infographic',
-    exercises: ['12'],
+    exercises: [ '12' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -313,7 +337,7 @@ const infographics = [
     id: 1,
     title: 'Support Taken',
     type: 'infographic',
-    exercises: ['1', '3', '9'],
+    exercises: [ '1', '3', '9' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -330,7 +354,7 @@ const infographics = [
     id: 1,
     title: 'Inside Bar',
     type: 'infographic',
-    exercises: ['4'],
+    exercises: [ '4' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -347,7 +371,7 @@ const infographics = [
     id: 1,
     title: 'Bullish Flag',
     type: 'infographic',
-    exercises: ['5'],
+    exercises: [ '5' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -364,7 +388,7 @@ const infographics = [
     id: 1,
     title: 'Resistance Breakout',
     type: 'infographic',
-    exercises: ['2', '3'],
+    exercises: [ '2', '3' ],
     date: '2022-03-09',
     description: '5 points to remember\n' +
       '\n' +
@@ -381,7 +405,7 @@ const infographics = [
     id: 1,
     title: 'Resistance Band Breakout trade',
     type: 'infographic',
-    exercises: ['8'],
+    exercises: [ '8' ],
     date: '2022-03-09',
     description: '4 points to remember\n' +
       '\n' +
@@ -1765,6 +1789,30 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'TV18 Broadcast on a weekly time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-01',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png',
+    data: [
+      'https://cdn.cosmicjs.com/392882b0-e18c-11ec-9bc3-51ff01941523-TV18-Broadcast-on-a-weekly-time-frame.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Nifty FMCG on a daily time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-05-31',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png',
+    data: [
+      'https://cdn.cosmicjs.com/76ab9e50-e0d4-11ec-bb19-d9085ce408df-FMCG-Index-Daily-Chart.png'
+    ]
+  },
   {
     id: 1,
     title: 'FMCG Sector in movement',
