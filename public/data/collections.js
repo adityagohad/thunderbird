@@ -1310,20 +1310,20 @@ const latest_update = [
     orientation: Orientation.leader,
     data: [
       {
+        id: 1,
+        title: "Unilever On-Boards Activist Investor To Reinvigorate Growth",
+        date: "2022-06-02",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/unilever-on-boards-activist-investor-to-reinvigorate-growth/",
+        thumbnail: "https://cdn.cosmicjs.com/36fd5880-e240-11ec-9f15-f79bd5847752-Unilever-Image-FinLearn-Academy.png",
+      },
+      {
         id: 5,
         title: "Domino's Rises >9% On New CEO Announcement",
         date: "2022-05-31",
         type: Type.newsletter,
         url: "https://finlearnacademy.com/newsletter/dominos-rises-9-on-new-ceo-announcement/",
         thumbnail: "https://cdn.cosmicjs.com/b7fb4cb0-e0a8-11ec-bb19-d9085ce408df-Dominos-Image-FinLearn-Academy.png",
-      },
-      {
-        id: 1,
-        title: "Kotak's 811 Benefits From Covid Push",
-        date: "2022-05-28",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/kotaks-811-benefits-from-covid-push/",
-        thumbnail: "https://cdn.cosmicjs.com/4e368de0-de54-11ec-bb19-d9085ce408df-811-Kotak-Image-FinLearn-Academy.png",
       }
     ]
   }
