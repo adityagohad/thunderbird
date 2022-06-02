@@ -1,5 +1,35 @@
 var x =  [
   {
+    "slug": "kotak-mahindra-on-a-daily-time-frame",
+    "title": "Kotak Mahindra on a daily time-frame",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png",
+        "imgix_url": "https://imgix.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-02",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "tv18-broadcast-on-a-weekly-time-frame",
     "title": "TV18 Broadcast on a weekly time-frame",
     "content": "",

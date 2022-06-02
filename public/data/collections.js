@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Kotak Mahindra on a daily time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-02',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png',
+    data: [
+      'https://cdn.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'TV18 Broadcast on a weekly time-frame',
     type: 'infographic',
     exercises: [],
@@ -1789,6 +1801,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Kotak Mahindra on a daily time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-02',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png',
+    data: [
+      'https://cdn.cosmicjs.com/bdf48a20-e24a-11ec-9f15-f79bd5847752-Kotak-Mahindra-on-a.png'
+    ]
+  },
   {
     id: 1,
     title: 'TV18 Broadcast on a weekly time-frame',
