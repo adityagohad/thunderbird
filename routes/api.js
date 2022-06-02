@@ -13,6 +13,7 @@ const dbName = 'thunderbird';
 const sd = require('../public/data/data.js')
 const cs = require('../public/data/collections.js')
 const user = require('../scripts/user.js')
+const se = require('../public/data/fundamental_exercise.js')
 
 const moment = require('moment')
 
@@ -25,6 +26,13 @@ const initDB = function (callback) {
         callback(db, client);
     });
 }
+
+router.get('/miniExercise/:id', function (req, res, next){
+    if (req.params.id == "all") {
+        res.end(JSON.stringify(se.exercise));
+        client.close();
+    }
+});
 
 router.get('/exercises/:id', function (req, res, next) {
     if (req.params.id == "all") {

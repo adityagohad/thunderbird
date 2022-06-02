@@ -1298,6 +1298,7 @@ const exercises = [
     ]
   },
 ]
+
 const copies = {
   1: "Support is denoted by multiple touches of price without a breakthrough of the level",
   6: "Resistance is denoted by multiple touches of price without a breakthrough of the level",
@@ -1308,6 +1309,7 @@ const copies = {
   22: "Prices have been trading between two lines, forming a M pattern. This pattern is called Double top pattern, prices tend to give a breakout below the support and the momentum continues (downward direction).  In this instance, prices break the support level (not maintaining the support level); thus the prices can be classified as breakdowns",
   23: "Prices have been trading between two lines. This pattern is called Triple bottom pattern, prices tend to give a breakout above the resistance and the momentum continues (upward direction). In this instance, prices break the resistance level (not maintaining the resistance level); thus the prices can be classified as break-outs",
 }
+
 const headline = [
   {
     levels: [1, 3, 9, 13, 15, 27, 45],
