@@ -805,6 +805,15 @@ const long_term_investing = [
         url: "https://finlearnacademy.com/quiz/its-all-about-profit/",
         date: "2022-04-13",
         consumption_meta_string: "10 questions"
+      },
+      {
+        id: 4,
+        type: Type.quiz,
+        title: "Piotroski just made investing easy?",
+        thumbnail: "https://cdn.cosmicjs.com/fff52da0-e24d-11ec-9f15-f79bd5847752-Piotroski-Image-FinLearn-Academy.png",
+        url: "https://finlearnacademy.com/quiz/piotroski-just-made-investing-easy/",
+        date: "2022-06-02",
+        consumption_meta_string: "10 questions"
       }
     ]
   },
