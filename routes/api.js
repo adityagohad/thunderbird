@@ -126,6 +126,15 @@ router.get('/candles/:id/:timeframe', function (req, res, next) {
     })
 });
 
+router.get('/candlesForMiniExercise/:id', function (req, res, next) {
+    initDB(function (db, client) {
+        findCandlesForMinExercise(db, req, function (data) {
+            res.end(JSON.stringify(data));
+            client.close();
+        })
+    })
+});
+
 router.get('/info/assistedtrade/:id', function (req, res, next) {
     res.end(JSON.stringify(sd.copies[req.params.id]));
 });
@@ -471,6 +480,19 @@ const findCandles = function (db, req, callback) {
             else returndata.push(docs[i])
         }
         callback(returndata.reverse());
+    });
+};
+
+const findCandlesForMinExercise = function (db, req, callback) {
+    const collection = db.collection('candles');
+    var startTime = req.query.startTime;
+    var endTime = req.query.endTime;
+    collection.find({ $and: [{ ticker: req.params.id }, { "time": { $lt: +endTime } }, { "time": { $gt: +startTime } }] }).sort({ time: 1 }).toArray(function (err, docs) {
+        var returnData = [];
+        for (i = docs.length - 1; i >= 0; i--) {
+            returnData.push(docs[i].close)
+        }
+        callback(returnData);
     });
 };
 
