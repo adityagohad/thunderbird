@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Trade of the day: INFY',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-03',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/1e1e1020-e2fe-11ec-860e-596765832fd7-trade-of-the-day-infy.png',
+    data: [
+      'https://cdn.cosmicjs.com/1e1e1020-e2fe-11ec-860e-596765832fd7-trade-of-the-day-infy.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Kotak Mahindra on a daily time-frame',
     type: 'infographic',
     exercises: [],
@@ -275,245 +287,6 @@ const infographics = [
     thumbnail: 'https://cdn.cosmicjs.com/32bf5cf0-9fe2-11ec-a634-2f1716dd45af-Untitled-1.png',
     data: [
       'https://cdn.cosmicjs.com/32bf5cf0-9fe2-11ec-a634-2f1716dd45af-Untitled-1.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Support Taken',
-    type: 'infographic',
-    exercises: [ '1', '3', '9' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded:  Taking Support\n' +
-      'Nature of patterns:  Bullish\n' +
-      'Type of pattern:  Reversal\n' +
-      'Frequency:  Very Often',
-    thumbnail: 'https://cdn.cosmicjs.com/b91b12e0-9fe1-11ec-a634-2f1716dd45af-Take-support.png',
-    data: [
-      'https://cdn.cosmicjs.com/b91b12e0-9fe1-11ec-a634-2f1716dd45af-Take-support.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Resistance Taken',
-    type: 'infographic',
-    exercises: [ '1', '3', '10' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Taking Resistance\n' +
-      'Nature of patterns: Bearish\n' +
-      'Type of pattern: Reversal\n' +
-      'Frequency: Very Often',
-    thumbnail: 'https://cdn.cosmicjs.com/0e18b140-9fe1-11ec-a634-2f1716dd45af-Take-Resistance.png',
-    data: [
-      'https://cdn.cosmicjs.com/0e18b140-9fe1-11ec-a634-2f1716dd45af-Take-Resistance.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Support Breakdown',
-    type: 'infographic',
-    exercises: [ '3', '11' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Support Breakdown\n' +
-      'Nature of patterns: Bearish\n' +
-      'Type of pattern: Continuation\n' +
-      'Frequency: Often',
-    thumbnail: 'https://cdn.cosmicjs.com/99fc6b30-9fe0-11ec-a634-2f1716dd45af-Support-Breakdown.png',
-    data: [
-      'https://cdn.cosmicjs.com/99fc6b30-9fe0-11ec-a634-2f1716dd45af-Support-Breakdown.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Role Reversal',
-    type: 'infographic',
-    exercises: [ '12' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Role Reversal\n' +
-      'Nature of patterns: Depends on the prices giving a breakout or breakdown\n' +
-      'Type of pattern: Reversal\n' +
-      'Frequency: Often',
-    thumbnail: 'https://cdn.cosmicjs.com/1b496bd0-9fe0-11ec-a634-2f1716dd45af-Role-Reversal.png',
-    data: [
-      'https://cdn.cosmicjs.com/1b496bd0-9fe0-11ec-a634-2f1716dd45af-Role-Reversal.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Support Taken',
-    type: 'infographic',
-    exercises: [ '1', '3', '9' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Taking Support\n' +
-      'Nature of patterns: Bullish\n' +
-      'Type of pattern: Reversal\n' +
-      'Frequency: Very Often',
-    thumbnail: 'https://cdn.cosmicjs.com/554d3790-9fdf-11ec-a634-2f1716dd45af-Overall-Support-and-Resistance.png',
-    data: [
-      'https://cdn.cosmicjs.com/554d3790-9fdf-11ec-a634-2f1716dd45af-Overall-Support-and-Resistance.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Inside Bar',
-    type: 'infographic',
-    exercises: [ '4' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Inside Bar\n' +
-      'Nature of patterns:  Depends on the on going trend\n' +
-      'Type of pattern: Continuation\n' +
-      'Frequency: Often',
-    thumbnail: 'https://cdn.cosmicjs.com/a35167a0-9fde-11ec-a634-2f1716dd45af-Inside-Bar.png',
-    data: [
-      'https://cdn.cosmicjs.com/a35167a0-9fde-11ec-a634-2f1716dd45af-Inside-Bar.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Bullish Flag',
-    type: 'infographic',
-    exercises: [ '5' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Bullish Flag\n' +
-      'Nature of patterns: Bullish\n' +
-      'Type of pattern: Continuation\n' +
-      'Frequency: Not very often',
-    thumbnail: 'https://cdn.cosmicjs.com/ef700ed0-9fdd-11ec-a634-2f1716dd45af-Bullish-Flag.png',
-    data: [
-      'https://cdn.cosmicjs.com/ef700ed0-9fdd-11ec-a634-2f1716dd45af-Bullish-Flag.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Resistance Breakout',
-    type: 'infographic',
-    exercises: [ '2', '3' ],
-    date: '2022-03-09',
-    description: '5 points to remember\n' +
-      '\n' +
-      'Pattern traded: Resistance Breakout\n' +
-      'Nature of patterns: Bullish\n' +
-      'Type of pattern: Continuation\n' +
-      'Frequency: Very Often',
-    thumbnail: 'https://cdn.cosmicjs.com/cca5eb50-9fdc-11ec-a634-2f1716dd45af-Breaks-Resistance.png',
-    data: [
-      'https://cdn.cosmicjs.com/cca5eb50-9fdc-11ec-a634-2f1716dd45af-Breaks-Resistance.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Resistance Band Breakout trade',
-    type: 'infographic',
-    exercises: [ '8' ],
-    date: '2022-03-09',
-    description: '4 points to remember\n' +
-      '\n' +
-      'Pattern traded: Resistance band breakout\n' +
-      'Nature of pattern: Bullish\n' +
-      'Type of pattern: Continuation\n' +
-      'Frequency: Very Often',
-    thumbnail: 'https://cdn.cosmicjs.com/16715380-9fb7-11ec-a634-2f1716dd45af-Breakout-Resistance-Band.png',
-    data: [
-      'https://cdn.cosmicjs.com/16715380-9fb7-11ec-a634-2f1716dd45af-Breakout-Resistance-Band.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Major Global Index returns in past 5 years',
-    type: 'infographic',
-    exercises: [],
-    date: '2022-03-01',
-    description: 'Mera desh badal raha hai, aage badh raha hai?\n' +
-      'Top 5 countries giving the best returns (index)\n' +
-      '\n' +
-      'USA\n' +
-      'India\n' +
-      'France\n' +
-      'Japan\n' +
-      'Germany\n' +
-      '\n' +
-      'Which index is most likely to yield the most returns in the next 5 years?',
-    thumbnail: 'https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png',
-    data: [
-      'https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Major Stocks in 52 week low',
-    type: 'infographic',
-    exercises: [],
-    date: '2022-03-05',
-    description: 'Nifty after making a high of 18,604.45 and Sensex making a high of 62,245.43 have corrected over 10%. Situations like these get investors interested because everyone buys the dip :p\n' +
-      '\n' +
-      'These are a few stocks currently trading close to their 52-week lows. Good time to buy?',
-    thumbnail: 'https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png',
-    data: [
-      'https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Tata Group vs Reliance Group',
-    type: 'infographic',
-    exercises: [],
-    date: '2022-02-25',
-    description: 'Did you know? Tata Sons (Parent company of all major Tata companies)  is the biggest promoter group in India and Reliance Industries is the company with the highest market capitalisation in India (listed companies)\n' +
-      '\n' +
-      "Both are major groups and have helped India grow. Don't forget to swipe left and see a development we observed on Mukesh Ambani's Reliance Group",
-    thumbnail: 'https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png',
-    data: [
-      'https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png',
-      'https://cdn.cosmicjs.com/44dbd4f0-9fb4-11ec-a634-2f1716dd45af-tatavreliance1.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Results of Top Steel Stocks for Q3',
-    type: 'infographic',
-    exercises: [],
-    date: '2022-02-28',
-    description: 'Results of Top 5 Steel Stocks:\n' +
-      '\n' +
-      'Tata Steel\n' +
-      'JSW Steel\n' +
-      'SAIL\n' +
-      'APL Apollo Tubes\n' +
-      'Jindal Stainless\n' +
-      '\n' +
-      "Don't forget to swipe left and check out an opportunity in another hidden metal sector gem",
-    thumbnail: 'https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png',
-    data: [
-      'https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png',
-      'https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png'
-    ]
-  },
-  {
-    id: 1,
-    title: 'Brands operated by ITC',
-    type: 'infographic',
-    exercises: [],
-    date: '2022-03-03',
-    description: 'ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n' +
-      '\n' +
-      "Don't forget to swipe left and capitalise on an opportunity in ITC",
-    thumbnail: 'https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png',
-    data: [
-      'https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png',
-      'https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png'
     ]
   }
 ];
@@ -1810,6 +1583,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Trade of the day: INFY',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-03',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/1e1e1020-e2fe-11ec-860e-596765832fd7-trade-of-the-day-infy.png',
+    data: [
+      'https://cdn.cosmicjs.com/1e1e1020-e2fe-11ec-860e-596765832fd7-trade-of-the-day-infy.png'
+    ]
+  },
   {
     id: 1,
     title: 'Kotak Mahindra on a daily time-frame',
