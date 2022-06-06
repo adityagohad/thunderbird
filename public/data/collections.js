@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: ' Nifty on a 15-min time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-06',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/71ec74c0-e557-11ec-9447-f98173199613-trade-of-the-day--nifty-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/71ec74c0-e557-11ec-9447-f98173199613-trade-of-the-day--nifty-01.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Trade of the day: INFY',
     type: 'infographic',
     exercises: [],
