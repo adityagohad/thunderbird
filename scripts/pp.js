@@ -1,4 +1,34 @@
-var x =   [
+var x =  [
+  {
+    "slug": "asian-paint-daily-chart",
+    "title": "Asian Paint Daily Chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-06",
+      "description": "",
+      "exercise_id": []
+    }
+  },
   {
     "slug": "nifty-on-a-15-min-time-frame",
     "title": " Nifty on a 15-min time-frame",

@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Asian Paint Daily Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-06',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png'
+    ]
+  },
+  {
+    id: 1,
     title: ' Nifty on a 15-min time-frame',
     type: 'infographic',
     exercises: [],
@@ -1834,6 +1846,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Asian Paint Daily Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-06',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/87af3e30-e586-11ec-9447-f98173199613-ASIAN-PAINTS-CHART-01.png'
+    ]
+  },
   {
     id: 1,
     title: ' Nifty on a 15-min time-frame',
