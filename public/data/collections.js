@@ -19,6 +19,54 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Bharti Airtel',
+    type: 'infographic',
+    exercises: [ '16' ],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/6c395520-e633-11ec-9447-f98173199613-bharti-airtel-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/6c395520-e633-11ec-9447-f98173199613-bharti-airtel-01.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Tata Motors',
+    type: 'infographic',
+    exercises: [ '15' ],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/56b473b0-e633-11ec-9447-f98173199613-ID-15.png',
+    data: [
+      'https://cdn.cosmicjs.com/56b473b0-e633-11ec-9447-f98173199613-ID-15.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Sun Pharma',
+    type: 'infographic',
+    exercises: [ '14' ],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/3e6304c0-e633-11ec-9447-f98173199613-ID-14.png',
+    data: [
+      'https://cdn.cosmicjs.com/3e6304c0-e633-11ec-9447-f98173199613-ID-14.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Dr. Reddy Weekly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Reliance on a 5-min time-frame',
     type: 'infographic',
     exercises: [],
@@ -1858,6 +1906,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Dr. Reddy Weekly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png'
+    ]
+  },
   {
     id: 1,
     title: 'Reliance on a 5-min time-frame',

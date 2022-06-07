@@ -2,7 +2,7 @@ const { stocks, companies } = require("./data")
 
 const exercise = [
     {
-        "id": 1,
+        "id": 14,
         "title": "Sun Pharma & Form 483",
         "stocks": [
             companies.SUNPHARMA
@@ -20,7 +20,7 @@ const exercise = [
         "topColor": "0xFF0F3443",
       },
       {
-        "id": 2,
+        "id": 15,
         "title": "Monthly Auto Numbers & Stock Impact",
         "stocks": [
             companies.TATAMOTORS,
@@ -35,7 +35,7 @@ const exercise = [
         "topColor": "0xFF0F3443",
       },
       {
-        "id": 3,
+        "id": 16,
         "title": "Telcos and Tariff Hikes, a match made in heaven?",
         "stocks": [
             companies.BHARTIARTL

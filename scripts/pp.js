@@ -1,5 +1,131 @@
 var x =  [
   {
+    "slug": "bharti-airtel",
+    "title": "Bharti Airtel",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/6c395520-e633-11ec-9447-f98173199613-bharti-airtel-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/6c395520-e633-11ec-9447-f98173199613-bharti-airtel-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-07",
+      "description": "",
+      "exercise_id": [
+        "16"
+      ]
+    }
+  },
+  {
+    "slug": "tata-motors",
+    "title": "Tata Motors",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/56b473b0-e633-11ec-9447-f98173199613-ID-15.png",
+        "imgix_url": "https://imgix.cosmicjs.com/56b473b0-e633-11ec-9447-f98173199613-ID-15.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-07",
+      "description": "",
+      "exercise_id": [
+        "15"
+      ]
+    }
+  },
+  {
+    "slug": "sun-pharma",
+    "title": "Sun Pharma",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/3e6304c0-e633-11ec-9447-f98173199613-ID-14.png",
+        "imgix_url": "https://imgix.cosmicjs.com/3e6304c0-e633-11ec-9447-f98173199613-ID-14.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-07",
+      "description": "",
+      "exercise_id": [
+        "14"
+      ]
+    }
+  },
+  {
+    "slug": "dr-reddy-weekly-chart",
+    "title": "Dr. Reddy Weekly Chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/7a6dc510-e627-11ec-9447-f98173199613-dr-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-07",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "reliance-on-a-5-min-time-frame",
     "title": "Reliance on a 5-min time-frame",
     "content": "",
