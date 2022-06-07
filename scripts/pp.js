@@ -1,5 +1,35 @@
 var x =  [
   {
+    "slug": "reliance-on-a-5-min-time-frame",
+    "title": "Reliance on a 5-min time-frame",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-07",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "asian-paint-daily-chart",
     "title": "Asian Paint Daily Chart",
     "content": "",

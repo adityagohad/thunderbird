@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Reliance on a 5-min time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Asian Paint Daily Chart',
     type: 'infographic',
     exercises: [],
@@ -1846,6 +1858,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Reliance on a 5-min time-frame',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-07',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/bdb97540-e621-11ec-9447-f98173199613-trade--ril-01.png'
+    ]
+  },
   {
     id: 1,
     title: 'Asian Paint Daily Chart',
