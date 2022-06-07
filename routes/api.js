@@ -488,11 +488,7 @@ const findCandlesForMinExercise = function (db, req, callback) {
     var startTime = req.query.startTime;
     var endTime = req.query.endTime;
     collection.find({ $and: [{ ticker: req.params.id }, { "time": { $lt: +endTime } }, { "time": { $gt: +startTime } }] }).sort({ time: 1 }).toArray(function (err, docs) {
-        var returnData = [];
-        for (i = docs.length - 1; i >= 0; i--) {
-            returnData.push(docs[i].close)
-        }
-        callback(returnData);
+        callback(docs);
     });
 };
 
