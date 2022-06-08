@@ -1,5 +1,65 @@
 var x =  [
   {
+    "slug": "trade-of-the-day-bank-nifty",
+    "title": "Trade of the day ; Bank Nifty",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-08",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
+    "slug": "gail-daily-chart",
+    "title": "Gail Daily Chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/3193af90-e6ee-11ec-9447-f98173199613-gail-daily-chart---2nd-01.png",
+        "imgix_url": "https://imgix.cosmicjs.com/3193af90-e6ee-11ec-9447-f98173199613-gail-daily-chart---2nd-01.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-08",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "bharti-airtel",
     "title": "Bharti Airtel",
     "content": "",

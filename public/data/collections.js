@@ -19,6 +19,30 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Trade of the day ; Bank Nifty',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-08',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Gail Daily Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-08',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/3193af90-e6ee-11ec-9447-f98173199613-gail-daily-chart---2nd-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/3193af90-e6ee-11ec-9447-f98173199613-gail-daily-chart---2nd-01.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Bharti Airtel',
     type: 'infographic',
     exercises: [ '16' ],
@@ -1906,6 +1930,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Trade of the day ; Bank Nifty',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-08',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png',
+    data: [
+      'https://cdn.cosmicjs.com/df8c1520-e6ed-11ec-9447-f98173199613-bank-nifty-chart-01.png'
+    ]
+  },
   {
     id: 1,
     title: 'Dr. Reddy Weekly Chart',
