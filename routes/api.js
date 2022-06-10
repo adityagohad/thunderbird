@@ -1,14 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-
-//const url = 'mongodb://localhost:27017';
-
-const dbName = 'thunderbird';
+const database = require('../database/database_utils');
 
 const sd = require('../public/data/data.js')
 const cs = require('../public/data/collections.js')
@@ -17,44 +12,28 @@ const se = require('../public/data/fundamental_exercise.js')
 
 const moment = require('moment')
 
-
-
-const initDB = function (callback) {
-    MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, function (err, client) {
-        assert.equal(null, err);
-        const db = client.db(dbName);
-        callback(db, client);
-    });
-}
-
 router.get('/miniExercise/:id', function (req, res, next){
     if (req.params.id == "all") {
         res.end(JSON.stringify(se.exercise));
-        client.close();
     }
 });
 
-router.get('/exercises/:id', function (req, res, next) {
+router.get('/exercises/:id', function (req, res) {
     if (req.params.id == "all") {
         res.end(JSON.stringify(sd.exercises));
-        client.close();
     } else if (req.params.id == "trending") {
-        console.log(req.params.id);
         var trendingExercise = [];
         for (i = 0; i < sd.exercises.length; i++) {
             if (sd.exercises[i].id == 9 || sd.exercises[i].id == 11 || sd.exercises[i].id == 12 || sd.exercises[i].id == 13) {
-                console.log(sd.exercises.id);
                 trendingExercise.push(sd.exercises[i]);
             }
         }
         res.end(JSON.stringify(trendingExercise));
-        client.close();
     }else if(Number.isInteger(parseInt(req.params.id))){
         var exerciseToReturn = sd.exercises.find(exercise => exercise.id == req.params.id);
         res.end(JSON.stringify(exerciseToReturn));
-        client.close();
     } else {
-        initDB(async function (db, client) {
+        database.initDB(async function (db, client) {
             var tickers = sd.exercises.find(exercise => exercise.id == req.params.id).stocks.map(x => x.ticker);
             const collection = db.collection('candles');
             const x = await Promise.all(tickers.map((ticker) => {
@@ -62,12 +41,12 @@ router.get('/exercises/:id', function (req, res, next) {
             }))
             res.end(JSON.stringify(x));
             client.close();
-        })
+        });
     }
 });
 
 router.get('/events/:id', function (req, res, next) {
-    initDB(function (db, client) {
+    database.initDB(function (db, client) {
         findEvents(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
@@ -76,7 +55,7 @@ router.get('/events/:id', function (req, res, next) {
 });
 
 router.get('/feed/:id', function (req, res, next) {
-    initDB(function (db, client) {
+    database.initDB(function (db, client) {
         findFeed(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
@@ -96,7 +75,7 @@ router.post('/update/getUserRewards', function (req, res, next) {
 });
 
 router.get('/update', function (req, res, next) {
-    initDB(async function (db, client) {
+    database.initDB(async function (db, client) {
         var tickers = sd.exercises.find(exercise => exercise.id == req.query.exerciseId).stocks.map(x => x.ticker);
         const collection = db.collection('candles');
         const x = await Promise.all(tickers.map((ticker) => {
@@ -109,7 +88,7 @@ router.get('/update', function (req, res, next) {
 });
 
 router.get('/candles/:id', function (req, res, next) {
-    initDB(function (db, client) {
+    database.initDB(function (db, client) {
         findCandles(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
@@ -118,7 +97,7 @@ router.get('/candles/:id', function (req, res, next) {
 });
 
 router.get('/candles/:id/:timeframe', function (req, res, next) {
-    initDB(function (db, client) {
+    database.initDB(function (db, client) {
         findCandlesForTimeFrame(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
@@ -127,7 +106,7 @@ router.get('/candles/:id/:timeframe', function (req, res, next) {
 });
 
 router.get('/candlesForMiniExercise/:id', function (req, res, next) {
-    initDB(function (db, client) {
+    database.initDB(function (db, client) {
         findCandlesForMinExercise(db, req, function (data) {
             res.end(JSON.stringify(data));
             client.close();
@@ -163,7 +142,6 @@ router.get('/quote', function (req, res, next) {
 });
 
 router.get('/stories', function (req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
     x = {
         newsletter: [
             {
@@ -204,11 +182,9 @@ router.get('/stories', function (req, res, next) {
         ]
     };
     res.end(JSON.stringify(x));
-    client.close();
 });
 
 router.get('/collection/:slug', function (req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
     switch (req.params.slug) {
         case "dummy":
             res.end(JSON.stringify(cs.dummy));
@@ -232,11 +208,9 @@ router.get('/collection/:slug', function (req, res, next) {
             res.end(JSON.stringify(cs.back_to_basic));
             break;
     }
-    client.close();
 });
 
 router.get('/collection/exercise/:id', function (req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
     var verData = [];
     var gridData = [];
     for (i = 0; i < cs.infographics.length; i++) {
@@ -260,17 +234,14 @@ router.get('/collection/exercise/:id', function (req, res, next) {
     }
     ];
     res.end(JSON.stringify(returnData));
-    client.close();
 });
 
 router.get('/home/new_this_week', function(req, res, next){
     res.end(JSON.stringify(cs.new_this_week));
-    client.close();
 });
 
 router.get('/home/infographics', function(req, res, next){
     res.end(JSON.stringify(cs.home_info));
-    client.close();
 });
 
 router.get('/reward/exercise/:id', function (req, res, next) {
@@ -282,139 +253,6 @@ router.get('/reward/exercise/:id', function (req, res, next) {
     else{
         res.end();
     }
-    client.close();
-});
-
-
-router.get('/sector_trends', function (req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
-    x = {
-        newsletter: [
-            {
-                id: 1,
-                type: "newsletter",
-                title: "BI MPC at key juncture 🧨",
-                url: "https://finlearnacademy.com/newsletter/rbi-mpc-at-key-juncture/",
-                thumbnail: "https://imgix.cosmicjs.com/5d7e0cb0-9f98-11ec-a634-2f1716dd45af-11.png",
-            },
-            {
-                id: 2,
-                type: "newsletter",
-                title: "IT poised to build on growth 🚀",
-                url: "https://finlearnacademy.com/newsletter/it-poised-to-build-on-growth/",
-                thumbnail: "https://imgix.cosmicjs.com/dd87fb70-9f96-11ec-a634-2f1716dd45af-11.png",
-            },
-            {
-                id: 3,
-                type: "newsletter",
-                title: "BFSI highly dependent on FPI inflows to turn-around underperformance",
-                url: "https://finlearnacademy.com/newsletter/bfsi-highly-dependent-on-fpi-inflows-to-turn-around-underperformance/",
-                thumbnail: "https://imgix.cosmicjs.com/7b1fb8b0-9f96-11ec-a634-2f1716dd45af-11.png"
-            },
-            {
-                id: 4,
-                type: "newsletter",
-                title: "Commodities fallout from Russia invasion balloons 💥",
-                url: "https://finlearnacademy.com/newsletter/commodities-fallout-from-russia-invasion-balloons/",
-                thumbnail: "https://imgix.cosmicjs.com/2e1c1fb0-a10b-11ec-a634-2f1716dd45af-Ccommodities.png",
-            },
-            {
-                id: 5,
-                type: "newsletter",
-                title: "India Pharma returns to trend-line growth 📈",
-                url: "https://finlearnacademy.com/newsletter/india-pharma-market-returns-to-trend-line-growth/",
-                thumbnail: "https://imgix.cosmicjs.com/c9de6c80-a432-11ec-a536-8726e3bb3867-US-Inflation.png",
-            },
-        ],
-        video: [
-            {
-                id: 1,
-                type: "video",
-                title: "Stock Markets Recap Week Of 25th February 2022",
-                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
-                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-            }
-        ],
-        infographic: [
-            {
-                id: 1,
-                type: "infographic",
-                title: "Results of Top Steel Stocks for Q3",
-                description: "Results of Top 5 Steel Stocks:\n\nTata Steel\nJSW Steel\nSAIL\nAPL Apollo Tubes\nJindal Stainless\n\nDon't forget to swipe left and check out an opportunity in another hidden metal sector gem",
-                thumbnail: "https://imgix.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png",
-                data: ["https://cdn.cosmicjs.com/0da14d40-9fb3-11ec-a634-2f1716dd45af-metal1.png", "https://cdn.cosmicjs.com/59be2a40-9fb3-11ec-a634-2f1716dd45af-metal2.png"],
-            },
-        ],
-    };
-    res.end(JSON.stringify(x));
-    client.close();
-});
-
-router.get('/latest_update', function (req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
-    x = {
-        newsletter: [
-            {
-                id: 1,
-                type: "newsletter",
-                title: "Stock Markets Recap Week Of 25th February 2022",
-                url: "https://cdn.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-            },
-            {
-                id: 2,
-                type: "newsletter",
-                title: "Stock Markets Recap Week Of 18th February 2022",
-                url: "https://cdn.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-                thumbnail: "https://imgix.cosmicjs.com/e3fdd980-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-            },
-        ],
-        video: [
-            {
-                id: 1,
-                type: "video",
-                title: "Stock Markets Recap Week Of 25th February 2022",
-                url: "https://www.youtube.com/watch?v=xwcVeTdzjTQ",
-                thumbnail: "https://imgix.cosmicjs.com/5d976aa0-9fa4-11ec-a634-2f1716dd45af-11.jpg",
-            }
-        ],
-        infographic: [
-            {
-                id: 1,
-                type: "infographic",
-                title: "Brands operated by ITC",
-                description: "ITC - the meme stock has been focusing a lot on growing its FMCG and Agriculture business. Here are a few brands operated by the tobacco giant.\n\nDon't forget to swipe left and capitalise on an opportunity in ITC",
-                thumbnail: "https://imgix.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png",
-                data: ["https://cdn.cosmicjs.com/6c6de820-9fb2-11ec-a634-2f1716dd45af-ITC-1.png", "https://cdn.cosmicjs.com/6fd248d0-9fb2-11ec-a634-2f1716dd45af-ITC2.png"],
-            },
-            {
-                id: 2,
-                type: "infographic",
-                title: "Tata Group vs Reliance Group",
-                description: "Did you know? Tata Sons (Parent company of all major Tata companies)  is the biggest promoter group in India and Reliance Industries is the company with the highest market capitalisation in India (listed companies)\n\nBoth are major groups and have helped India grow. Don't forget to swipe left and see a development we observed on Mukesh Ambani's Reliance Group",
-                thumbnail: "https://imgix.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png",
-                data: ["https://cdn.cosmicjs.com/33e72a00-9fb4-11ec-a634-2f1716dd45af-tatavreliance.png", "https://cdn.cosmicjs.com/44dbd4f0-9fb4-11ec-a634-2f1716dd45af-tatavreliance1.png"],
-            },
-            {
-                id: 3,
-                type: "infographic",
-                title: "Major Stocks in 52 week low",
-                description: "Nifty after making a high of 18,604.45 and Sensex making a high of 62,245.43 have corrected over 10%. Situations like these get investors interested because everyone buys the dip :p\n\nThese are a few stocks currently trading close to their 52-week lows. Good time to buy?",
-                thumbnail: "https://imgix.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png",
-                data: ["https://cdn.cosmicjs.com/657e3670-9fb5-11ec-a634-2f1716dd45af-1.png"],
-            },
-            {
-                id: 4,
-                type: "infographic",
-                title: "Major Global Index returns in past 5 years",
-                description: "Mera desh badal raha hai, aage badh raha hai?\nTop 5 countries giving the best returns (index)\n\nUSA\nIndia\nFrance\nJapan\nGermany\n\nWhich index is most likely to yield the most returns in the next 5 years?",
-                thumbnail: "https://imgix.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png",
-                data: ["https://cdn.cosmicjs.com/1274c6f0-9fb6-11ec-a634-2f1716dd45af-2.png"],
-            },
-        ],
-    };
-    res.end(JSON.stringify(x));
-    client.close();
 });
 
 const findCandlesForTimeFrame = function (db, req, callback) {
