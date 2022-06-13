@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'PIDILITEIND Monthly chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-13',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png',
+    data: [
+      'https://cdn.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Trade of the day: ICICI Bank',
     type: 'infographic',
     exercises: [],
@@ -1995,6 +2007,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'PIDILITEIND Monthly chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-13',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png',
+    data: [
+      'https://cdn.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png'
+    ]
+  },
   {
     id: 1,
     title: 'Trade of the day: ICICI Bank',

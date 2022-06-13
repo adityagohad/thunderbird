@@ -1,5 +1,35 @@
 var x = [
   {
+    "slug": "pidiliteind-monthly-chart",
+    "title": "PIDILITEIND Monthly chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png",
+        "imgix_url": "https://imgix.cosmicjs.com/149386b0-eb01-11ec-98d7-015f3ee2b3db-PIDILITEIND-Monthly-chart.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-13",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "trade-of-the-day-icici-bank",
     "title": "Trade of the day: ICICI Bank",
     "content": "",
