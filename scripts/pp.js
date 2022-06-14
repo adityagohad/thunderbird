@@ -1,5 +1,65 @@
 var x = [
   {
+    "slug": "apollo-hospital-monthly-chart",
+    "title": "Apollo Hospital Monthly Chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png",
+        "imgix_url": "https://imgix.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-14",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
+    "slug": "trade-of-the-day-maruti",
+    "title": "Trade of the day: Maruti",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png",
+        "imgix_url": "https://imgix.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-14",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "pidiliteind-monthly-chart",
     "title": "PIDILITEIND Monthly chart",
     "content": "",

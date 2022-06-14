@@ -19,6 +19,30 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Apollo Hospital Monthly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-14',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png',
+    data: [
+      'https://cdn.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Trade of the day: Maruti',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-14',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png',
+    data: [
+      'https://cdn.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'PIDILITEIND Monthly chart',
     type: 'infographic',
     exercises: [],
@@ -2007,6 +2031,30 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Apollo Hospital Monthly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-14',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png',
+    data: [
+      'https://cdn.cosmicjs.com/53ddb750-ebb5-11ec-aad0-63c3465ecebb-apollo.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Trade of the day: Maruti',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-14',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png',
+    data: [
+      'https://cdn.cosmicjs.com/2d59cab0-ebb5-11ec-aad0-63c3465ecebb-maruti.png'
+    ]
+  },
   {
     id: 1,
     title: 'PIDILITEIND Monthly chart',
