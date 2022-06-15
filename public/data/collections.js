@@ -1171,6 +1171,14 @@ const latest_update = [
     orientation: Orientation.verticle,
     data: [
       {
+        id: 1,
+        title: "RBL Bank Falls 23% On New CEO Appointment",
+        date: "2022-06-14",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/rbl-bank-falls-23-on-new-ceo-appointment/",
+        thumbnail: "https://cdn.cosmicjs.com/27a833c0-ebb7-11ec-aad0-63c3465ecebb-RBI-Lose-Image-FinLearn-Academy.png",
+      },
+      {
         id: 5,
         title: "Bajaj Auto Announces Buyback In Addition To Dividend Payout",
         date: "2022-06-11",
@@ -1576,20 +1584,20 @@ const latest_update = [
     orientation: Orientation.leader,
     data: [
       {
+        id: 1,
+        title: "RBL Bank Falls 23% On New CEO Appointment",
+        date: "2022-06-14",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/rbl-bank-falls-23-on-new-ceo-appointment/",
+        thumbnail: "https://cdn.cosmicjs.com/27a833c0-ebb7-11ec-aad0-63c3465ecebb-RBI-Lose-Image-FinLearn-Academy.png",
+      },
+      {
         id: 5,
         title: "Bajaj Auto Announces Buyback In Addition To Dividend Payout",
         date: "2022-06-11",
         type: Type.newsletter,
         url: "https://finlearnacademy.com/newsletter/bajaj-auto-announces-buyback-in-addition-to-dividend-payout/",
         thumbnail: "https://cdn.cosmicjs.com/17394f10-e950-11ec-98d7-015f3ee2b3db-Bajaj-Auto-Image-FinLearn-Academy.png",
-      },
-      {
-        id: 1,
-        title: "Unilever On-Boards Activist Investor To Reinvigorate Growth",
-        date: "2022-06-02",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/unilever-on-boards-activist-investor-to-reinvigorate-growth/",
-        thumbnail: "https://cdn.cosmicjs.com/36fd5880-e240-11ec-9f15-f79bd5847752-Unilever-Image-FinLearn-Academy.png",
       }
     ]
   }
