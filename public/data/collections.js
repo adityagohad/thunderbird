@@ -19,6 +19,30 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Tech Fact Chart: ITC',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-15',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png',
+    data: [
+      'https://cdn.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Trade of the day: JSW Steel',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-15',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png',
+    data: [
+      'https://cdn.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Apollo Hospital Monthly Chart',
     type: 'infographic',
     exercises: [],
@@ -2031,6 +2055,30 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Tech Fact Chart: ITC',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-15',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png',
+    data: [
+      'https://cdn.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Trade of the day: JSW Steel',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-15',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png',
+    data: [
+      'https://cdn.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png'
+    ]
+  },
   {
     id: 1,
     title: 'Apollo Hospital Monthly Chart',

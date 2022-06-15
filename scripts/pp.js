@@ -1,5 +1,65 @@
 var x = [
   {
+    "slug": "tech-fact-chart-itc",
+    "title": "Tech Fact Chart: ITC",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png",
+        "imgix_url": "https://imgix.cosmicjs.com/b31a6f80-ec6c-11ec-aad0-63c3465ecebb-fact1.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-15",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
+    "slug": "trade-of-the-day-jsw-steel",
+    "title": "Trade of the day: JSW Steel",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png",
+        "imgix_url": "https://imgix.cosmicjs.com/4c6df360-ec6c-11ec-aad0-63c3465ecebb-jsw-steel.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-15",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "apollo-hospital-monthly-chart",
     "title": "Apollo Hospital Monthly Chart",
     "content": "",
