@@ -1,5 +1,65 @@
 var x = [
   {
+    "slug": "trade-of-the-day-infosys",
+    "title": "Trade of the day: Infosys",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png",
+        "imgix_url": "https://imgix.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-16",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
+    "slug": "tech-fact-infy-monthly-chart",
+    "title": "Tech Fact: Infy Monthly Chart",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png",
+        "imgix_url": "https://imgix.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-16",
+      "description": "",
+      "exercise_id": []
+    }
+  },
+  {
     "slug": "tech-fact-chart-itc",
     "title": "Tech Fact Chart: ITC",
     "content": "",

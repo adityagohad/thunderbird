@@ -19,6 +19,30 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Trade of the day: Infosys',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-16',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png',
+    data: [
+      'https://cdn.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Tech Fact: Infy Monthly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-16',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png',
+    data: [
+      'https://cdn.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Tech Fact Chart: ITC',
     type: 'infographic',
     exercises: [],
@@ -1171,6 +1195,14 @@ const latest_update = [
     orientation: Orientation.verticle,
     data: [
       {
+        id: 5,
+        title: "Nifty50 Near Crucial Support",
+        date: "2022-06-16",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/nifty50-near-crucial-support/",
+        thumbnail: "https://cdn.cosmicjs.com/0330eda0-ed44-11ec-b1c0-bbdcaecc481b-Nifty50-Image-FinLearn-Academy.png",
+      },
+      {
         id: 1,
         title: "RBL Bank Falls 23% On New CEO Appointment",
         date: "2022-06-14",
@@ -1584,20 +1616,20 @@ const latest_update = [
     orientation: Orientation.leader,
     data: [
       {
+        id: 5,
+        title: "Nifty50 Near Crucial Support",
+        date: "2022-06-16",
+        type: Type.newsletter,
+        url: "https://finlearnacademy.com/newsletter/nifty50-near-crucial-support/",
+        thumbnail: "https://cdn.cosmicjs.com/0330eda0-ed44-11ec-b1c0-bbdcaecc481b-Nifty50-Image-FinLearn-Academy.png",
+      },
+      {
         id: 1,
         title: "RBL Bank Falls 23% On New CEO Appointment",
         date: "2022-06-14",
         type: Type.newsletter,
         url: "https://finlearnacademy.com/newsletter/rbl-bank-falls-23-on-new-ceo-appointment/",
         thumbnail: "https://cdn.cosmicjs.com/27a833c0-ebb7-11ec-aad0-63c3465ecebb-RBI-Lose-Image-FinLearn-Academy.png",
-      },
-      {
-        id: 5,
-        title: "Bajaj Auto Announces Buyback In Addition To Dividend Payout",
-        date: "2022-06-11",
-        type: Type.newsletter,
-        url: "https://finlearnacademy.com/newsletter/bajaj-auto-announces-buyback-in-addition-to-dividend-payout/",
-        thumbnail: "https://cdn.cosmicjs.com/17394f10-e950-11ec-98d7-015f3ee2b3db-Bajaj-Auto-Image-FinLearn-Academy.png",
       }
     ]
   }
@@ -2063,6 +2095,30 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Trade of the day: Infosys',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-16',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png',
+    data: [
+      'https://cdn.cosmicjs.com/a6467d10-ed40-11ec-b1c0-bbdcaecc481b-infosys.png'
+    ]
+  },
+  {
+    id: 1,
+    title: 'Tech Fact: Infy Monthly Chart',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-16',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png',
+    data: [
+      'https://cdn.cosmicjs.com/c4fc4740-ed35-11ec-b1c0-bbdcaecc481b-Tech-FactInfy-Monthly-Cha.png'
+    ]
+  },
   {
     id: 1,
     title: 'Tech Fact Chart: ITC',
