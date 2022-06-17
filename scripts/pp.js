@@ -1,4 +1,34 @@
-var x = [
+var x =[
+  {
+    "slug": "trade-of-the-day-icici-bank-5-min-time-frame",
+    "title": "Trade of the day: ICICI Bank (5-min time-frame)",
+    "content": "",
+    "metadata": {
+      "image": {
+        "url": "https://cdn.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png",
+        "imgix_url": "https://imgix.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png"
+      },
+      "image2": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image3": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_4": {
+        "url": null,
+        "imgix_url": null
+      },
+      "image_5": {
+        "url": null,
+        "imgix_url": null
+      },
+      "date": "2022-06-17",
+      "description": "",
+      "exercise_id": []
+    }
+  },
   {
     "slug": "trade-of-the-day-infosys",
     "title": "Trade of the day: Infosys",

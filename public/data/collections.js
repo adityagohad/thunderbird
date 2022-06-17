@@ -19,6 +19,18 @@ const Type = {
 const infographics = [
   {
     id: 1,
+    title: 'Trade of the day: ICICI Bank (5-min time-frame)',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-17',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png',
+    data: [
+      'https://cdn.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png'
+    ]
+  },
+  {
+    id: 1,
     title: 'Trade of the day: Infosys',
     type: 'infographic',
     exercises: [],
@@ -2095,6 +2107,18 @@ const back_to_basic = [
 ];
 
 const home_info = [
+  {
+    id: 1,
+    title: 'Trade of the day: ICICI Bank (5-min time-frame)',
+    type: 'infographic',
+    exercises: [],
+    date: '2022-06-17',
+    description: '',
+    thumbnail: 'https://cdn.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png',
+    data: [
+      'https://cdn.cosmicjs.com/be1b5b30-edff-11ec-8fb8-5d396858ac9b-fadg.png'
+    ]
+  },
   {
     id: 1,
     title: 'Trade of the day: Infosys',
