@@ -297,6 +297,28 @@ router.get("/reward/exercise/:id", function (req, res, next) {
   }
 });
 
+router.get("/winners", function(req, res, next){
+  database.initDB(async function(db, client){
+    const user = db.collection("user");
+    const users = await user.find().toArray();
+    let returnData = [];
+    for(var i = 0; i < users.length; i++){
+      //console.log(users[i].email);
+      for(var j = 0; j < users[i].exercises.length; j++){
+        //console.log(users[i].exercises[j]);
+        if(users[i].exercises[j]["hasWon"] != null && users[i].exercises[j]["hasWon"]== true && users[i].exercises[j]["attempt"] <= 2){
+          users[i]["hasWon"] = sd.exercises.find((o) => o.id == users[i].exercises[j]["id"]).rewards[users[i].exercises[j]["attempt"] - 1]; 
+          //console.log(users[i]);
+          returnData.push({email : users[i].email, hasWon :sd.exercises.find((o) => o.id == users[i].exercises[j]["id"]).rewards[users[i].exercises[j]["attempt"] - 1], attempt : users[i].exercises[j]["attempt"]});
+        }
+      }
+    }
+    res.setHeader("Content-Type", "application/json");
+    res.end(JSON.stringify(returnData));
+    client.close();
+  });
+});
+
 router.post("/shortExercises/all", function (req, res, next) {
   database.initDB(async function (db, client) {
     const sec = db.collection("short_exercises");
