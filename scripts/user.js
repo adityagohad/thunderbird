@@ -5,8 +5,10 @@ const sd = require('../utils/data/data');
 require('dotenv').config()
 
 //const uri = 'mongodb://0.0.0.0:27017';
-const url = process.env.DB_URL;
-const dbName = process.env.DB_NAME;
+// const url = process.env.DB_URL;
+// const dbName = process.env.DB_NAME;
+const url = "mongodb+srv://adityagohad:xyzzyspoonS1@cluster0.u2lym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dbName = "thunderbird";
 
 const initDB = function (callback) {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, function (err, client) {

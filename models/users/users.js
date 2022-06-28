@@ -18,7 +18,7 @@ router.post("/redirect", function (req, res, next) {
   ) {
     res.status(500);
     res.end();
-  } else if (parseInt(req.body.version) < process.env.VERSION) {
+  } else if (parseInt(req.body.version) < 100/*process.env.VERSION*/) {
     res.status(301);
     res.end();
   } else {
