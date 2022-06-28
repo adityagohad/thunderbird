@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-require("dotenv").config();
+//require("dotenv").config();
 
 const database = require("../../utils/database/dbUtils");
 

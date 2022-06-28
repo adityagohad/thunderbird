@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
-require('dotenv').config()
+//require('dotenv').config()
 
 // const url = process.env.DB_URL;
 // const dbName = process.env.DB_NAME;

@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const res = require('express/lib/response');
 const sd = require('../utils/data/data');
-require('dotenv').config()
+//require('dotenv').config()
 
 //const uri = 'mongodb://0.0.0.0:27017';
 // const url = process.env.DB_URL;
