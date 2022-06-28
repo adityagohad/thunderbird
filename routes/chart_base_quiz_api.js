@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var assert = require("assert");
-var database = require("../database/database_utils");
+var database = require("../utils/database/dbUtils");
 
 router.get("/ChartBaseQuizes", function (req, res, next) {
   database.initDB(function (db, client) {

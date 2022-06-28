@@ -3,12 +3,12 @@ var router = express.Router();
 
 const assert = require("assert");
 
-const database = require("../database/database_utils");
+const database = require("../utils/database/dbUtils");
 
-const sd = require("../public/data/data.js");
-const cs = require("../public/data/collections.js");
+const sd = require("../utils/data/data.js");
+const cs = require("../utils/data/collections.js");
 const user = require("../scripts/user.js");
-const se = require("../public/data/fundamental_exercise.js");
+const se = require("../utils/data/fundamental_exercise.js");
 
 const moment = require("moment");
 
@@ -359,13 +359,13 @@ router.post("/shortExercises/all", function (req, res, next) {
           userPoints += userQuizStatus[i].xp;
         }
 
+
         if (userStatus == null) {
           const x = await us.updateOne(
             { userId: req.body.email },
             { $set: { userId: req.body.email, levelId: 1, isUnlocked: true } },
             { upsert: true }
           );
-          console.log(x);
         }
         exercise["levelXp"] = userPoints;
         exercise["isUnlocked"] =
@@ -421,6 +421,7 @@ router.post("/unlockLevels", function (req, res, next) {
         return us.updateOne(
           {
             userId: req.body.email,
+            levelId: level
           },
           { $set: { levelId: level, isUnlocked: true } },
           { upsert: true }
@@ -441,6 +442,8 @@ router.post("/markQuizAsComplete", function (req, res, next) {
     const x = await ucq.updateOne(
       {
         userId: req.body.email,
+        levelId: req.body.levelId,
+        quizId: req.body.quizId,
       },
       {
         $set: {
