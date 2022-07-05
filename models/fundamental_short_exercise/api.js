@@ -104,7 +104,7 @@ router.post("/fundamentalshortExercises/all", function (req, res, next) {
     });
   });
   
-  router.post("/unlockLevels", function (req, res, next) {
+  router.post("/unlockFundamentalLevels", function (req, res, next) {
     database.initDB(async function (db, client) {
       const us = db.collection("user_fundamental_level_status");
       const a = await Promise.all(
@@ -126,7 +126,7 @@ router.post("/fundamentalshortExercises/all", function (req, res, next) {
     });
   });
   
-  router.post("/markQuizAsComplete", function (req, res, next) {
+  router.post("/markFundamentalQuizAsComplete", function (req, res, next) {
     database.initDB(async function (db, client) {
       const ucq = db.collection("user_fundamental_quiz_status");
   
