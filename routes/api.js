@@ -4,13 +4,13 @@ var router = express.Router();
 const assert = require("assert");
 
 const database = require("../utils/database/dbUtils");
+const moment = require("moment");
 
 const sd = require("../utils/data/data.js");
 const cs = require("../utils/data/collections.js");
 const user = require("../scripts/user.js");
 const se = require("../utils/data/fundamental_exercise.js");
 
-const moment = require("moment");
 
 router.get("/miniExercise/:id", function (req, res, next) {
   if (req.params.id == "all") {
@@ -428,7 +428,7 @@ router.post("/unlockLevels", function (req, res, next) {
         );
       })
     );
-    console.log(a);
+
     res.setHeader("Content-Type", "application/json");
     res.end(JSON.stringify());
     client.close();
@@ -455,8 +455,6 @@ router.post("/markQuizAsComplete", function (req, res, next) {
       },
       { upsert: true }
     );
-
-    console.log(x);
 
     res.setHeader("Content-Type", "application/json");
     res.end(JSON.stringify());
