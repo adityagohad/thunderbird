@@ -87,10 +87,8 @@ router.post("/fundamentalshortExercises/all", function (req, res, next) {
         return acc;
       });
 
-      console.log(data);
-      const quizToReturn = data[Math.floor(getRandomArbitrary(0, data.length))];
 
-      console.log(quizToReturn);
+      const quizToReturn = data[Math.floor(getRandomArbitrary(0, data.length))];
   
       const questions = await Promise.all(
         quizToReturn.questionIds.map((qId) => {

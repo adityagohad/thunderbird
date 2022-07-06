@@ -11,6 +11,8 @@ router.get("/", function (req, res, next) {
 });
 
 router.post("/redirect", function (req, res, next) {
+  res.setHeader("Content-Type", "application/json");
+  const response = {}
   if (
     req.body.email == null ||
     req.body.version == null ||
@@ -18,19 +20,20 @@ router.post("/redirect", function (req, res, next) {
   ) {
     res.status(500);
     res.end();
-  } else if (parseInt(req.body.version) < 100/*process.env.VERSION*/) {
-    res.status(301);
-    res.end();
+  } else if (parseInt(req.body.version) < 135/*process.env.VERSION*/) {
+    response["isForced"] = false;
+    response["path"] = "update";
+    res.end(JSON.stringify(response));
   } else {
     database.initDB(async function (db, client) {
       const users = db.collection("users");
       const user = await users.findOne({ email: req.body.email });
       if (user != null && user.isOnboardingComplete) {
-        res.json("home");
-        res.end();
+        response["path"] = "home";
+        res.end(JSON.stringify(response));
       } else {
-        res.json("onboarding");
-        res.end();
+        response["path"] = "onboarding";
+        res.end(JSON.stringify(response));
       }
       client.close();
     });
