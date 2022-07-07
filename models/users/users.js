@@ -20,7 +20,7 @@ router.post("/redirect", function (req, res, next) {
   ) {
     res.status(500);
     res.end();
-  } else if (parseInt(req.body.version) < 135/*process.env.VERSION*/) {
+  } else if (parseInt(req.body.version) < 136/*process.env.VERSION*/) {
     response["isForced"] = false;
     response["path"] = "update";
     res.end(JSON.stringify(response));
