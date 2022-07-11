@@ -20,7 +20,7 @@ router.post("/redirect", function (req, res, next) {
   ) {
     res.status(500);
     res.end();
-  } else if (parseInt(req.body.version) < 136/*process.env.VERSION*/) {
+  } else if (parseInt(req.body.version) < 3/*process.env.VERSION*/) {
     response["isForced"] = false;
     response["path"] = "update";
     res.end(JSON.stringify(response));
@@ -56,6 +56,17 @@ router.post("/saveOnboardingChoices", function (req, res, next) {
       client.close();
     });
   }
+});
+
+router.delete("/", function (req, res, next){
+  database.initDB(async function (db, client) {
+    const users = db.collection("users");
+    await users.deleteMany({
+      email: req.body.email
+    });
+    res.status(200).end();
+    client.close();
+  });
 });
 
 module.exports = router;
