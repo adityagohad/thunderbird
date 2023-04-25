@@ -26,7 +26,7 @@ app.use('/', indexRouter);
 app.use('/v1', apiRouter);
 app.use('/v1', chartBaseQuizApiRouter);
 app.use('/v1', fundamentalShortExerciseApiRouter);
-app.use('/v1/users', usersRouter);
+app.use('/v1/users', usersRouter); //done
 
 
 

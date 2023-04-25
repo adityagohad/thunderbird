@@ -96,7 +96,7 @@ router.post("/update/getUserRewards", function (req, res, next) {
 
 router.get("/update", function (req, res, next) {
   database.initDB(async function (db, client) {
-    var tickers = sd.exercises
+    var tickers = exercises
       .find((exercise) => exercise.id == req.query.exerciseId)
       .stocks.map((x) => x.ticker);
     const collection = db.collection("candles");
@@ -504,12 +504,17 @@ const findCandlesForTimeFrame = function (db, req, callback) {
   const collection = db.collection("candles");
   var startTime = req.query.startTime;
   var endTime = req.query.exerciseTime;
+  console.log(startTime);
+  console.log(endTime);
   if (req.query.startTime == undefined) {
     startTime = 0;
   }
   if (req.query.exerciseTime == undefined) {
     endTime = moment().unix() * 1000;
   }
+  console.log(startTime);
+  console.log(endTime);
+  console.log(req.params.id);
   collection
     .find({
       $and: [
@@ -533,7 +538,7 @@ const findCandlesForTimeFrame = function (db, req, callback) {
       } else {
         flag = "mm";
       }
-
+      console.log(docs);
       var flag = moment
         .unix(docs[0].time / 1000)
         .utcOffset(0)
